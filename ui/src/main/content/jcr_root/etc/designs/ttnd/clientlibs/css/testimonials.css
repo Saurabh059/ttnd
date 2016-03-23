@@ -1,0 +1,141 @@
+.shelf .container{
+	padding-bottom: 0px !important;	
+}
+
+
+.testimonials .testimonial-left{
+	margin-left: -125px !important;
+} 
+
+.testimonials .testimonial-right{
+	margin-right: -125px !important;
+} 
+
+.testimonials #client {
+	padding: 80px 0 0;
+}
+
+.testimonials .clearfix {
+	zoom: 1;
+}
+
+@media (min-width: 1200px)
+.container {
+    max-width: 1170px;
+}
+
+.testimonials  .container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.testimonials  .row {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+@media (min-width: 992px)
+.col-md-6 {
+    width: 50%;
+}
+
+@media (min-width: 992px)
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11 {
+    float: left;
+}
+
+.testimonials .client-says .blockquotes {
+    background: #fff;
+    padding: 35px 58px;
+    width: 217%;
+    position: relative;
+    margin: 20px 0 70px -4px;
+}
+
+.testimonials .client-says .blockquote {
+	background: url(/etc/designs/ttnd/images/h2-bg.png) no-repeat left
+		bottom;
+	padding-bottom: 20px;
+	margin-bottom: 25px;
+	position: relative;
+	min-height: 210px;	
+}
+
+.testimonials .client-says .frame {
+	float: left;
+	margin-right: 25px;
+	position: relative;
+	width: 30%;
+}
+
+.testimonials .client-says .detail {
+	float: left;
+	width: 64%;
+}
+
+.testimonials .client-says .blockquotes .right-arrow {
+	background: url(/etc/designs/ttnd/images/sprite.png) no-repeat scroll
+		-514px -6px rgba(0, 0, 0, 0);
+	height: 46px;
+	left: 0;
+	position: absolute;
+	top: 35px;
+	width: 21px;
+	background-position: 0px -24px;
+}
+
+.testimonials .client-says .blockquote p {
+	color: #555;
+	text-align: left;
+	padding-top: 5px;
+	font-size: 16px;
+	line-height: 25px;
+	font-family: 'open_sansregular';
+	position: relative;
+}
+
+.testimonials p {
+	margin: 0 0 10px;
+}
+
+.testimonials .client-says .frame {
+	float: left;
+	margin-right: 25px;
+	position: relative;
+	width: 30%;
+}
+
+.testimonials .client-says .detail {
+	float: left;
+	width: 64%;
+}
+
+.testimonials .client-says .frame img {
+	border-radius: 10px;
+}
+
+.testimonials img {
+	vertical-align: middle;
+}
+
+.testimonials img {
+	border: 0;
+}
+
+.testimonials .client-says .detail .heading {
+	color: #252525;
+	font-family: 'open_sansbold';
+	font-size: 20px;
+	text-align: left !important;
+	margin-bottom: 10px;
+}
+
+.testimonials .client-says .detail p {
+	color: #252525;
+	text-align: left !important;
+	font-family: 'open_sansregular';
+	font-size: 14px;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-09-29T23:28:18.759+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[ttnd:career/functions/technology,ttnd:career/location/noida]"
+        cq:template="/apps/ttnd/templates/general-page-with-breadcrumb"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="iOS Developer"
+        sling:resourceType="ttnd/components/page/general-page-with-breadcrumb">
+        <pagecontent
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <job_detail
+                jcr:created="{Date}2015-09-17T13:00:22.813+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-09-17T13:07:13.641+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/job-detail"
+                experience="2-5 years"
+                qualification="--"
+                textContent="&lt;p>&lt;p>&lt;p>&lt;p>Key Responsibilities&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Create architecture and technical design for mobile solutions using design patterns and common solutions.&lt;/li>&#xa;&lt;li>Work with cross-functional team including designers, information architects, backend developers to create optimum integration solutions.&lt;/li>&#xa;&lt;li>Write scalable and maintainable code solutions for complex engineering challenges.&lt;/li>&#xa;&lt;li>Understand and follow standards, guidelines, and best practices adopted in the project.&lt;/li>&#xa;&lt;li>Appreciate &amp;amp; Develop high quality Front End/UI patterns for mobile devices.&lt;/li>&#xa;&lt;li>Keep abreast of technology trends and advances in web / mobile technologies.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>Essential Skills&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Proficient in native iOS development (Objective-C)&lt;/li>&#xa;&lt;li>Excellent working knowledge of Xcode5&lt;/li>&#xa;&lt;li>Experience with Cocoa Touch frameworks and mobile user interface design&lt;/li>&#xa;&lt;li>Experience with Core Data, Push Notifications, In-App Purchase, and Game Center&lt;/li>&#xa;&lt;li>Strong understanding of mobile UI guidelines and best practices&lt;/li>&#xa;&lt;li>Strong skills in object oriented programming and software design&lt;/li>&#xa;&lt;li>Experience with database management systems&lt;/li>&#xa;&lt;li>Experience developing and distributing applications via enterprise channels or public app stores&lt;/li>&#xa;&lt;li>Excellent knowledge of working with dynamic data (e.g., JSON, XML, AMF) through various interface types (e.g., REST, SOAP)&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>Preferred Skills&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Experience integrating analytics and tracking solutions (e.g., Omniture, Google Analytics) a plus&lt;/li>&#xa;&lt;li>Experience integrating with CMS technologies (e.g., CQ5, Interwoven, CloudMine, Parse) a plus&lt;/li>&#xa;&lt;li>Experience with PhoneGap, Titanium, Xamarin, Kony or any other cross-platform framework or mobile technology will be a big plus&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/p>&#xa;&lt;/p>&#xa;&lt;/p>&#xa;"/>
+        </pagecontent>
+        <image
+            jcr:lastModified="{Date}2015-09-17T17:53:47.647+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

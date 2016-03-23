@@ -1,0 +1,104 @@
+.contactus .form-contact p {
+  color: #707070;
+  font-family: 'open_sanssemibold';
+  font-size: 11.8px;
+  margin-bottom: 20px;
+}
+
+.contactus h2{
+    padding-top:15px;
+    text-align :center;
+}
+
+.contactus .form-contact {
+  border-left: 1px dotted #c7c7c7;
+  padding: 0 14.5%;
+  width: 60%;
+}
+
+.contactus .form-contact h2 span {
+  color: #252525;
+  font-size: 14px;
+  font-family: 'open_sansregular';
+  margin-top: 15px;
+}
+
+.contactus .form-contact ul li {
+  margin-bottom: 28px;
+  position: relative;
+}
+
+.contactus .form-contact ul li input {
+  color: #a1a1a1;
+  border-radius: 10px;
+  width: 100%;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  font-size: 14px;
+  font-family: 'open_sansregular';
+  height: 45px;
+  line-height: 45px;
+  padding: 0 20px;
+  border: 1px solid #ccc;
+}
+
+.contactus .form-contact ul li input[type="submit"]:hover {
+  color: #fe8422!important;
+  background: #000!important;
+}
+
+.contactus .form-contact ul li input[type="checkbox"] {
+  width: 5px;
+  height: 5px;
+  display: inline;
+  float: left;
+}
+
+.contactus .form-contact ul li label {
+  color: #707070;
+  font-size: 14px;
+  font-family: 'open_sansregular';
+  font-weight: normal;
+  float: left;
+  margin: 0 20px 0 7px;
+}
+
+.contactus .form-contact ul li textarea {
+  background: #fff none repeat scroll 0 0;
+  border: medium none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #a1a1a1;
+  width: 100%;
+  height: 105px;
+  font-family: "open_sansregular";
+  font-size: 14px;
+  padding: 7px 15px;
+  position: relative;
+  resize: none;
+  text-transform: capitalize;
+}
+
+.contactus .form-contact ul li span.star {
+  background: rgba(0,0,0,0) url(images/xsprite.png.pagespeed.ic.KKIc7UT3LT.png) no-repeat scroll -390px -6px;
+  height: 14px;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  width: 14px;
+}
+
+.contactus .orng-btn {
+  background: #fe8422!important;
+  border-radius: 10px!important;
+  color: #fff!important;
+  display: inline-block!important;
+  font-family: "open_sansbold_italic"!important;
+  font-size: 24px!important;
+  height: 60px!important;
+  line-height: 60px!important;
+  padding: 0 25px!important;
+  text-decoration: none!important;
+  width: 50%!important;
+  border: none!important;
+}

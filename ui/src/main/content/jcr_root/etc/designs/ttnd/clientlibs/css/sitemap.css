@@ -1,0 +1,13 @@
+.sitemap .linkcontainer {
+    padding: 0 0 5px 20px;
+}
+
+.sitemap .link {
+    padding-bottom: 5px;
+}
+
+.sitemap a {
+    color: #006699;
+    text-decoration: none;
+    cursor: pointer;
+}

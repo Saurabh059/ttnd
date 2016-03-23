@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-11-16T10:20:09.288+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[ttnd:resource/tutorial,ttnd:service/technology]"
+        cq:template="/apps/ttnd/templates/resource-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Object Oriented JavaScript"
+        sling:resourceType="ttnd/components/page/resource-page"
+        changefreq="Monthly">
+        <pagecontent
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <text_image_advanced
+                jcr:created="{Date}2015-10-07T16:00:45.238+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-11-16T10:19:53.668+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/text-image-advanced"
+                enableText="true"
+                fileReference="/content/dam/ttnd/images/resource-pages/OO_JavaScript_lp.jpg"/>
+            <richtext_1178465337
+                jcr:created="{Date}2015-10-07T16:00:53.952+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-11-16T10:15:32.689+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/richText"
+                description="&lt;p>&lt;span class=&quot;res-text&quot;>&lt;b>Overview&lt;/b>&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;res-text&quot;>Object Oriented JavaScript helps developers in building more efficient applications. This tutorial explains the concepts of functions, objects, call and apply methods involved in Object Oriented JavaScript.&lt;/span>&lt;/p>&#xa;"/>
+            <richtext_295035213
+                jcr:created="{Date}2015-10-07T16:01:02.041+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-11-16T10:19:27.983+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/richText"
+                description="&lt;p>&lt;span class=&quot;res-text-line&quot;>Download the tutorial to get more insights about Object Oriented JavaScript, differences between Class and Prototype based javascripts, method overloading, memoization and more.&amp;nbsp;&lt;/span>&lt;/p>&#xa;"/>
+        </pagecontent>
+        <logo-iparsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/iparsys">
+            <logo
+                jcr:created="{Date}2015-10-07T15:33:38.630+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-07T15:33:38.630+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/logo"/>
+        </logo-iparsys>
+        <image
+            jcr:lastModified="{Date}2015-11-16T10:13:52.325+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+        <form
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <res_link_form
+                jcr:created="{Date}2015-10-14T10:03:10.321+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-15T13:56:18.783+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/res-link-form"
+                resName="newsssssssssssssssss"
+                resourceName="dkhskdshdks"
+                resourcePath="/content/ttnd"
+                resPath="/content/ttnd/newsfeedpage">
+                <formcontent
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/parsys">
+                    <start
+                        jcr:created="{Date}2015-10-14T13:32:43.304+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-10-16T11:47:32.032+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/form/start"
+                        action="/content/usergenerated/ttnd/en/test-resourcepage/cq-gen1444809763306/"
+                        actionType="foundation/components/form/actions/store"
+                        clientValidation="true"
+                        formid="_content_ttnd_en_test-resourcepage_jcr_content_form_res_link_form_formcontent_start"
+                        workflowModel="/etc/workflow/models/workflow-for-contactus/jcr:content/model"/>
+                    <columncontrol
+                        jcr:created="{Date}2015-10-14T14:33:21.401+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-10-14T14:49:57.103+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ttnd/components/content/columnControl"
+                        columnlayout="1"
+                        sideBorder="true">
+                        <parsys0
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/foundation/components/parsys">
+                            <hidden
+                                jcr:created="{Date}2015-10-15T12:53:40.033+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-10-16T16:03:30.627+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceSuperType="foundation/components/form/defaults/field"
+                                sling:resourceType="foundation/components/form/hidden"
+                                defaultValue="tothenew"
+                                name="resourceName"/>
+                            <ttnd_hiddenfield
+                                jcr:created="{Date}2015-10-15T15:05:28.334+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-10-15T15:05:28.334+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceSuperType="foundation/components/form/defaults/field"
+                                sling:resourceType="ttnd/components/content/ttnd-hiddenfield"/>
+                            <hidden_1936345492
+                                jcr:created="{Date}2015-10-15T15:18:01.783+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-10-16T16:03:50.684+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceSuperType="foundation/components/form/defaults/field"
+                                sling:resourceType="ttnd/components/content/hidden"
+                                defaultValue="/content/ttnd"
+                                name="resourcePath"/>
+                            <ttnd_textfield
+                                jcr:created="{Date}2015-10-16T11:13:30.047+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-10-16T12:17:28.969+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceSuperType="foundation/components/form/defaults/field"
+                                sling:resourceType="ttnd/components/content/ttnd-textfield"
+                                constraintMessage="enter valid name"
+                                constraintType="foundation/components/form/constraints/name"
+                                hideTitle="true"
+                                name="fullname"
+                                placeholder="First Name"
+                                required="true"
+                                requiredMessage="enter name"/>
+                            <ttnd_textfield_1957633886
+                                jcr:created="{Date}2015-10-16T11:13:36.542+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-10-16T12:17:37.151+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceSuperType="foundation/components/form/defaults/field"
+                                sling:resourceType="ttnd/components/content/ttnd-textfield"
+                                constraintMessage="valid last name"
+                                constraintType="foundation/components/form/constraints/name"
+                                hideTitle="true"
+                                name="lastname"
+                                placeholder="Last Name"
+                                required="true"
+                                requiredMessage="enter last name"/>
+                            <ttnd_textfield_489370205
+                                jcr:created="{Date}2015-10-16T11:13:39.607+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-10-16T16:02:30.360+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceSuperType="foundation/components/form/defaults/field"
+                                sling:resourceType="ttnd/components/content/ttnd-textfield"
+                                constraintMessage="valid email please"
+                                constraintType="ttnd/components/content/form/constraints/email"
+                                hideTitle="true"
+                                name="emailId"
+                                placeholder="Official email Id"
+                                required="true"
+                                requiredMessage="enter email"/>
+                            <ttnd_textfield_526848135
+                                jcr:created="{Date}2015-10-16T11:13:42.965+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-10-16T12:18:12.961+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceSuperType="foundation/components/form/defaults/field"
+                                sling:resourceType="ttnd/components/content/ttnd-textfield"
+                                constraintMessage="enter valid company name"
+                                constraintType="foundation/components/form/constraints/name"
+                                hideTitle="true"
+                                name="company"
+                                placeholder="Company"
+                                required="true"
+                                requiredMessage="enter company name"/>
+                        </parsys0>
+                    </columncontrol>
+                    <form_end_1444809763308
+                        jcr:lastModified="{Date}2015-10-16T11:48:00.488+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Download Now"
+                        sling:resourceType="foundation/components/form/end"
+                        submit="true"/>
+                    <richtext
+                        jcr:created="{Date}2015-10-14T10:08:29.499+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-10-14T10:10:48.619+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ttnd/components/content/richText"
+                        description="&lt;p>Our&amp;nbsp;&lt;a href=&quot;http://www.tothenew.com/privacy&quot;>Privacy Policy&lt;/a>&amp;nbsp;is well-detailed.&lt;br>&#xa;We are good people. We will not spam you!&lt;/p>&#xa;&lt;p>Share this:&lt;/p>&#xa;&lt;p>&lt;a href=&quot;http://www.facebook.com/share.php?u=http%3A%2F%2Finsights.tothenew.com%2Fdigital-why-digital-music-supply-chain-needs-to-adopt-ddex-standards%3Futm_medium%3Dsocial%26utm_source%3Dfacebook&quot;>&lt;img src=&quot;http://static.hubspot.com/final/img/common/icons/social/facebook-24x24.png?width=24&quot; width=&quot;24&quot; alt=&quot;Share on Facebook&quot;>&lt;/a>&amp;nbsp;&lt;a href=&quot;http://www.linkedin.com/shareArticle?mini=true&amp;amp;url=http%3A%2F%2Finsights.tothenew.com%2Fdigital-why-digital-music-supply-chain-needs-to-adopt-ddex-standards%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin&quot;>&lt;img src=&quot;http://static.hubspot.com/final/img/common/icons/social/linkedin-24x24.png?width=24&quot; width=&quot;24&quot; alt=&quot;Share on LinkedIn&quot;>&lt;/a>&amp;nbsp;&lt;a href=&quot;https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Finsights.tothenew.com%2Fdigital-why-digital-music-supply-chain-needs-to-adopt-ddex-standards%3Futm_medium%3Dsocial%26utm_source%3Dtwitter&amp;amp;url=http%3A%2F%2Finsights.tothenew.com%2Fdigital-why-digital-music-supply-chain-needs-to-adopt-ddex-standards%3Futm_medium%3Dsocial%26utm_source%3Dtwitter&amp;amp;source=tweetbutton&amp;amp;text=Whitepaper+%7C++Why+Digital+Music+Supply+Chain+needs+to+adopt+DDEX+standards%3F&quot;>&lt;img src=&quot;http://static.hubspot.com/final/img/common/icons/social/twitter-24x24.png?width=24&quot; width=&quot;24&quot; alt=&quot;Share on Twitter&quot;>&lt;/a>&amp;nbsp;&lt;a href=&quot;https://plus.google.com/share?url=http%3A%2F%2Finsights.tothenew.com%2Fdigital-why-digital-music-supply-chain-needs-to-adopt-ddex-standards%3Futm_medium%3Dsocial%26utm_source%3Dgoogle_plus&quot;>&lt;img src=&quot;http://static.hubspot.com/final/img/common/icons/social/googleplus-24x24.png?width=24&quot; width=&quot;24&quot; alt=&quot;Share on Google+&quot;>&lt;/a>&amp;nbsp;&lt;a href=&quot;mailto:?subject=Check%20out%20http%3A%2F%2Finsights.tothenew.com%2Fdigital-why-digital-music-supply-chain-needs-to-adopt-ddex-standards%3Futm_medium%3Dsocial%26utm_source%3Demail%20&amp;amp;body=Check%20out%20http%3A%2F%2Finsights.tothenew.com%2Fdigital-why-digital-music-supply-chain-needs-to-adopt-ddex-standards%3Futm_medium%3Dsocial%26utm_source%3Demail&quot;>&lt;img src=&quot;http://static.hubspot.com/final/img/common/icons/social/email-24x24.png?width=24&quot; width=&quot;24&quot; alt=&quot;Share on Email&quot;>&lt;/a>&lt;/p>&#xa;&#xa;"/>
+                </formcontent>
+                <resource-title
+                    jcr:lastModified="{Date}2015-11-16T10:20:09.284+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ttnd/components/content/richText"
+                    description="&lt;h3 style=&quot;text-align: center;&quot;>Yes, I want to download the&lt;/h3>&#xa;&lt;h3 style=&quot;text-align: center;&quot;>tutorial!&lt;/h3>&#xa;"/>
+            </res_link_form>
+        </form>
+    </jcr:content>
+</jcr:root>

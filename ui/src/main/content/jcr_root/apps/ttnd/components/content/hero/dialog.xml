@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    width="900"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <text
+            jcr:primaryType="cq:Widget"
+            title="Hero Text"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <heading
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Heading"
+                    name="./heading"
+                    xtype="textfield"/>
+                <description
+                    jcr:primaryType="cq:Widget"
+                    path="/apps/ttnd/components/content/richText/dialog/items/items/richText.infinity.json"
+                    xtype="cqinclude"/>
+            </items>
+        </text>
+        <image
+            jcr:primaryType="cq:Widget"
+            cropParameter="./desktop/imageCrop"
+            ddGroups="[media]"
+            fileNameParameter="./desktop/fileName"
+            fileReferenceParameter="./desktop/fileReference"
+            mapParameter="./desktop/imageMap"
+            name="./desktop/file"
+            requestSuffix="/desktop.img.png"
+            rotateParameter="./desktop/imageRotate"
+            title="Desktop Image"
+            xtype="html5smartimage">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <resType
+                    jcr:primaryType="cq:Widget"
+                    ignoreData="{Boolean}true"
+                    name="./desktop/sling:resourceType"
+                    value="foundation/components/image"
+                    xtype="hidden"/>
+            </items>
+        </image>
+    </items>
+</jcr:root>

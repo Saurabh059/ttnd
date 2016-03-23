@@ -1,0 +1,59 @@
+.case-study-shelf .snapshot section, .case-study-shelf .snapshot .about {
+    padding: 0px !important;
+}
+
+.case-study-shelf .gray-container {
+    background: #f7f7f7 !important;
+    padding: 50px 0 !important;
+}
+
+.case-study-shelf .summary .details {
+    background: url(/etc/designs/ttnd/images/big-dotted-bg.png) repeat-x 0 0;
+    float: left;
+    max-width: 300px !important;
+    width: 100%;
+    margin-top: 85px;
+    height: 250px !important;
+    margin-top: 150px;
+    padding: 15px 0 0 30px;
+    margin-left: 33px;
+}
+
+.case-study-shelf .no-service {
+    color: red;
+}
+
+.case-study-shelf .summary-outer {
+    height: 350px;
+    background: #fff;
+
+}
+
+.case-study-shelf .summary .logoAndDesc h2 {
+    background: none !important;
+    height: 30px !important;
+}
+
+.case-study-shelf .banner-title h2 {
+    text-align: left !important;
+}
+
+.case-study-shelf .logoAndDesc p {
+    font-weight: bold;
+}
+
+.case-study-shelf .gray-container > .container {
+    margin-left: 60px !important;
+}
+
+.case-study-shelf .snapshot {
+    margin-left: 400px !important;
+}
+
+.case-study-shelf .banner-title #abt-section {
+    padding: 0 !important;
+}
+
+.case-study-shelf h2 img {
+    width: auto;
+}

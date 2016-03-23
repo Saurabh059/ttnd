@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Edit Column Layout"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <list
+                jcr:primaryType="cq:Widget"
+                title="Column Layout"
+                xtype="panel">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <listFrom
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="1"
+                        fieldLabel="Build list using"
+                        name="./columnlayout"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <one
+                                    jcr:primaryType="nt:unstructured"
+                                    text="1 Column"
+                                    value="1"/>
+                            <two
+                                jcr:primaryType="nt:unstructured"
+                                text="2 Columns"
+                                value="2"/>
+                            <three
+                                jcr:primaryType="nt:unstructured"
+                                text="3 Columns"
+                                value="3"/>
+                            <four
+                                jcr:primaryType="nt:unstructured"
+                                text="4 Columns"
+                                value="4"/>
+                            <six
+                                jcr:primaryType="nt:unstructured"
+                                text="6 Columns"
+                                value="6"/>
+                        </options>
+                    </listFrom>
+                    <remove-border
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="Check to remove side border"
+                            fieldLabel="Disable side border"
+                            name="./sideBorder"
+                            type="checkbox"
+                            xtype="selection"/>
+                </items>
+            </list>
+        </items>
+    </items>
+</jcr:root>

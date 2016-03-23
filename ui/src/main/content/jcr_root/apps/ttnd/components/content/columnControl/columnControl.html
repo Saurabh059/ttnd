@@ -1,0 +1,11 @@
+<section class="colControl" data-sly-use.colControl = "com.ttndigital.cms.model.ColumnControlComponent">
+  <div class="container">
+	<div class="row">
+             <sly data-sly-list.keyName = "${colControl.columnedClasses}">
+                 <div class="${colControl.columnedClasses[keyName]}">
+					<sly data-sly-resource="${ keyName @ resourceType='wcm/foundation/components/parsys'}"></sly>
+                </div>
+            </sly>
+	</div>
+  </div>
+</section>

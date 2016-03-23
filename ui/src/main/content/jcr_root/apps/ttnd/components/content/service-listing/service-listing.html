@@ -1,0 +1,17 @@
+<sly data-sly-call="${clientLib.css @ categories='apps.ttnd.servicelisting'}" />
+<section id="list-services" data-sly-use.service="com.ttndigital.cms.model.ServiceListingComponent">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>${service.page.Title} Services</h2>
+                <ul data-sly-list.child="${service.page.listChildren}">
+                    <li>
+                        <div class="service">
+                            <a href="${child.Path}.html">${child.Title}</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

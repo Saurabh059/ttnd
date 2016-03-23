@@ -1,0 +1,204 @@
+.job-detail #job-details {
+    padding: 45px 0;
+}
+.job-detail #job-details .heading {
+    color: #252525;
+    font-size: 18px;
+    font-family: 'open_sansbold';
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.job-detail #job-details p {
+    color: #252525;
+    font-size: 16px;
+    font-family: 'open_sansregular';
+}
+.job-detail .needs {
+    border-bottom: 1px solid #e1e1e1;
+    border-top: 1px solid #e1e1e1;
+    padding: 35px 0;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.job-detail .needs ul {
+    margin-bottom: 40px;
+}
+.job-detail .needs ul li {
+    color: #252525;
+    font-size: 16px;
+    font-family: 'open_sansregular';
+    margin-bottom: 10px;
+}
+.job-detail .tick-icon {
+    background: url(/etc/designs/ttnd/images/xsprite.png) no-repeat -829px -6px;
+    width: 13px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.job-detail .needs ul li {
+    background: url(/etc/designs/ttnd/images/xsprite.png) no-repeat left 5px !important;
+    padding-left: 20px;
+    font-size: 15px !important;
+}
+
+.career .case-study-filter {
+    border: 1px solid #e1e1e1;
+    position: relative;
+    margin-bottom: 40px;
+    width: 100%;
+}
+.career .case-study-filter ul {
+    margin: 0;
+}
+.career .case-study-filter ul li.active {
+    background: none;
+    border-bottom: none;
+}
+.career .case-study-filter ul li {
+    float: left;
+    width: 33.33%;
+    background: #f8f8f8;
+    text-align: left;
+    line-height: 45px;
+    padding: 0 20px;
+    border-left: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    color: #555;
+    font-size: 16px;
+    font-family: 'open_sansregular';
+}
+.career .case-study-filter ul li:first-child {
+    color: #fe8422;
+    border-left: none;
+    background: none;
+}
+.career .case-study-filter .filter-arrow-up {
+    background: url(/etc/designs/ttnd/images/sprite.png) no-repeat -711px -5px;
+    width: 14px;
+    height: 10px;
+    float: right;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.career .case-study-filter .filter-arrow-down {
+    background: url(/etc/designs/ttnd/images/sprite.png) no-repeat -729px -6px;
+    width: 14px;
+    height: 10px;
+    display: block;
+    float: right;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.career .filter-drop-list {
+    right: 20px;
+    padding: 30px 20px 0;
+    position: relative;
+    text-align: left;
+    width: 1137px;
+}
+.career .filter-drop-list ul li,.career .filter-drop-list ul li:first-child {
+    float: left;
+    background: none;
+    padding: 0;
+    width: auto !important;
+    margin-right: 50px;
+    color: #707070;
+    font-family: 'open_sansbold';
+    font-size: 14px;
+    border: none;
+}
+.career .filter-drop-list ul li input[type="checkbox"] {
+    margin-right: 10px;
+    float: left;
+    margin-top: 17px;
+}
+.career .filter-drop-list ul li label {
+    color: #707070;
+    text-transform: none;
+    font-size: 14px;
+    font-family: 'open_sansregular' !important;
+    font-weight: normal;
+}
+.career .filter-drop-list ul li ul li,.career .filter-drop-list ul li ul li:first-child label {
+    font-weight: normal;
+    font-family: 'open_sansregular';
+    float: none;
+    background: none;
+    line-height: 20px;
+}
+.career #case-studies a {
+    width: 90%;
+    display: block;
+}
+.career .job-type {
+    width: 100%;
+    position: relative;
+    margin-bottom: 45px;
+    height: 250px;
+    padding: 15px 20px 0;
+}
+.career #case-studies a:hover,.career #case-studies a:focus {
+    text-decoration: none;
+}
+.career .job-type .heading,.career .job-type .heading:focus {
+    color: #fff;
+    font-size: 32px;
+    text-align: left;
+    font-family: 'open_sanslight';
+}
+.career .job-type .job-type-details {
+    background: #e9e7e7;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: left;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 15px;
+    color: #00000e;
+    font-size: 12px;
+    font-family: 'open_sanssemibold';
+}
+.career .job-type .job-type-details span {
+    margin-bottom: 10px;
+    display: block;
+    text-align: left;
+}
+.career .brows-link {
+    font-size: 16px;
+    color: #252525;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #e1e1e1;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+.career .brows-link a {
+    color: #fe8422;
+    display: inline !important;
+}
+.career .loader {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, .8) url(http://i.stack.imgur.com/FhHRx.gif) 50% 50% no-repeat;
+}
+.career body.loading {
+    overflow: hidden;
+}
+.career body.loading .loader {
+    display: block;
+}
+.career li.function,.career li.region {
+    cursor:pointer;
+}
+.career ul.functionFilter,.career ul.regionFilter,.career div.job-template {
+    display:none;
+}
+.career li.careerFilter {
+    width:100%;
+}

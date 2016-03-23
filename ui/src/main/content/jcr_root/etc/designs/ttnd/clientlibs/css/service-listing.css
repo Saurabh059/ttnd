@@ -1,0 +1,84 @@
+.service-listing #list-services {
+    background: url(/etc/designs/ttnd/images/xgray-bg.png.pagespeed.ic.Q0LmHu1Fnd.png) repeat 0 0;
+    padding: 80px 0;
+    padding: 80px 0 !important;
+    display: block;
+    text-align: center;
+}
+
+@media (min-width: 1200px)
+.service-listing .container {
+    max-width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.service-listing .row {
+    margin-right: -15px;
+    margin-left: -15px;
+    }
+
+@media (min-width: 992px)
+.service-listing .col-md-12 {
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.service-listing #list-services .service a:hover {
+    text-decoration:none;
+    color:#fe8422;
+}
+
+.service-listing #list-services .service {
+    border-bottom: 2px solid #fe8422;
+    margin: 30px 15px;
+    padding: 0 5px 5px 0;
+    width: 86%;
+    height: 80px;
+}
+
+.service-listing #list-services ul {
+    float: left;
+    width: 100%;
+}
+
+.service-listing ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.service-listing #list-services ul li {
+    display: inline-block;
+    width: 208px;
+    min-height:140px;
+    vertical-align: top;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background: url(/etc/designs/ttnd/images/xservice-bg.png.pagespeed.ic.fvuaxa5sF4.png) no-repeat right top #fff;
+}
+
+.service-listing #list-services .service a, #list-services .service a:focus {
+    font-size: 18px;
+    color: #252525;
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    font-family: 'open_sanssemibold';
+}
+
+.service-listing h2 {
+    color: #3a3a3a!important;
+    font-size: 36px!important;
+    font-family: 'open_sansregular'!important;
+    line-height: 40px!important;
+    background: url(/etc/designs/ttnd/images/h2-bg.png) no-repeat bottom center!important;
+    padding-bottom: 30px!important;
+    margin-bottom: 35px!important;
+    margin-top: 0!important;
+}

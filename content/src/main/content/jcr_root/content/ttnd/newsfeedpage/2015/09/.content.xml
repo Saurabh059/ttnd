@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-09-17T15:02:37.705+05:30"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="09"
+        sling:resourceType="ttnd/components/page/basepage"
+        blogarchive="2015/09"/>
+    <youth_should_be_prot/>
+    <youtube_gaming_appt/>
+    <youth_congress_prote/>
+    <foreign_investmentp/>
+    <india_need_not_worry/>
+    <_can_you_hear_menow/>
+    <power_tariff_hikesm/>
+    <pcb_ropes_in_robins/>
+    <bank_of_india_cutsb/>
+    <radical_sikh_groups/>
+    <idea_gets_shareholde/>
+    <india_vs_south_afric/>
+    <defeating_is_require/>
+    <bill_gates_is_americ/>
+    <focus_on_gst_exempti/>
+    <rbi_allows_companies/>
+    <_x0032__mumbai_women_cops/>
+    <ramdas_athawale-led/>
+    <india_trumps_china/>
+    <reliance_jio_raises/>
+    <government_effortst/>
+    <bill_gates_richesta/>
+    <google_nexus_5x_nex/>
+    <bjp_leader_sushilmo/>
+    <bangladesh_womencri/>
+</jcr:root>

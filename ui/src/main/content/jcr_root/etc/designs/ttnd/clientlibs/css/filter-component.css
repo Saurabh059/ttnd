@@ -1,0 +1,223 @@
+.resource-aggregator .filter-row {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 87.5%;
+}
+
+.resource-aggregator .case-study-filter {
+    border: 1px solid #e1e1e1;
+    position: relative;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.resource-aggregator .case-study-filter ul {
+    margin: 0;
+}
+
+.clearfix:before, .clearfix:after {
+    display: table;
+    content: " ";
+}
+
+*:before, *:after {
+    box-sizing: border-box;
+}
+
+.resource-aggregator .case-study-filter span {
+    color: #fe8422;
+    border-left: none;
+    background: none;
+    float: left;
+    width: 33.33%;
+    text-align: left;
+    line-height: 45px;
+    padding: 0 20px;
+    border-bottom: 1px solid #e1e1e1;
+    font-size: 16px;
+    font-family: 'open_sansregular';
+}
+
+.resource-aggregator .case-study-filter ul li.active {
+    background: none;
+    border-bottom: none;
+}
+
+.resource-aggregator .case-study-filter ul {
+    margin: 0;
+}
+
+.resource-aggregator .case-study-filter ul li {
+    float: left;
+    width: 33.33%;
+    text-align: left;
+    line-height: 45px;
+    padding: 0 20px;
+    border-left: 1px solid #e1e1e1;
+    color: #555555;
+    font-size: 16px;
+    font-family: 'open_sansregular';
+}
+
+.resource-aggregator .case-study-filter ul li.active {
+    background: none;
+    border-bottom: none;
+}
+
+.resource-aggregator .case-study-filter .filter-arrow-up {
+    background: url("/etc/designs/ttnd/images/sprite.png") no-repeat -711px -5px;
+    width: 14px;
+    height: 10px;
+    float: right;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.resource-aggregator .case-study-filter .filter-arrow-down {
+    background: url("/etc/designs/ttnd/images/sprite.png") no-repeat -729px -6px;
+    width: 14px;
+    height: 10px;
+    display: block;
+    float: right;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.resource-aggregator .case-study-filter ul {
+    margin: 0;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.resource-aggregator .case-study-filter ul li {
+    float: left;
+    width: 33.33%;
+    background: #f8f8f8;
+    text-align: left;
+    line-height: 45px;
+    padding: 0 20px;
+    border-left: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    color: #555;
+    font-size: 16px;
+    font-family: 'open_sansregular';
+}
+
+.resource-aggregator .filter-drop-list {
+    right: 20px;
+    padding: 30px 20px 0;
+    position: relative;
+    text-align: left;
+    width: 1137px;
+}
+
+.resource-aggregator .filter-drop-list ul li, .filter-drop-list ul li:first-child {
+    float: left;
+    background: none;
+    padding: 0;
+    width: auto !important;
+    margin-right: 50px;
+    color: #707070;
+    font-family: 'open_sansbold';
+    font-size: 14px;
+    border: none;
+}
+
+.resource-aggregator .filter-drop-list ul li input[type="checkbox"] {
+    margin-right: 10px;
+    float: left;
+    margin-top: 17px;
+}
+
+input[type="checkbox"] {
+    margin: 4px 0 0;
+    line-height: normal;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.resource-aggregator .filter-drop-list ul li label {
+    color: #707070;
+    text-transform: none;
+    font-size: 14px;
+    font-family: 'open_sansregular' !important;
+    font-weight: normal;
+}
+
+.resource-aggregator .filter-drop-list ul li {
+    float: left;
+    background: none;
+    padding: 0;
+    width: auto !important;
+    margin-right: 50px;
+    color: #707070;
+    font-family: 'open_sansbold';
+    font-size: 14px;
+    border: none;
+}
+
+.resource-aggregator .filter-drop-list button.clearAll {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.clearAll, .clearAll:focus {
+    background: none;
+    border: 1px solid #fff;
+    color: #252525;
+    display: block;
+    float: right;
+    font-family: "open_sansregular";
+    font-size: 11px;
+    height: auto;
+    line-height: 30px;
+    padding: 0 25px;
+    text-decoration: none;
+}
+
+.col-xs-12 {
+    width: 100%;
+}
+
+.resource-aggregator .selectedFilter {
+    width: 100%;
+    float: left;
+}
+
+.resource-aggregator .resultCount {
+    text-align: left;
+    float: left;
+    width: 100%;
+    color: #252525;
+    font-size: 13px;
+    margin-top: -20px;
+    font-family: 'open_sansregular';
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.resource-aggregator .alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    clear: right;
+}
+
+.resource-aggregator .alert-warning {
+    color: #c09853;
+    background-color: #fcf8e3;
+    border-color: #fbeed5;
+}
+
+.resource-aggregator .alert-warning {
+    background: #fe8422 !important;
+    color: #fff !important;
+    border: none !important;
+    float: left !important;
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <configurations
+                jcr:primaryType="cq:Panel"
+                title="Configuration">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <subscrptnCategory
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Category Name for Subscriptions"
+                        name="./subscriptionCategory"
+                        xtype="textfield"/>
+                    <multitextfield
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="List of Subscriptions"
+                        name="./subscriptionsList"
+                        xtype="multifield">
+                        <subscription
+                            jcr:primaryType="cq:Widget"
+                            xtype="textfield"/>
+                    </multitextfield>
+                </items>
+            </configurations>
+        </items>
+    </items>
+</jcr:root>

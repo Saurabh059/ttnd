@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-10-10T18:59:46.477+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/ttnd/templates/news-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="TO THE NEW Digital selected as a 2015 Red Herring Top 100 Asia"
+        sling:resourceType="ttnd/components/page/news-page">
+        <pagecontent
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <hero
+                jcr:created="{Date}2015-10-09T19:36:50.786+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-09T19:37:27.770+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/hero"
+                description="&lt;p>TO THE NEW Digital selected&amp;nbsp;&lt;br>&#xa;as a 2015 Red Herring Top 100 Asia&lt;/p>&#xa;"
+                heading="NEWS">
+                <desktop
+                    jcr:lastModified="{Date}2015-10-09T19:37:27.770+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/image"
+                    fileReference="/content/dam/ttnd/images/heroImages/news-index.jpg"
+                    imageRotate="0"/>
+            </hero>
+            <richtext
+                jcr:created="{Date}2015-10-06T11:10:53.459+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-07T15:05:16.267+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/richText"
+                description="&lt;p>&lt;span class=&quot;heading2&quot;>&amp;nbsp;&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;heading2&quot;>&lt;br>&#xa;Prestigious list honors the year's most promising private technology ventures from Asia.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>New Delhi, 18 September, 2015: TO THE NEW Digital, a leading digital services company, today announced that it has been chosen as a Red Herring Top 100 Asia Winner, a prestigious list honoring the year's most promising private technology ventures from Asia.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>TO THE NEW Digital was selected from a pool of hundreds of innovative companies from across the continent. The nominees are evaluated on both quantitative and qualitative criteria, such as financial performance, technological innovation, management strength, market size and execution index from their respective industries.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>&amp;quot;Winning Red Herring Top 100 Asia 2015 Award speaks volumes about TO THE NEW Digital's long- standing experience, strategic vision and technological capabilities. At TO THE NEW Digital, we are focused on innovation and adapting razor edge technologies for client success. This award will further drive our efforts to consistently stay in digital forefront and to deliver ROI-driven customer experiences,&amp;quot; said Deepak Mittal, CEO, TO THE NEW Digital.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>&amp;quot;Choosing the companies with the strongest potential was by no means a small feat,&amp;quot; said Alex Vieux, publisher and CEO of Red Herring. &amp;quot;After rigorous contemplation and discussion, we narrowed our list down from hundreds of candidates from across Asia to the Top 100 Winners. We believe TO THE NEW Digital embodies the vision, drive and innovation that define a successful entrepreneurial venture.&amp;quot;&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>The Red Herring Top 100 Awards are held every year in Asia, Europe and North America to recognize some of the most exciting technology companies in the world following a rigorous selection process.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;heading2&quot;>About TO THE NEW Digital&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>TO THE NEW DIGITAL is a premium digital services company that combines the power of technology, analytics, creative and content for digital transformation. We are a team of over 600 people which includes technology evangelists, social media experts, content specialists and creative mavericks who have transformed businesses of more than 300 companies spread across 30 countries worldwide. TO THE NEW Digital credits its success to the young army that thrives on innovation in the ever-growing digital space.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>TO THE NEW Digital is also a strategic partner of many global companies including Google, Adobe, Amazon Web Services (AWS), YouTube, DataStax and MongoDB&lt;/span>.&lt;/p>&#xa;"
+                newsCheck="true"/>
+        </pagecontent>
+        <news-details
+            jcr:lastModified="{Date}2015-10-10T18:59:46.476+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ttnd/components/content/news-details"
+            author="TTND"
+            newsDate="{Date}2015-09-18T00:00:00.000+05:30"
+            newsLocation="New Delhi"/>
+    </jcr:content>
+</jcr:root>

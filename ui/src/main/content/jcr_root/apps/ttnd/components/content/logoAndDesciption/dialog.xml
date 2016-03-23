@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <image
+                jcr:primaryType="cq:Widget"
+                ddGroups="[media]"
+                fileNameParameter="./fileName"
+                fileReferenceParameter="./fileReference"
+                name="./file"
+                title="Logo Image"
+                xtype="html5smartimage"/>
+            <logo-description
+                jcr:primaryType="cq:Panel"
+                title="Description">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <description
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Company Description"
+                        hideLabel="{Boolean}true"
+                        name="./description"
+                        xtype="richtext"/>
+                </items>
+            </logo-description>
+            <logo-configuration
+                jcr:primaryType="cq:Panel"
+                title="Configurations">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <link
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="link to the content page"
+                        fieldLabel="Link Page"
+                        name="./link"
+                        xtype="pathfield"/>
+                    <logo-title
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Logo Title"
+                        name="./logoTitle"
+                        xtype="textfield"/>
+                    <logo-alttext
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Alternate text for Logo"
+                        name="./logoText"
+                        xtype="textfield"/>
+                </items>
+            </logo-configuration>
+        </items>
+    </items>
+</jcr:root>

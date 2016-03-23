@@ -1,0 +1,33 @@
+
+<section id="blog-section" data-sly-use.listing="com.ttndigital.cms.model.SearchListingComponent">
+    <div class="container">
+        <div class="row">
+
+            <sly data-sly-list.hit = "${listing.resultList}" data-sly-unwrap>
+                <div class="col-xs-12 col-md-4 col-sm-6">
+                    <div class="blog-box blue-box">
+                        <p class="entry-header">
+                        <div class="heading">
+                            <a href="${hit['url']}" rel="bookmark">${hit['title']}</a>
+                        </div>
+                        </p>
+                        <span>${hit['modified']}<br> by <strong><a class="url fn n" href="#" title="View all posts by ${hit['modifiedBy']}" rel="author nofollow">${hit['modifiedBy']}</a></strong></span>
+                        <sly data-sly-test="${hit['tags']}" data-sly-unwrap>
+                            <p class="bottom">
+                                <sly data-sly-list.keyname = "${hit['tags']}" data-sly-unwrap>
+                                    <a rel="nofollow" href="#"
+                                       title="View all posts in ${keyname}">${keyname}</a>
+                                </sly>
+                            </p>
+                        </sly>
+
+                    </div>
+                </div>
+            </sly>
+
+        </div>
+
+        <a href="blog.html" class="nxt-btn">View all our Posts</a>
+    </div>
+</section>
+

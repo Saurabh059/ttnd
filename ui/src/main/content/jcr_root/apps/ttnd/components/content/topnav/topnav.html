@@ -1,0 +1,12 @@
+
+            <nav class="clearfix" data-sly-use.topnav="com.ttndigital.cms.model.TopNavComponent" data-sly-use.navHead="/apps/ttnd/components/content/topnav/navHeader.html">
+                 <ul data-sly-list.child="${topnav.page.listChildren}"> 
+                 	 <div data-sly-test ="${!child.isHideInNav && child.isValid}" data-sly-unwrap>
+                		 <div data-sly-call="${navHead.navhead @ headerPath=child.path,child=child}" data-sly-unwrap></div>
+                     </div>
+				 </ul>
+            </nav>
+
+
+
+

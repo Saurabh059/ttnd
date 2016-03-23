@@ -1,0 +1,29 @@
+<section class="pr-news-sec ${properties.color}" id="news-sec"
+	data-sly-use.newsFeed="com.ttndigital.cms.model.NewsFeedComponent">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-md-12">
+				<h2 data-sly-test.value=${properties.title}>${properties.title}</h2>
+			</div>
+		</div>
+		<div data-sly-test.sizeLimit="${newsFeed.getPageLimit!=0}"
+			data-sly-unwrap>
+			<div class="row" data-sly-list.news="${newsFeed.newsList}">
+				<div data-sly-test="${newsList.count  <= newsFeed.getPageLimit}"
+					data-sly-unwrap>
+					<div class="${newsList.odd ? 'col-xs-12 col-sm-6 col-md-6 col-lg-4 col-lg-offset-2' : 'col-xs-12 col-sm-6 col-md-6 col-lg-4'}">
+						<div class="news-box box-ht">
+							<h5>${news.newsDate}</h5>
+							<p>
+								<a href="${news.page.path}.html"> ${news.page.title} </a>
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div data-sly-test="${!sizeLimit && wcmmode.edit}" data-sly-unwrap>
+			Configure the news limit</div>
+	</div>
+</section>

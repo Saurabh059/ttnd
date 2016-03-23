@@ -1,0 +1,12 @@
+Subject: Greetings
+
+
+Hello,
+
+ Welcome to TTND.
+
+From,
+${senderName}
+
+-------------------------------------------------------
+This is an automatic generated message. Please do not reply.

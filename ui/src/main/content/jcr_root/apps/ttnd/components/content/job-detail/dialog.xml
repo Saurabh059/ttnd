@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="dialog"
+    width="600"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <description
+                jcr:primaryType="cq:Panel"
+                title="Job Description">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <experience
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Experience"
+                        name="./experience"
+                        xtype="textfield"/>
+                    <qualification
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Qualification"
+                        name="./qualification"
+                        regex="/^([^0-9]*)$/"
+                        value="qualifications"
+                        xtype="textfield"/>
+                </items>
+            </description>
+            <detail
+                jcr:primaryType="cq:Panel"
+                title="Details">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <richtext
+                        jcr:primaryType="cq:Widget"
+                        name="./textContent"
+                        xtype="richtext">
+                        <rtePlugins jcr:primaryType="nt:unstructured">
+                            <edit
+                                jcr:primaryType="nt:unstructured"
+                                features="*"/>
+                            <misctools
+                                jcr:primaryType="nt:unstructured"
+                                features="[sourceedit]"/>
+                            <styles
+                                jcr:primaryType="nt:unstructured"
+                                features="*">
+                                <styles jcr:primaryType="cq:WidgetCollection">
+                                    <heading
+                                        jcr:primaryType="nt:unstructured"
+                                        cssName="heading"
+                                        text="Heading"/>
+                                </styles>
+                            </styles>
+                        </rtePlugins>
+                    </richtext>
+                </items>
+            </detail>
+        </items>
+    </items>
+</jcr:root>

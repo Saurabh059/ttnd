@@ -1,0 +1,42 @@
+
+<!--for resource page thumbnail-->
+<sly data-sly-test.enableText="${properties.enableText}"/>
+<sly data-sly-use.caseShelf="com.ttndigital.cms.model.CaseStudyShelf"/>
+<!--ends here        -->
+
+<sly data-sly-test.enableHover="${properties.enableHover}">
+    <div class="col-xs-12 col-md-3">
+</sly>
+<sly data-sly-test="${!enableHover}">
+    <div class="col-xs-12 col-md-4">
+</sly>
+    <div class="team-list">
+        <div class="frame">
+
+            <!--to show tag over image-->
+            <sly data-sly-test.enableText="${properties.enableText}">
+                <div class="res-tag">
+                <h5>${caseShelf.pageTags['Resource']}</h5>
+            </div>
+             </sly>
+            <!--ends here-->
+
+            <img src="${properties.fileReference @ context='uri'}" alt="${!properties.imageTitle?'Edit to insert image':properties.imageTitle}"/>
+        </div>
+        <div class="details">
+            <div class="heading">
+                ${properties.imageTitle @context='html'}
+            </div>
+        </div>
+        <div data-sly-test="${properties.enableHover}">
+            <div class="description">
+                ${properties.description @context='html'}
+                <div class="hover-details">
+                    <div class="heading">
+                        ${properties.imageTitle @context='html'}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

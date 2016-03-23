@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Testimonials"
+    width="600"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="Testimonial">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <orientation
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Orientation"
+                        name="./orientation"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <left
+                                jcr:primaryType="nt:unstructured"
+                                text="Left"
+                                value="testimonial-left"/>
+                            <right
+                                jcr:primaryType="nt:unstructured"
+                                text="Right"
+                                value="testimonial-right"/>
+                        </options>
+                    </orientation>
+                    <client-name
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Client Name"
+                        name="./clientName"
+                        xtype="textfield"/>
+                    <designation
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Designation"
+                        name="./designation"
+                        xtype="textfield"/>
+                    <testimonial
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Testimonial"
+                        name="testimonial"
+                        path="/apps/ttnd/components/content/richText/dialog/items/items/richText/items/rich-text-editor.infinity.json"
+                        xtype="cqinclude"/>
+                </items>
+            </tab1>
+            <image
+                jcr:primaryType="cq:Widget"
+                cropParameter="./imageCrop"
+                ddGroups="[media]"
+                fileNameParameter="./fileName"
+                fileReferenceParameter="./fileReference"
+                mapParameter="./imageMap"
+                name="./file"
+                requestSuffix=".img.png"
+                rotateParameter="./imageRotate"
+                title="Image"
+                xtype="html5smartimage"/>
+        </items>
+    </items>
+</jcr:root>

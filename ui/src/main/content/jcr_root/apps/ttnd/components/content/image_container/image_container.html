@@ -1,0 +1,70 @@
+<template data-sly-template.displayDesktopAndMobileImages="${@ imageAlign, padding, altText,imageTextAlign}">
+	<div class='frame' data-sly-test.blackBackground="${properties.background == 'event-sec'}">
+		<sly data-sly-use.blackBackgroundImage="${'com.ttndigital.cms.utility.ChildProperties' @ child='desktop'}"
+			data-sly-call="${displayImageTemplate @ classText='', childProperties=blackBackgroundImage.childProperties, altText=altText,imageTextAlign=imageTextAlign}"></sly>
+	</div>
+	<div class="col-xs-12 col-sm-7 cq-dd-image ${imageAlign} ${padding}" data-sly-test=${!blackBackground}>
+		<sly data-sly-use.desktopImage="${'com.ttndigital.cms.utility.ChildProperties' @ child='desktop'}"
+			data-sly-call="${displayImageTemplate @ classText='w-view', childProperties=desktopImage.childProperties, altText=altText,imageTextAlign=imageTextAlign}"></sly>
+		<sly data-sly-use.mobileImage="${'com.ttndigital.cms.utility.ChildProperties' @ child='mobile'}"
+			data-sly-call="${displayImageTemplate @ classText='othr-view', childProperties=mobileImage.childProperties, altText=altText,imageTextAlign=imageTextAlign}"></sly>
+	</div>
+</template>
+<template data-sly-template.displayImageTemplate="${@ classText, childProperties, altText,imageTextAlign}">
+	<sly data-sly-test.fileReferencePresent=${childProperties.fileReference}>
+		<img class=${classText} 
+			src="${childProperties.fileReference @ context='uri'}"
+			alt="${wcmmode.edit || wcmmode.design ? 'Insert Image Here' : altText}"/>
+        <sly data-sly-test = "${imageTextAlign && properties.imgDescription}">
+        	<div class="t-detail ${imageTextAlign}">
+            	${properties.imgDescription @ context ='html'}
+        	</div>
+    	</sly>
+	</sly>
+	<sly data-sly-test=${!fileReferencePresent}>
+		<img class="${classText} cq-image-placeholder" id="uploadedImg"
+            src="${[childProperties.Path, 'file'] @ join = '/', context='uri'}"
+			onError="this.src='/etc/designs/default/0.gif'"/>
+    	<sly data-sly-test = "${imageTextAlign && properties.imgDescription}">
+        	<div class="t-detail ${imageTextAlign}">
+            	${properties.imgDescription  @ context ='html'}
+        	</div>
+    	</sly>
+	</sly>
+</template>
+<template data-sly-template.descriptionTemplate="${@ textAlign,textOnImage}">
+	<div class="detail" data-sly-test.blackBackground="${properties.background == 'event-sec'}">
+		<h4>
+			<sly data-sly-test.heading = "${properties.heading}">${properties.heading}</sly>
+			<sly data-sly-test = "${!heading && wcmmode.edit}">Edit Heading</sly>
+		</h4>
+		<p>
+			<sly data-sly-test.description = "${properties.description}">${properties.description}</sly>
+			<sly data-sly-test = "${!description && wcmmode.edit}">Edit Description</sly>
+		</p>
+		<sly data-sly-test= "${!textOnImage}">
+        	<a href="${properties.buttonPath}.html#dm" class="w-btn" rel="nofollow">${properties.buttonText
+            || 'Know More'}</a>
+        </sly>
+	</div>
+	<div class="col-xs-12 col-sm-5 clearfix ${textAlign}" data-sly-test=${!blackBackground}>
+		<h3>
+			<sly data-sly-test.heading = "${properties.heading}">${properties.heading}</sly>
+			<sly data-sly-test = "${!heading && wcmmode.edit}">Edit Heading</sly>
+		</h3>
+		<p>
+			<sly data-sly-test.description = "${properties.description}">${properties.description}</sly>
+			<sly data-sly-test = "${!description && wcmmode.edit}">Edit Description</sly>
+		</p>
+		<sly data-sly-test= "${!textOnImage}">
+            <a href="${properties.buttonPath}.html#dm" class="w-btn" rel="nofollow">${properties.buttonText
+            || 'Know More'}</a>
+    	</sly>
+	</div>
+</template>
+<section class="gry-bg">
+	<h2>${properties.headingText || 'Powered by'}</h2>
+	<div class="full-width info">
+		<div data-sly-resource="${'image_description_par' @ resourceType='wcm/foundation/components/parsys'}"></div>
+	</div>
+</section>

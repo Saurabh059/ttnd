@@ -1,0 +1,8 @@
+Subject: Error mail
+
+Hi ${name},
+
+Unable to connect you with our representative.
+
+-------------------------------------------------------
+This is an automatic generated message. Please do not reply.

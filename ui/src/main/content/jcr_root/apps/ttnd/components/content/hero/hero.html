@@ -1,0 +1,16 @@
+<div id="banner" class="clearfix" data-sly-use.container="ttnd/components/content/image_container/image_container.html">
+   <sly data-sly-use.desktopImage="${'com.ttndigital.cms.utility.ChildProperties' @ child='desktop'}"
+      data-sly-call="${container.displayImageTemplate @ classText='', childProperties=desktopImage.childProperties, altText='HERO-COMPONENT'}"></sly>
+   <div class="container">
+      <div class="row">
+         <div class="col-xs-12">
+            <div class="detail">
+               <sly data-sly-test="${properties.heading}">
+               		<h2>${properties.heading}</h2>
+               </sly>
+               ${properties.description @ context='html'}
+            </div>
+         </div>
+      </div>
+   </div>
+</div>

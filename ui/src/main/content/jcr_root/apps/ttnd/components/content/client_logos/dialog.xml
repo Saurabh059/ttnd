@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    activeTab="{Long}0"
+    helpPath="en/cq/current/wcm/default_components.html#Image"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <slides
+            jcr:primaryType="cq:Widget"
+            ddGroups="[media]"
+            fileReferencePrefix="./image$"
+            title="Slides"
+            xtype="slideshow"/>
+        <container_panel
+            jcr:primaryType="cq:Panel"
+            border="false"
+            title="Container Heading">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <header_text
+                    jcr:primaryType="cq:Widget"
+                    defaultValue="Trusted by World's Best"
+                    fieldLabel="Heading Text"
+                    name="./headingText"
+                    xtype="textfield"/>
+            </items>
+        </container_panel>
+    </items>
+</jcr:root>

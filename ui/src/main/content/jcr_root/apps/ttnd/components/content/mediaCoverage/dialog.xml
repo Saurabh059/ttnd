@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="nt:unstructured"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <image
+                jcr:primaryType="cq:Widget"
+                cropParameter="./imageCrop"
+                ddGroups="[media]"
+                fileNameParameter="./fileName"
+                fileReferenceParameter="./fileReference"
+                mapParameter="./imageMap"
+                name="./file"
+                requestSuffix=".img.png"
+                rotateParameter="./imageRotate"
+                title="Image"
+                xtype="html5smartimage"/>
+            <media-content
+                jcr:primaryType="cq:Panel"
+                title="Media Content">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <media-alt-text
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Enter the Alternate Text of Image"
+                        fieldLabel="Image Alt Text"
+                        name="./mediaAlt"
+                        xtype="textfield"/>
+                    <media-url
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Media URL"
+                        name="./mediaUrl"
+                        width="600"
+                        xtype="pathfield"/>
+                    <media-date
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Publish Date"
+                        name="./mediaDate"
+                        xtype="datefield"/>
+                    <media-content
+                        jcr:primaryType="cq:Widget"
+                        dName="content"
+                        fieldLabel="Media Content"
+                        path="/apps/ttnd/components/content/richText/dialog/items/items/richText/items/rich-text-editor.infinity.json"
+                        xtype="cqinclude"/>
+                </items>
+            </media-content>
+        </items>
+    </items>
+</jcr:root>

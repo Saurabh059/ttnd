@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-10-10T21:40:49.915+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/ttnd/templates/news-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="TO THE NEW Digital Organized Tech-a-Thon"
+        sling:resourceType="ttnd/components/page/news-page">
+        <pagecontent
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <hero
+                jcr:created="{Date}2015-10-09T19:31:20.489+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-09T19:31:52.674+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/hero"
+                description="&lt;p>TO THE NEW Digital&amp;nbsp;&lt;br>&#xa;Organized Tech-a-Thon&lt;/p>&#xa;"
+                heading="NEWS">
+                <desktop
+                    jcr:lastModified="{Date}2015-10-09T19:31:52.674+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/image"
+                    fileReference="/content/dam/ttnd/images/heroImages/news-index.jpg"
+                    imageRotate="0"/>
+            </hero>
+            <richtext
+                jcr:created="{Date}2015-10-09T19:32:01.832+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-09T19:32:18.771+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/richText"
+                description="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>New Delhi, 29 September 2015: TO THE NEW Digital recently organized Tech-a-Thon, a programing event with an aim to evangelize community of programmers and hackers. The two- day event was co-sponsored by Aarvee Idealabs (LoudShout) and ShopClues.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>Tech-a-Thon witnessed participation of 10 teams who developed applications from scratch on different technology platforms including Grails, Node.js, MongoDB and Android. The competing teams worked continuously for 48-hours to get their dream applications live.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>The winning team was from TO THE NEW Digital who created an interactive chat application, named PING which had features like messaging, video chat and video conferencing. The winners were judged by a panel of industry experts like Sanjay Sethi, CEO &amp;amp; Co-Founder - ShopClues.com, Deepak Mittal, CEO - TO THE NEW Digital and Amitabh Misra, CTO - Architect Ecommerce &amp;amp; Ex CTO Snapdeal.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>The event also had different workshops and sessions on niche technologies given by industry experts like Ankush Sharma, Director of Engineering - Adobe, Vivek Goyal, Developer Solutions Architect - Microsoft and Vangapelli Santhosh Kumar, Founder &amp;amp; CTO - B2B Startup.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>Speaking about the event, Deepak Mittal, CEO, TO THE NEW Digital said, &amp;quot;We are really proud to co-sponsor Tech-a-Thon. This is a great initiative to enlighten this exciting ecosystem and bring together the tech community in order to explore new opportunities. This not only brings out news ideas but also some promote entrepreneurship.&amp;quot;&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>The event was organized at TO THE NEW Digital's Noida office and witnessed more than 60 technology enthusiasts from various companies and technology institutes.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;heading2&quot;>About TO THE NEW Digital&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>TO THE NEW Digital is a premium digital services company that combines the power of technology, analytics, marketing and content for digital transformation. We are a team of over 600 people which includes technology evangelists, digital analytics experts, content specialists, and creative mavericks who have transformed businesses of more than 300 companies spread across 30 countries worldwide. TO THE NEW Digital credits its success to the young army that thrives on innovation in the ever-growing digital space.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>TO THE NEW Digital is also an established strategic partner withÂ&amp;nbsp;Amazon Web Services DataStax, MongoDB, Google, Adobe and YouTube.&lt;/span>&lt;/p>"
+                newsCheck="true"/>
+        </pagecontent>
+        <news-details
+            jcr:lastModified="{Date}2015-10-10T21:40:49.882+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ttnd/components/content/news-details"
+            author="TTND"
+            newsDate="{Date}2015-09-29T00:00:00.000+05:30"
+            newsLocation="New Delhi"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <configurations
+                jcr:primaryType="cq:Panel"
+                title="Configuration">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <maptype
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Map Type:"
+                        name="./mapType"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <roadmap
+                                jcr:primaryType="nt:unstructured"
+                                text="RoadMap"
+                                value="roadmap"/>
+                            <satellite
+                                jcr:primaryType="nt:unstructured"
+                                text="Satellite"
+                                value="satellite"/>
+                            <terrain
+                                jcr:primaryType="nt:unstructured"
+                                text="Terrain"
+                                value="terrain"/>
+                            <hybrid
+                                jcr:primaryType="nt:unstructured"
+                                text="Hybrid"
+                                value="hybrid"/>
+                        </options>
+                    </maptype>
+                    <zoom
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Zoom:"
+                        name="./zoom"
+                        xtype="numberfield"/>
+                    <mapconfig
+                        jcr:primaryType="nt:unstructured"
+                        fieldLabel="Map Configurations: "
+                        name="./mapConfigArray"
+                        xtype="multifield">
+                        <fieldConfig
+                            jcr:primaryType="cq:Widget"
+                            hideLabel="{Boolean}true"
+                            layout="form"
+                            padding="10"
+                            xtype="multifiedpanel">
+                            <items jcr:primaryType="cq:WidgetCollection">
+                                <latitude
+                                    jcr:primaryType="cq:Widget"
+                                    allowBlank="{Boolean}false"
+                                    dName="latitude"
+                                    fieldLabel="Latitude"
+                                    xtype="numberfield"/>
+                                <longitude
+                                    jcr:primaryType="cq:Widget"
+                                    allowBlank="{Boolean}false"
+                                    dName="longitude"
+                                    fieldLabel="Longitude"
+                                    xtype="numberfield"/>
+                                <color
+                                    jcr:primaryType="cq:Widget"
+                                    dName="color"
+                                    fieldLabel="Color:"
+                                    type="select"
+                                    xtype="selection">
+                                    <options jcr:primaryType="cq:WidgetCollection">
+                                        <blue
+                                            jcr:primaryType="nt:unstructured"
+                                            text="Blue"
+                                            value="#0000FF"/>
+                                        <red
+                                            jcr:primaryType="nt:unstructured"
+                                            text="Red"
+                                            value="#FF0000"/>
+                                        <black
+                                            jcr:primaryType="nt:unstructured"
+                                            text="Black"
+                                            value="#000000"/>
+                                    </options>
+                                </color>
+                            </items>
+                        </fieldConfig>
+                    </mapconfig>
+                </items>
+            </configurations>
+        </items>
+    </items>
+</jcr:root>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Hero Images"/>
+    <grails-migration-sony-liv.jpg/>
+    <xculture-banner.png/>
+    <grails-outsourcing-mat-se.jpg/>
+    <grails-outsourcing-viralgains.jpg/>
+    <social-media-command-center-citibank.jpg/>
+    <social-media-measurement-toyota.jpg/>
+    <ios-development-company-singtel.jpg/>
+    <aws-migration-airbus.jpg/>
+    <electronics.jpg/>
+    <mean-connecthealth.jpg/>
+    <fmcg.jpg/>
+    <news-index.jpg/>
+    <media-coverage.jpg/>
+</jcr:root>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Add FAQ"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <Query
+                jcr:primaryType="cq:Panel"
+                title="Enter Query">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <question
+                        jcr:primaryType="nt:unstructured"
+                        fieldLabel="Enter question"
+                        name="./question"
+                        validateOnBlur="true"
+                        xtype="textfield"/>
+                    <answer
+                        jcr:primaryType="nt:unstructured"
+                        fieldLabel="Enter answer"
+                        name="./answer"
+                        validateOnBlur="true"
+                        xtype="textarea"/>
+                    <align-left
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Check to align left (default right)"
+                        fieldLabel="Align to left"
+                        name="./alignLeft"
+                        type="checkbox"
+                        xtype="selection"/>
+                </items>
+            </Query>
+        </items>
+    </items>
+</jcr:root>

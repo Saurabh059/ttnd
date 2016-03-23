@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="ba35920e-04fe-40b8-9bdf-f1bd795972f0">
+    <jcr:content
+        cq:name="blogmint-banner.jpg"
+        cq:parentPath="/content/dam/ttnd/images/case-studies"
+        jcr:lastModified="{Date}2015-09-23T16:32:53.856+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2015-09-23T16:32:53.296+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="yes"
+            dam:sha1="cb03ac28aa4ee008bdf587729d5da27d399e2e8a"
+            dam:size="{Long}128685"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2015-09-23T16:32:53.277+05:30"
+            jcr:lastModified="{Date}2015-09-23T16:32:53.277+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}441"
+            tiff:ImageWidth="{Long}1600"
+            xmp:CreatorTool="Adobe Photoshop CS5.1 Windows"
+            xmpMM:DocumentID="xmp.did:CEAA5600E99511E4A98FECBED13E6E18"
+            xmpMM:InstanceID="xmp.iid:CEAA55FFE99511E4A98FECBED13E6E18"
+            xmpMM:OriginalDocumentID="xmp.did:02801174072068118DBBF50001D62B81"
+            xmpRights:Marked="{Boolean}false">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="uuid:2A9E6B63ADBBE11197F1B00294D27CE7"
+                stRef:instanceID="xmp.iid:D7DE3F3C94E9E41196A1BE9443890AEC"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

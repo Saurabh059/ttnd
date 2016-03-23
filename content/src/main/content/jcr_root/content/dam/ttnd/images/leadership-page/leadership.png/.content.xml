@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="5c54aaea-ed9b-44fd-92b4-4794272337f2">
+    <jcr:content
+        cq:name="leadership.png"
+        cq:parentPath="/content/dam/ttnd/images/leadership-page"
+        jcr:lastModified="{Date}2015-09-19T03:32:30.808+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:Comments="Raw profile type app12: &#xa;app12&#xa;      15&#xa;4475636b7900010004000000460000&#xa;&#xa;Raw profile type exif: &#xa;exif&#xa;      22&#xa;45786966000049492a00080000000000000000000000&#xa;&#xa;date:create: 2015-09-18T13:24:35+00:00&#xa;date:modify: 2015-09-18T13:24:35+00:00&#xa;Raw profile type xmp: &#xa;xmp&#xa;     929&#xa;3c3f787061636b657420626567696e3d22efbbbf222069643d2257354d304d7043656869&#xa;487a7265537a4e54637a6b633964223f3e203c783a786d706d65746120786d6c6e733a78&#xa;3d2261646f62653a6e733a6d6574612f2220783a786d70746b3d2241646f626520584d50&#xa;20436f726520352e352d633031342037392e3135313438312c20323031332f30332f3133&#xa;2d31323a30393a31352020202020202020223e203c7264663a52444620786d6c6e733a72&#xa;64663d22687474703a2f2f7777772e77332e6f72672f313939392f30322f32322d726466&#xa;2d73796e7461782d6e7323223e203c7264663a4465736372697074696f6e207264663a61&#xa;626f75743d222220786d6c6e733a786d705269676874733d22687474703a2f2f6e732e61&#xa;646f62652e636f6d2f7861702f312e302f7269676874732f2220786d6c6e733a786d704d&#xa;4d3d22687474703a2f2f6e732e61646f62652e636f6d2f7861702f312e302f6d6d2f2220&#xa;786d6c6e733a73745265663d22687474703a2f2f6e732e61646f62652e636f6d2f786170&#xa;2f312e302f73547970652f5265736f75726365526566232220786d6c6e733a786d703d22&#xa;687474703a2f2f6e732e61646f62652e636f6d2f7861702f312e302f2220786d70526967&#xa;6874733a4d61726b65643d2246616c73652220786d704d4d3a4f726967696e616c446f63&#xa;756d656e7449443d22786d702e6469643a30323830313137343037323036383131384442&#xa;424635303030314436324238312220786d704d4d3a446f63756d656e7449443d22786d70&#xa;2e6469643a46384238334330344445413931314534384534354531303845323043343444&#xa;362220786d704d4d3a496e7374616e636549443d22786d702e6969643a46384238334330&#xa;334445413931314534384534354531303845323043343444362220786d703a4372656174&#xa;6f72546f6f6c3d2241646f62652050686f746f73686f7020434320284d6163696e746f73&#xa;6829223e203c786d704d4d3a4465726976656446726f6d2073745265663a696e7374616e&#xa;636549443d22786d702e6969643a36633732363132662d386631352d343563332d396239&#xa;622d376135313633326637373531222073745265663a646f63756d656e7449443d227575&#xa;69643a324139453642363341444242453131313937463142303032393444323743453722&#xa;2f3e203c2f7264663a4465736372697074696f6e3e203c2f7264663a5244463e203c2f78&#xa;3a786d706d6574613e203c3f787061636b657420656e643d2272223f3e&#xa;&#xa;"
+            dam:extracted="{Date}2015-09-19T03:32:29.602+05:30"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}5"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="bf5c239ef7bccfdd150dfe982e99dad1dd034e60"
+            dam:size="{Long}211716"
+            dc:format="image/png"
+            dc:modified="{Date}2015-09-18T20:47:47.428+05:30"
+            jcr:lastModified="{Date}2015-09-19T03:32:29.220+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}250"
+            tiff:ImageWidth="{Long}1600"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

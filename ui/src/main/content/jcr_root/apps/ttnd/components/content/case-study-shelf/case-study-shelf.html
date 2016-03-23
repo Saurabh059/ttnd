@@ -1,0 +1,62 @@
+<section class="gray-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="summary-outer">
+                    <div class="summary" data-sly-use.caseShelf="com.ttndigital.cms.model.CaseStudyShelf">
+                        <div class="logoAndDesc"
+                             data-sly-resource="${'logoAndDesc' @ resourceType='/apps/ttnd/components/content/logoAndDesciption'}"></div>
+                        <div class="details">
+                            <div data-sly-test.service="${caseShelf.pageTags['Service']}" data-sly-unwrap>
+                                <h4>
+                                    <span>Service</span>
+                                    ${caseShelf.pageTags['Service']}
+                                </h4>
+
+                                <div data-sly-test="${caseShelf.pageTags['Industry']}" data-sly-unwrap>
+                                    <h4>
+                                        <span>Industry</span>
+                                        ${caseShelf.pageTags['Industry']}
+                                    </h4>
+                                </div>
+                                <div data-sly-test=" ${caseShelf.pageTags['Country']}" data-sly-unwrap>
+                                    <h4>
+                                        <span>Country</span>
+                                        ${caseShelf.pageTags['Country']}
+                                    </h4>
+                                </div>
+                            </div>
+                            <div data-sly-test="${!service}" data-sly-unwrap>
+                            	<span class="no-service">
+                                	Configure Service Tag for this page.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="snapshot">
+                    <div class="banner-title"
+                         data-sly-resource="${'bannerTitle' @ resourceType ='/apps/ttnd/components/content/bannerTitle'}"></div>
+                    <div data-sly-test="${properties.socialshare}" data-sly-unwrap>
+                        <div class="about">
+                            <ul class="share">
+                                <li>
+                                    <a href="#"><img src="/etc/designs/ttnd/images/share-on-twitter.png"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="/etc/designs/ttnd/images/share-on-fb.png"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="/etc/designs/ttnd/images/share-on-gplus.png"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="/etc/designs/ttnd/images/share-on-linkdin.png"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

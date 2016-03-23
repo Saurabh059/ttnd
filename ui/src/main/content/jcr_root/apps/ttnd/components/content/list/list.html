@@ -1,0 +1,11 @@
+<div class="top" data-sly-use.listComponent="com.ttndigital.cms.model.ListComponent">
+        <ul>
+            <li class="aboutheader" data-sly-repeat.parent="${listComponent.listOfParents}">
+                <a href="${parent['path']}" class="companyheader">${parent['title']}</a>
+                <ul class="sub-list">
+                    <li data-sly-repeat.child="${parent['children']}"><a rel="nofollow" href="${child.url}">${child.title}</a></li>
+                </ul>
+            </li>
+        </ul>
+</div>
+<div style="clear:both;" data-sly-test="${wcmmode.edit || wcmmode.design}"></div>

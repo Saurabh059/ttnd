@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:description="To The New tags"
+    jcr:primaryType="cq:Tag"
+    jcr:title="ttnd"
+    sling:resourceType="cq/tagging/components/tag">
+    <career/>
+    <Technology/>
+    <Marketing/>
+    <Category/>
+    <service/>
+    <industry/>
+    <country/>
+    <region/>
+    <resource/>
+</jcr:root>

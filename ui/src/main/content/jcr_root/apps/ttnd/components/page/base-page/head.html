@@ -1,0 +1,13 @@
+<head>
+    <div data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"></div>
+    <meta data-sly-call="${clientLib.css @ categories='apps.ttnd'}" data-sly-unwrap></meta>
+    <div data-sly-test="${wcmmode.edit || wcmmode.design}">
+        <meta data-sly-call="${clientLib.css @ categories='apps.ttnd.author'}" data-sly-unwrap></meta>
+    </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>${currentPage.title}</title>
+    <meta name="description" content="${currentPage.description}">
+    <link rel="alternate" href="http://www.tothenew.cn" hreflang="zh-cn"/>
+    <link href="/etc/designs/ttnd/images/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link rel="canonical" href="http://www.tothenew.com/">
+</head>

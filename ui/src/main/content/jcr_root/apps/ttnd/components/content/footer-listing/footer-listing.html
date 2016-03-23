@@ -1,0 +1,15 @@
+<div class="container"
+	data-sly-use.footerListing="com.ttndigital.cms.model.FooterListingComponent">
+	<div class="row">
+		<div class="col-md-9">
+			<div class="footer-list">
+				<div class="heading">${footerListing.rootTitle}</div>
+				<ul>
+					<li data-sly-repeat.list="${footerListing.list}">
+						<a href="${list.getPath}.html">${list.getTitle} </a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

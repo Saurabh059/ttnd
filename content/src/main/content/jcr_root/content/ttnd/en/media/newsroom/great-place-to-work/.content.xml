@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-10-10T18:59:36.593+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/ttnd/templates/news-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="TO THE NEW Digital named India's  top 50 IT- BPM Companies to Work for in 2015"
+        sling:resourceType="ttnd/components/page/news-page">
+        <pagecontent
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <hero
+                jcr:created="{Date}2015-10-09T19:50:24.356+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-09T19:50:44.807+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/hero"
+                description="&lt;p>TO THE NEW Digital named India's&amp;nbsp;&lt;br>&#xa;top 50 IT- BPM Companies to Work for in 2015&lt;/p>&#xa;"
+                heading="NEWS">
+                <desktop
+                    jcr:lastModified="{Date}2015-10-09T19:50:44.807+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/image"
+                    fileReference="/content/dam/ttnd/images/heroImages/news-index.jpg"
+                    imageRotate="0"/>
+            </hero>
+            <richtext
+                jcr:created="{Date}2015-10-06T11:16:51.356+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-07T15:08:43.772+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/richText"
+                description="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;span class=&quot;heading2&quot;>TO THE NEW Digital has been recognized by Great Place To Work&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>New Delhi, July 30, 2015: IntelliGrape Software, now TO THE NEW Digital, has been recognized as one of the &amp;quot;Top 5 Best Companies to Work for in India among Small Size Organizations in IT-BPM - 2015&amp;quot; and has also ranked as &amp;quot;India's top 50 IT-BPM Companies to Work for&amp;quot; by Great Place To Work.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>Great Place To Work is a globally renowned independent institution that assesses more than 7000 organizations from over 50 countries across the globe. This year more than 150 Information Technology-Business Process Management (IT-BPM) Companies participated in the Great Place To Work survey - India. The survey analyzes organizations primarily on two parameters - The Trust Index Employee Survey and the Culture Audit.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>Speaking on this occasion, Deepak Mittal, CEO, TO THE NEW Digital said, &amp;quot;It's a moment of great pride, excitement and fulfilment for TO THE NEW Digital family. This testifies our culture that fosters an environment where employees feel motivated, valued and empowered. We have always been a people centric company and our people are our greatest asset. At TO THE NEW Digital, we have a robust talent development approach that effectively harnesses individual strengths to craft growth roadmaps.&amp;quot;&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;heading2&quot;>About TO THE NEW Digital&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>TO THE NEW DIGITAL is a premium technology, analytics, marketing and content for digital transformation. They are a team of over 600 people which includes technology evangelists, social media experts, content specialists, and creative mavericks who have transformed businesses of more than 300 companies spread across 30 countries worldwide. TO THE NEW Digital credits its success to the young army that thrives on innovation in the ever-growing digital space.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>TO THE NEW Digital is also a strategic partner of many global companies including Google, Adobe, Amazon Web Services (AWS), YouTube, DataStax and MongoDB.&lt;/span>&lt;/p>&#xa;"
+                newsCheck="true"/>
+        </pagecontent>
+        <news-details
+            jcr:lastModified="{Date}2015-10-10T18:59:36.590+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ttnd/components/content/news-details"
+            author="TTND"
+            newsDate="{Date}2015-07-30T00:00:00.000+05:30"
+            newsLocation="New Delhi"/>
+    </jcr:content>
+</jcr:root>

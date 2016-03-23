@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-10-10T18:59:07.043+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/ttnd/templates/news-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="GrailsConf 2015 by TO THE NEW: A paradigm in technology world"
+        sling:resourceType="ttnd/components/page/news-page">
+        <pagecontent
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <hero
+                jcr:created="{Date}2015-10-09T20:03:42.993+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-09T20:04:00.405+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/hero"
+                description="&lt;p>GrailsConf 2015 by TO THE NEW:&lt;br>&#xa;A paradigm in technology world&lt;/p>&#xa;"
+                heading="NEWS">
+                <desktop
+                    jcr:lastModified="{Date}2015-10-09T20:04:00.405+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/image"
+                    fileReference="/content/dam/ttnd/images/heroImages/news-index.jpg"
+                    imageRotate="0"/>
+            </hero>
+            <richtext
+                jcr:created="{Date}2015-10-07T11:52:55.265+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-07T15:10:38.643+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/richText"
+                description="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;span class=&quot;heading2&quot;>GrailsConf 2015 focused on leveraging the hidden treasures of Groovy and Grails ecosystem to enable digital transformation across businesses of all sizes. The conference provided a platform to learn about Rapid Application Development (RAD) frameworks in the Java world.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>New Delhi, 10 January, 2015: TO THE NEW, a pioneer in Groovy and Grails Development, organized 2nd edition of Grails Conference in India on January 10, 2015 at India Habitat Centre, New Delhi in partnership with Pivotal (promoter of Groovy &amp;amp; Grails) and GR8Conf. The conference aimed at evangelizing Grails ecosystem as a leading RAD framework in the Java ecosystem, known to build highly scalable and flexible web applications with incredibly short time-to-market.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>Industry body Nasscom had recently reported that the Indian software products sector is poised to enter a hyper-growth phase, with a likely minimum of 2,000 start-ups a year by 2020, as against a little over 800 expected in 2014. Rapid Application Development (RAD) frameworks like Grails will power the anticipated hyper-growth as they enable businesses to launch minimum viable product version in the shortest time-to-market.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>Eminent technologists reflected on the new and innovative patterns emerging in the Grails framework. Dr. Venkat Subramaniam, an award-winning author, founder of Agile Developer Inc. and an instructional professor at University of Houston, USA shed light on wide range of topics including polyglot programming, functional programming and Closures. Emphasizing on the importance of TDD (Test Driven Development) coupled with code reviews, he recommended incorporating these software development practices as 30 minutes of daily exercise routine. Both look difficult in the beginning but make the rest of the day a breeze if followed religiously.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>Other speakers included industry leaders like Manoj Thakur, Director Engineering at Flipkart.com, ShriKant Vashishtha, Director Engineering at GlobalLogic, Kunal Dabir, Senior Consultant at ThoughtWorks, Naresha K, Chief Technologist at Channel Bridge Software Labs, Roni C. Thomas and Manoj Mohan, Senior Grails Consultants at TO THE NEW. Multiple interactive sessions and an open-house panel discussion revolving around Groovy, Grails, RAD frameworks and entire Java ecosystem kept the attendees hooked throughout the day.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>The conference saw participation of over 175 attendees from wide array of companies including HCL, IBM, LinkedIn, GlobalLogic, Sapient and focused on strengthened the fast growing Grails community in the region.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;heading2&quot;>About TO THE NEW&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>TO THE NEW is a premium digital services company that uniquely combines the power of technology, analytics, creative and content for digital transformation. Our passionate team of over 600 people includes technology evangelists, social media experts, content specialists, and creative mavericks who have transformed businesses of more than 300 companies spread across 30 countries worldwide.&lt;/span>&lt;/p>&#xa;"
+                news-check="on"
+                newsCheck="true"/>
+        </pagecontent>
+        <news-details
+            jcr:lastModified="{Date}2015-10-10T18:59:07.040+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ttnd/components/content/news-details"
+            author="TTND"
+            limit="01/10/15"
+            newsDate="{Date}2015-01-10T00:00:00.000+05:30"
+            newsLocation="New Delhi"
+            title="New Delhi"/>
+    </jcr:content>
+</jcr:root>

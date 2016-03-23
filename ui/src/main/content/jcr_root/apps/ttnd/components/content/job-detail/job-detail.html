@@ -1,0 +1,27 @@
+<section id="job-details">
+    <div class="container">
+        <div class="row">
+            <div data-sly-use.jobDetail="com.ttndigital.cms.model.JobDetailComponent" data-sly-unwrap>
+                <div class="col-xs-12 col-md-4 txt-alt">
+                    <div class="heading">Job Location</div>
+                    <p>${jobDetail.jobLocations["Job Location"] || "---"}</p>
+                </div>
+                <div class="col-xs-12 col-md-4 txt-alt">
+                    <div class="heading">Experience</div>
+                    <p>${properties.experience || "---"}</p>
+                </div>
+                <div class="col-xs-12 col-md-4 txt-alt">
+                    <div class="heading">Qualification</div>
+                    <p>${properties.qualification || "---"}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="needs">
+                    ${properties.textContent @context='html'}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

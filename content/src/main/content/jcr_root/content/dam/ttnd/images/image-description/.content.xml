@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <xgrailsconf-event.jpg/>
+    <jcr:content
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Image &amp; Description"/>
+    <xtech-banner.jpg/>
+    <xanalytics-banner.jpg/>
+    <xanalytics-banner-m-view.jpg/>
+    <xtech-banner-m-view.jpg/>
+    <xdigital-markiting.jpg/>
+    <xdigital-markiting-m-view.jpg/>
+    <xcontent-m-view.jpg/>
+    <xcontent.jpg/>
+    <xnarendra_img.png/>
+    <xCharu_img.png/>
+    <Hackathon.png/>
+    <xCoaching-Session.png/>
+    <xcertificate.png/>
+    <xCampus-to-Corporate.png/>
+    <xboot-camp.png/>
+    <xConference.png/>
+    <ttnd-members.png/>
+</jcr:root>

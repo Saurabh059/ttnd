@@ -1,0 +1,26 @@
+<section id="list-services" data-sly-use.service="com.ttndigital.cms.model.ServiceListingComponent">
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div data-sly-resource="${'title' @ resourceType='/apps/ttnd/components/content/richText'}"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12padding0">
+                    <ul data-sly-list.child="${service.page.listChildren}">
+                        <div data-sly-test="${child.Title !=currentPage.Title }" data-sly-unwrap>
+                            <li>
+                                <div class="service">
+                                    <div class="heading">${child.Title}</div>
+                                    <p>${child.Description}</p>
+                                    <a href="${child.Path}.html" class="w-btn flL fixed-left-fix-for-learn-more-btn"
+                                       title="Grails Upgrade">Learn More</a>
+                                </div>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+<div class="clearfix"></div>

@@ -1,0 +1,24 @@
+<div data-sly-use.twitter="com.ttndigital.cms.model.TwitterFeedComponent" data-sly-unwrap></div>
+
+<a class="twitter-timeline"
+   data-theme="${properties.twitterTheme||'light'}"
+   data-link-color="${properties.color||'#0099ff'}"
+   data-screen-name="${twitter.twitterUserName}"
+   href="https://twitter.com/${twitter.twitterUserName}"
+   data-widget-id="${twitter.widgetId}">
+
+    Tweets by @${twitter.twitterUserName}
+
+</a>
+
+<script>
+    !function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "/apps/ttnd/components/content/twitter-feed/twitter-widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+    }(document, "script", "twitter-wjs");
+</script>

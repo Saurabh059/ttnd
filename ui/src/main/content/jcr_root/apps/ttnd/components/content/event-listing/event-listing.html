@@ -1,0 +1,18 @@
+<div class="clearfix event">
+    <div class="frame cq-dd-image" data-sly-use.container="ttnd/components/content/image_container/image_container.html">
+        <sly data-sly-call="${container.displayImageTemplate @ classText='', childProperties=properties, altText='Event-Listing'}"></sly>
+    </div>
+    <div class="event-detail">
+        <span class="white-left-arrow"></span>
+        <div class="heading">${properties.eventHeading}</div>
+        <p>${properties.eventDescription}</p>
+        <div class="actions">
+        	<span data-sly-use.formatter="${'ttnd/components/js/dateformat.js' @ date=properties.jcr:created.time, mask='MMMM dd,yyyy'}">
+                ${formatter.formattedDate}
+            </span>
+            <sly data-sly-test=${properties.buttonText}>
+	            <a class="w-btn" href="${properties.buttonPath}">${properties.buttonText}</a>
+            </sly>
+        </div>
+    </div>
+</div>

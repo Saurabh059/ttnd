@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-09-29T23:29:40.740+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[all_india]"
+        cq:template="/apps/ttnd/templates/base-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Ramdas Athawale-led RPI Among 16 Parties Deregistered in Maharashtra"
+        sling:resourceType="ttnd/components/page/basepage"
+        author=""
+        id="1224448"
+        published="{Date}2015-09-29T22:52:45.000+05:30">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <entry
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/blog/components/entrytext"
+                text="State Election Commission (SEC) today deregistered 16 state-level political parties in Maharashtra, including the Ramdas Athawale-led RPI faction, for alleged failure to submit income tax returns and ...&lt;br clear='all'/>&lt;br/>&lt;br/>&lt;a href=&quot;http://rc.feedsportal.com/r/238386631689/u/49/f/606689/c/33805/s/4a434651/sc/7/rc/1/rc.htm&quot; rel=&quot;nofollow&quot;>&lt;img src=&quot;http://rc.feedsportal.com/r/238386631689/u/49/f/606689/c/33805/s/4a434651/sc/7/rc/1/rc.img&quot; border=&quot;0&quot;/>&lt;/a>&lt;br/>&lt;br/>&lt;a href=&quot;http://rc.feedsportal.com/r/238386631689/u/49/f/606689/c/33805/s/4a434651/sc/7/rc/2/rc.htm&quot; rel=&quot;nofollow&quot;>&lt;img src=&quot;http://rc.feedsportal.com/r/238386631689/u/49/f/606689/c/33805/s/4a434651/sc/7/rc/2/rc.img&quot; border=&quot;0&quot;/>&lt;/a>&lt;br/>&lt;br/>&lt;a href=&quot;http://rc.feedsportal.com/r/238386631689/u/49/f/606689/c/33805/s/4a434651/sc/7/rc/3/rc.htm&quot; rel=&quot;nofollow&quot;>&lt;img src=&quot;http://rc.feedsportal.com/r/238386631689/u/49/f/606689/c/33805/s/4a434651/sc/7/rc/3/rc.img&quot; border=&quot;0&quot;/>&lt;/a>&lt;br/>&lt;br/>&lt;a href=&quot;http://da.feedsportal.com/r/238386631689/u/49/f/606689/c/33805/s/4a434651/sc/7/a2.htm&quot;>&lt;img src=&quot;http://da.feedsportal.com/r/238386631689/u/49/f/606689/c/33805/s/4a434651/sc/7/a2.img&quot; border=&quot;0&quot;/>&lt;/a>&lt;img width=&quot;1&quot; height=&quot;1&quot; src=&quot;http://pi.feedsportal.com/r/238386631689/u/49/f/606689/c/33805/s/4a434651/sc/7/a2t.img&quot; border=&quot;0&quot;/>&lt;img width='1' height='1' src='http://ndtv.com.feedsportal.com/c/33805/f/606689/s/4a434651/sc/7/mf.gif' border='0'/>&lt;img src=&quot;http://feeds.feedburner.com/~r/NDTV-LatestNews/~4/exnKq8-C8I8&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot;/>"/>
+        </par>
+        <alt
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <comments
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/commons/components/comments"/>
+            <trackback
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/blog/components/trackback"/>
+        </alt>
+    </jcr:content>
+</jcr:root>

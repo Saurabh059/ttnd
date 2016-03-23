@@ -1,0 +1,9 @@
+<div data-sly-use.socialcomp="com.ttndigital.cms.model.SocialConnectMediaComponent">
+    <div class="col-xs-12 col-sm-5" data-sly-test="${socialcomp.socialMediaObjectList}">
+        <div class="heading">${properties.socialText}</div>
+        <ul class="sociable clearfix" data-sly-list.smedia="${socialcomp.socialMediaObjectList}">
+
+            <li><a href="${smedia.link}" class="${smedia.name}"></a></li>
+        </ul>
+    </div>
+</div>

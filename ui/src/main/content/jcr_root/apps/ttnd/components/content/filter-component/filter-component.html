@@ -1,0 +1,26 @@
+<div class="filter-row clearfix">
+    <sly data-sly-use.filter="com.ttndigital.cms.model.FilterComponent"/>
+    <div class="case-study-filter job-filter clearfix">
+        <span>Filter By </span>
+        <ul class="clearfix" data-sly-list.Tagmap="${filter.tagmap}">
+            <li class="${TagmapList.index==0?'function':'region'}">
+                ${Tagmap}<i class="filter-arrow-down"></i>
+            </li>
+        </ul>
+        <sly data-sly-list.parenttag="${filter.tagmap}">
+            <ul class="clearfix ${parenttagList.index==0?'functionfilter':'regionfilter'}" style="display:none">
+                <div class="filter-drop-list clearfix">
+                    <ul class="clearfix ${parenttag}" data-sly-list.tagchild="${filter.tagmap[parenttag]}">
+
+                        <li><input id="${tagchild}" value="${tagchild}" class="chk" type="checkbox"><label
+                                for="${tagchild}">${tagchild}</label></li>
+                    </ul>
+                    <button class="clearAll">Reset filters</button>
+                </div>
+            </ul>
+        </sly>
+    </div>
+    <div class="resultCount">All Results</div>
+    <div class="selectedFilter">
+    </div>
+</div>

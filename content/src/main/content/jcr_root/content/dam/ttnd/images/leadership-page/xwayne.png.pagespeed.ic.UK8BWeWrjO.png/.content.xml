@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="ae27f8e3-5ad7-4609-8eea-82a44548d2f3">
+    <jcr:content
+        cq:name="xwayne.png.pagespeed.ic.UK8BWeWrjO.png"
+        cq:parentPath="/content/dam/ttnd/images/leadership-page"
+        jcr:lastModified="{Date}2015-09-19T03:32:32.358+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}8"
+            dam:Comments="date:create: 2015-09-18T13:59:13+00:00&#xa;date:modify: 2015-09-18T13:59:13+00:00&#xa;Software: Adobe ImageReady&#xa;"
+            dam:extracted="{Date}2015-09-19T03:32:31.796+05:30"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}3"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="fc49dfc76c3d1fd68c01142d27cf800dc68a3148"
+            dam:size="{Long}29692"
+            dc:format="image/png"
+            dc:modified="{Date}2015-09-19T00:30:08.486+05:30"
+            jcr:lastModified="{Date}2015-09-19T03:32:31.970+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}234"
+            tiff:ImageWidth="{Long}182"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-09-29T23:28:18.760+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[ttnd:career/functions/technology,ttnd:career/location/noida]"
+        cq:template="/apps/ttnd/templates/general-page-with-breadcrumb"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Senior Software Engineer"
+        sling:resourceType="ttnd/components/page/general-page-with-breadcrumb">
+        <pagecontent
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <job_detail
+                jcr:created="{Date}2015-09-16T18:35:36.265+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-09-17T11:31:28.034+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/job-detail"
+                experience="2 to 4 years "
+                qualification="BS/MS/MCA/MSc/Btech in CS"
+                textContent="&lt;p>Key Responsibilities&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Write clean, tested, efficient, and simple code&lt;/li>&#xa;&lt;li>Design and development in MEAN stack (MongoDB, Express, AngularJS, Node.js)&lt;/li>&#xa;&lt;li>Ability to take broad requirements and come up with elegant solutions while balancing frontend usability, orthogonality, and time constraints.&lt;/li>&#xa;&lt;li>Actively participate in SCRUM meetings, quality assurance, code reviews and other development team activities&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>Essential Skills&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Mastery of Javascript, both on client and server side.&lt;/li>&#xa;&lt;li>Strong knowledge of MongoDB.&lt;/li>&#xa;&lt;li>Familiarity with design patterns, Express JS, other modern MVC frameworks.&lt;/li>&#xa;&lt;li>Strong knowledge of AngularJs, jQuery, Twitter Bootstrap, Less, CSS3, HTML5.&lt;/li>&#xa;&lt;li>Working knowledge of Linux / MAC.&lt;/li>&#xa;&lt;li>Working knowledge of Web Services(AWS is a plus), APIs.&lt;/li>&#xa;&lt;li>Working knowledge of Test Driven Development.&lt;/li>&#xa;&lt;li>Curious mind, desire to learn, passion for excellence and perfection.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>Preferred Skills&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Experience working in an agile environment.&lt;/li>&#xa;&lt;li>Experience building real-time and high performance, scalable cloud applications.&lt;/li>&#xa;&lt;li>Familiarity with Grunt, Gulp, Bower, Karma, Protractor, Jasmine, Git/SVN.&lt;/li>&#xa;&lt;li>Exposure or interest in Hadoop, Graph based Databases, Big Data.&lt;/li>&#xa;&lt;li>Eye for design, ability to design smooth and minimal user interfaces.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"/>
+        </pagecontent>
+        <image
+            jcr:lastModified="{Date}2015-09-17T17:34:54.101+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

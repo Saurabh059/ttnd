@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <service-configuration
+                jcr:primaryType="cq:Panel"
+                title="Service Configuration">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <service-path
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Select Service path to list it's Subservices"
+                        fieldLabel="Service Path"
+                        name="./servicePath"
+                        xtype="pathfield"/>
+                </items>
+            </service-configuration>
+        </items>
+    </items>
+</jcr:root>

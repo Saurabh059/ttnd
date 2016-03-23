@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    width="650"
+    xtype="dialog">
+    <items
+        jcr:primaryType="nt:unstructured"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <map
+                jcr:primaryType="cq:Panel"
+                border="false"
+                title="Description Details">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <header
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="We have gone places!"
+                        fieldLabel="Heading Text"
+                        name="./headingText"
+                        xtype="textfield"/>
+                    <multi-text-fields
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter the Text Field Pairs:"
+                        hideLabel="{Boolean}false"
+                        name="./mapTextArray"
+                        xtype="multifield">
+                        <fieldConfig
+                            jcr:primaryType="cq:Widget"
+                            hideLabel="{Boolean}true"
+                            layout="form"
+                            padding="10"
+                            xtype="multifiedpanel">
+                            <items jcr:primaryType="cq:WidgetCollection">
+                                <statistic
+                                    jcr:primaryType="cq:Widget"
+                                    dName="statistic"
+                                    fieldLabel="Statistic:"
+                                    name="./statistic"
+                                    width="200"
+                                    xtype="textfield"/>
+                                <property
+                                    jcr:primaryType="cq:Widget"
+                                    dName="property"
+                                    fieldLabel="Property:"
+                                    name="./property"
+                                    width="200"
+                                    xtype="textfield"/>
+                            </items>
+                        </fieldConfig>
+                    </multi-text-fields>
+                    <background
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="bg-black"
+                        fieldDescription="Select the background color of your text"
+                        fieldLabel="Background:"
+                        name="./background"
+                        type="select"
+                        value="bg-black"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <black
+                                jcr:primaryType="nt:unstructured"
+                                text="Black"
+                                value="bg-black"/>
+                            <white
+                                jcr:primaryType="nt:unstructured"
+                                text="White"
+                                value=""/>
+                        </options>
+                    </background>
+                </items>
+            </map>
+            <image
+                jcr:primaryType="cq:Widget"
+                cropParameter="./imageCrop"
+                ddGroups="[media]"
+                fileNameParameter="./fileName"
+                fileReferenceParameter="./fileReference"
+                mapParameter="./imageMap"
+                name="./file"
+                requestSuffix="/.img.png"
+                rotateParameter="./imageRotate"
+                title="Background Map Image"
+                xtype="html5smartimage"/>
+        </items>
+    </items>
+</jcr:root>

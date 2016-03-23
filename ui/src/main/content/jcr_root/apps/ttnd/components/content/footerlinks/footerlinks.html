@@ -1,0 +1,23 @@
+<section id="bottom">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 servicesSection">
+				<div class="heading">Services</div>
+				<span class="bottom-arrow-down"></span>
+				<div data-sly-use.footer="com.ttndigital.cms.model.FooterComponent">
+					<div data-sly-repeat="${footer.footerListofMap}">
+						<ul class="clearfix">
+							<li class="clearfix">
+								<ul class="clearfix">
+									<li class="first">${item['Page']} :</li>
+									<li data-sly-repeat.child="${item['Iterator']}"><a href="${child.path}.html">${child.title} </a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+

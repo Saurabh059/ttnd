@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="nt:unstructured"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <list-tab
+                jcr:primaryType="cq:Panel"
+                border="false"
+                title="List Component">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <parent-selection
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="Add New Parent"
+                        dName="parentSelection"
+                        fieldLabel="Parent:"
+                        name="./parentSelected"
+                        type="select"
+                        width="200"
+                        xtype="selection">
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            loadcontent="function(field){selectionVariable.fetchData(field);}"
+                            selectionchanged="function(box,value){selectionVariable.selectionChange(box,value);}"/>
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <new
+                                jcr:primaryType="nt:unstructured"
+                                text="Add New Parent"
+                                value="Add New Parent"/>
+                        </options>
+                    </parent-selection>
+                    <parent-title
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="false"
+                        dName="title"
+                        fieldLabel="Title:"
+                        name="./parentTitle"
+                        width="200"
+                        xtype="textfield"/>
+                    <parent-path
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter the Parent Path:"
+                        name="./parentPath"
+                        xtype="pathfield">
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            change="function(){if(this.value.match('^/')){if(!this.value.match('(.html)$'))this.setValue(this.value+'.html');}else{if(!(this.value.match('^(http://|https://|www.)([a-z0-9][a-z0-9-]*.)+[a-z0-9][a-z0-9-]*$'))){alert(&quot;Please Enter a Valid URL&quot;);this.setValue(&quot;&quot;);}}}"
+                            dialogclose="function(){if(!this.value.match('(.html)$'))this.setValue(this.value+'.html');}"/>
+                    </parent-path>
+                    <children-multifield
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Children:"
+                        hideLabel="{Boolean}false"
+                        name="./children"
+                        xtype="multifield">
+                        <fieldConfig
+                            jcr:primaryType="cq:Widget"
+                            hideLabel="{Boolean}true"
+                            layout="form"
+                            padding="10"
+                            xtype="multifiedpanel">
+                            <items jcr:primaryType="cq:WidgetCollection">
+                                <child-title
+                                    jcr:primaryType="cq:Widget"
+                                    dName="child_title"
+                                    fieldLabel="Title:"
+                                    width="200"
+                                    xtype="textfield"/>
+                                <child-path
+                                    jcr:primaryType="cq:Widget"
+                                    dName="child_path"
+                                    fieldLabel="URL"
+                                    xtype="pathfield">
+                                    <listeners
+                                        jcr:primaryType="nt:unstructured"
+                                        change="function(){if(this.value.match('^/')){if(!this.value.match('(.html)$'))this.setValue(this.value+'.html');}else{if(!(this.value.match('^(http://|https://|www.)([a-z0-9][a-z0-9-]*.)+[a-z0-9][a-z0-9-]*$'))){alert(&quot;Please Enter a Valid URL&quot;);this.setValue(&quot;&quot;);}}}"
+                                        dialogclose="function(){if(!this.value.match('(.html)$'))this.setValue(this.value+'.html');}"/>
+                                </child-path>
+                            </items>
+                        </fieldConfig>
+                    </children-multifield>
+                    <add
+                        jcr:primaryType="cq:Widget"
+                        name="./add"
+                        text="Add"
+                        xtype="button">
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            click="function(button, event){selectionVariable.onClickAdd(button, event);}"/>
+                    </add>
+                    <remove
+                        jcr:primaryType="cq:Widget"
+                        name="./remove"
+                        text="Remove"
+                        xtype="button">
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            click="function(button, event){selectionVariable.onClickDelete(button, event, true);}"/>
+                    </remove>
+                </items>
+            </list-tab>
+        </items>
+    </items>
+    <listeners
+        jcr:primaryType="nt:unstructured"
+        loadcontent="function(dialog, records, success){selectionVariable.resetDialog(dialog);}"/>
+</jcr:root>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <image-details
+                jcr:primaryType="cq:Panel"
+                title="Configurations">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <description
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Image Description"
+                        name="./description"
+                        xtype="richtext"/>
+                    <leader-name
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Image Title"
+                        name="./imageTitle"
+                        xtype="textfield"/>
+                    <hover-text-display
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Check to display description and name on hover event"
+                        fieldLabel="Enable hover"
+                        name="./enableHover"
+                        type="checkbox"
+                        xtype="selection"/>
+                    <over-image-display
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Check to display resource-type tag on the image-thumbnail"
+                        fieldLabel="Enable text over Image"
+                        name="./enableText"
+                        type="checkbox"
+                        xtype="selection"/>
+                </items>
+            </image-details>
+            <image
+                jcr:primaryType="cq:Widget"
+                ddGroups="[media]"
+                fileNameParameter="./fileName"
+                fileReferenceParameter="./fileReference"
+                name="./file"
+                title="Image"
+                xtype="html5smartimage"/>
+        </items>
+    </items>
+</jcr:root>

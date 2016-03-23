@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <richText
+                jcr:primaryType="cq:Panel"
+                title="Rich Text">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <rich-text-editor
+                        jcr:primaryType="cq:Widget"
+                        dName="description"
+                        fieldLabel="Description"
+                        name="./description"
+                        xtype="richtext">
+                        <rtePlugins jcr:primaryType="nt:unstructured">
+                            <edit
+                                jcr:primaryType="nt:unstructured"
+                                features="*"/>
+                            <findreplace
+                                jcr:primaryType="nt:unstructured"
+                                features="*"/>
+                            <image
+                                jcr:primaryType="nt:unstructured"
+                                features="*"/>
+                            <misctools
+                                jcr:primaryType="nt:unstructured"
+                                features="*"/>
+                            <justify
+                                jcr:primaryType="nt:unstructured"
+                                features="*"/>
+                            <links
+                                jcr:primaryType="nt:unstructured"
+                                features="*"/>
+                            <spellcheck
+                                jcr:primaryType="nt:unstructured"
+                                features="*"/>
+                            <styles
+                                jcr:primaryType="nt:unstructured"
+                                features="*">
+                                <styles jcr:primaryType="cq:WidgetCollection">
+                                    <heading
+                                        jcr:primaryType="nt:unstructured"
+                                        cssName="heading"
+                                        text="Heading"/>
+                                    <sub-heading
+                                        jcr:primaryType="nt:unstructured"
+                                        cssName="subheading"
+                                        text="Sub Heading"/>
+                                    <paragraph
+                                        jcr:primaryType="nt:unstructured"
+                                        cssName="paragraph"
+                                        text="Paragraph"/>
+                                    <tick
+                                        jcr:primaryType="nt:unstructured"
+                                        cssName="tick-mark"
+                                        text="Tick Icon"/>
+                                    <code
+                                        jcr:primaryType="nt:unstructured"
+                                        cssName="codes"
+                                        text="Code"/>
+                                    <openSansSemiBold
+                                        jcr:primaryType="nt:unstructured"
+                                        cssName="openSansSemiBold"
+                                        text="OpenSans SemiBold"/>
+                                    <quotes
+                                        jcr:primaryType="nt:unstructured"
+                                        cssName="quotes"
+                                        text="Quotes"/>
+                                    <orange
+                                        jcr:primaryType="nt:unstructured"
+                                        cssName="orange"
+                                        text="Orange"/>
+                                    <slideContentHeader
+                                        jcr:primaryType="nt:unstructured"
+                                        cssName="slideContentHeader"
+                                        text="Slide Content Header"/>
+                                    <slideContentHeaderBold
+                                        jcr:primaryType="nt:unstructured"
+                                        cssName="slideContentHeaderBold"
+                                        text="Slide Content Header Bold"/>
+                                    <slideImageHeader
+                                        jcr:primaryType="nt:unstructured"
+                                        cssName="slideImageHeader"
+                                        text="Slide Image Header"/>
+                                    <white-orange
+                                        jcr:primaryType="nt:unstructured"
+                                        cssName="white-orange-btn"
+                                        text="White-Orange Button"/>
+                                    <orange-black
+                                        jcr:primaryType="nt:unstructured"
+                                        cssName="orange-black"
+                                        text="Orange-Black Button"/>
+                                    <orange-white
+                                        jcr:primaryType="nt:unstructured"
+                                        cssName="orange-white"
+                                        text="Orange-White Button"/>
+                                    <trans-orange
+                                        jcr:primaryType="nt:unstructured"
+                                        cssName="trans-orange"
+                                        text="Trans-Orange Button"/>
+                                    <black-btn
+                                        jcr:primaryType="nt:unstructured"
+                                        cssName="black-btn"
+                                        text="Black Button"/>
+                                    <orange-black-round
+                                        jcr:primaryType="nt:unstructured"
+                                        cssName="orange-black-round"
+                                        text="Orange-Black-Round Button"/>
+                                    <orange-dwnld-btn
+                                        jcr:primaryType="nt:unstructured"
+                                        cssName="orange-dwnld-btn"
+                                        text="Orange Button with Downloader"/>
+                                    <orange-view-btn
+                                        jcr:primaryType="nt:unstructured"
+                                        cssName="orange-view-btn"
+                                        text="Orange Button with eye View"/>
+                                    <resource-heading
+                                        jcr:primaryType="nt:unstructured"
+                                        cssName="res-heading"
+                                        text="Resource-Heading"/>
+                                    <resource-text
+                                        jcr:primaryType="nt:unstructured"
+                                        cssName="res-text"
+                                        text="Resource-Text"/>
+                                    <resource-text-line
+                                        jcr:primaryType="nt:unstructured"
+                                        cssName="res-text-line"
+                                        text="Resource-Text-line"/>
+                                </styles>
+                            </styles>
+                            <subsuperscript
+                                jcr:primaryType="nt:unstructured"
+                                features="*"/>
+                            <table
+                                jcr:primaryType="nt:unstructured"
+                                features="*"/>
+                            <undo
+                                jcr:primaryType="nt:unstructured"
+                                features="*"/>
+                            <paraformat
+                                jcr:primaryType="nt:unstructured"
+                                features="*"/>
+                            <format
+                                jcr:primaryType="nt:unstructured"
+                                features="*"/>
+                        </rtePlugins>
+                    </rich-text-editor>
+                </items>
+            </richText>
+        </items>
+    </items>
+</jcr:root>

@@ -1,0 +1,26 @@
+<div data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"></div>
+<meta data-sly-call="${clientLib.js @ categories='ttnd.widgets,apps.ttnd'}" data-sly-unwrap></meta>
+<footer>
+    <section id="f-section" class="blck-footer">
+        <div class="container">
+            <div class="row">
+                <div data-sly-resource="${'footerpar' @ resourceType='wcm/foundation/components/iparsys'}"></div>
+            </div>
+        </div>
+        <div class="brdr clearfix"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <div data-sly-resource="${'footerlist' @ resourceType='wcm/foundation/components/iparsys'}"></div>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                    <div class="footer-logo">
+                        <img src="/etc/designs/ttnd/images/ttn-logo.png" alt="ttn"/>
+                        <p>&copy; TO THE NEW Digital 2015</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+<div data-sly-resource="${'footerlinks' @ resourceType='/apps/ttnd/components/content/footerlinks'}"></div>

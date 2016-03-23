@@ -1,0 +1,20 @@
+<div id="banner" data-sly-use.comp1="com.ttndigital.cms.model.HeaderSummaryComponent" class="clearfix">
+    	<div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="detail" style="position: relative!important;top: inherit!important; ">
+                    <sly data-sly-resource="${'search-form' @ resourceType='ttnd/components/content/searchBlog'}"
+                                data-sly-unwrap></sly>
+                    <div class="date-author">${comp1.modifiedDate} by <em>${comp1.modifiedBy}</em></div>
+
+                    <h2 class="cat" data-sly-list.keyName="${comp1.tags}">
+                        <a rel="nofollow" href="#"
+                           title="View all posts in ${keyName}">${keyName}</a>
+                    </h2>
+                    <h1 data-sly-test="${currentPage.title}">${currentPage.title}</h1>
+                  </div>
+            </div>
+		</div>
+    </div>
+    </div>
+</div>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Social Media Connect"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="Lets Connect..">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text
+                        jcr:primaryType="nt:unstructured"
+                        allowBlank="true"
+                        fieldLabel="Enter Text:"
+                        name="./socialText"
+                        validateOnBlur="true"
+                        xtype="textfield"/>
+                    <social
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Select Social Media:"
+                        name="./socialmedia"
+                        xtype="multifield">
+                        <fieldConfig
+                            jcr:primaryType="cq:Widget"
+                            hideLabel="{Boolean}true"
+                            layout="form"
+                            padding="10"
+                            xtype="multifiedpanel">
+                            <items jcr:primaryType="cq:WidgetCollection">
+                                <socialname
+                                    jcr:primaryType="cq:Widget"
+                                    allowBlank="{Boolean}false"
+                                    dName="socialName"
+                                    fieldLabel="Social Name:"
+                                    options="/apps/ttnd/components/content/socialmediaconnect/socialMedia.json"
+                                    type="select"
+                                    xtype="selection"/>
+                                <sociallink
+                                    jcr:primaryType="cq:Widget"
+                                    allowBlank="{Boolean}false"
+                                    dName="socialLink"
+                                    fieldLabel="Link:"
+                                    regex="/(https?:\\/\\/(?:www.|(?!www))[^\\s.]+.[^\\s]{2,}|www.[^\\s]+.[^\\s]{2,})/"
+                                    regexText="Please enter a complete valid url"
+                                    width="400"
+                                    xtype="textfield"/>
+                            </items>
+                        </fieldConfig>
+                    </social>
+                </items>
+            </tab1>
+        </items>
+    </items>
+</jcr:root>

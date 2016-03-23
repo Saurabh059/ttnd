@@ -1,0 +1,37 @@
+<sly data-sly-use.caseShelf="com.ttndigital.cms.model.CaseStudyShelf"/>
+<sly data-sly-test.resource="${caseShelf.pageTags['Resource']}" data-sly-unwrap/>
+<sly data-sly-test.uniqueId="${caseShelf.uuid}"/>
+<input type="hidden" name="resourceType" id="resourceType" value="${caseShelf.pageTags['Resource']}"/>
+<input type="hidden" name="uniqueId" id="uniqueId" value="${caseShelf.uuid}"/>
+
+
+<div class="body-container container-fluid">
+    <div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+        <div class="row-fluid ">
+            <div class="resource-pg-container">
+                <div class="container clearfix">
+                    <div class="resource-wrapper">
+                        <div class="row-fluid-wrapper row-depth-1 row-number-3 ">
+                            <div class="row-fluid clearfix">
+                                <div class="left-content clearfix">
+                                    <div class="res-heading">
+                                        <h3>
+                                            <span class="res"></span>
+                                            ${currentPage.title}
+                                        </h3>
+                                    </div>
+                                    <div data-sly-resource="${'pagecontent' @ resourceType='wcm/foundation/components/parsys'}"></div>
+
+                                </div>
+                                
+                                <div class="rightcontent clearfix">
+                                    <div data-sly-resource="${'form' @ resourceType='wcm/foundation/components/parsys'}"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="nt:unstructured"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <description-panel
+                jcr:primaryType="cq:Panel"
+                border="false"
+                title="Description Details">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <imagealign
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="text-alignR"
+                        fieldLabel="Align Image To"
+                        name="./imageAlign"
+                        type="select"
+                        value="text-alignR"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <left
+                                jcr:primaryType="nt:unstructured"
+                                text="Left"
+                                value="text-alignL"/>
+                            <right
+                                jcr:primaryType="nt:unstructured"
+                                text="Right"
+                                value="text-alignR"/>
+                        </options>
+                    </imagealign>
+                    <heading
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Heading"
+                        name="./heading"
+                        xtype="textfield"/>
+                    <description
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Enter the Description Text"
+                        fieldLabel="Description"
+                        name="./description"
+                        xtype="textarea"/>
+                    <text-on-image
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Text on Image"
+                        id="text-on-image"
+                        name="./textOnImage"
+                        type="checkbox"
+                        xtype="selection">
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            selectionchanged="function(comp, val, isChecked) { &#xa;                var tabpanel = comp.findParentByType(&quot;tabpanel&quot;); &#xa;                isChecked ? tabpanel.unhideTabStripItem(3): tabpanel.hideTabStripItem(3);&#xa;            }"/>
+                    </text-on-image>
+                    <button-text
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Enter the Text Displayed on Button "
+                        fieldLabel="Button Text"
+                        name="./buttonText"
+                        xtype="textfield"/>
+                    <button-path
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Enter the Path to which button points "
+                        fieldLabel="Button Path"
+                        name="./buttonPath"
+                        xtype="pathfield"/>
+                    <alt-text-img
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Enter the Alternate Text of Image"
+                        fieldLabel="Alternate Text"
+                        name="./altText"
+                        xtype="textfield"/>
+                    <background
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="margin-Btm"
+                        fieldDescription="Select the background color of your text"
+                        fieldLabel="Background:"
+                        name="./background"
+                        type="select"
+                        value="margin-Btm"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <white
+                                jcr:primaryType="nt:unstructured"
+                                text="White"
+                                value="margin-Btm"/>
+                            <black
+                                jcr:primaryType="nt:unstructured"
+                                text="Black"
+                                value="event-sec"/>
+                            <gray
+                                jcr:primaryType="nt:unstructured"
+                                text="Gray"
+                                value="gray-bg"/>
+                        </options>
+                    </background>
+                </items>
+            </description-panel>
+            <image
+                jcr:primaryType="cq:Widget"
+                cropParameter="./desktop/imageCrop"
+                ddGroups="[media]"
+                fileNameParameter="./desktop/fileName"
+                fileReferenceParameter="./desktop/fileReference"
+                mapParameter="./desktop/imageMap"
+                name="./desktop/file"
+                requestSuffix="/desktop.img.png"
+                rotateParameter="./desktop/imageRotate"
+                title="Desktop Image"
+                xtype="html5smartimage">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <resType
+                        jcr:primaryType="cq:Widget"
+                        ignoreData="{Boolean}true"
+                        name="./desktop/sling:resourceType"
+                        value="foundation/components/image"
+                        xtype="hidden"/>
+                </items>
+            </image>
+            <mobile-image
+                jcr:primaryType="cq:Widget"
+                cropParameter="./mobile/imageCrop"
+                ddGroups="[media]"
+                fileNameParameter="./mobile/fileName"
+                fileReferenceParameter="./mobile/fileReference"
+                mapParameter="./mobile/imageMap"
+                name="./mobile/file"
+                requestSuffix="/mobile.img.png"
+                rotateParameter="./mobile/imageRotate"
+                title="Mobile Image"
+                xtype="html5smartimage">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <resType
+                        jcr:primaryType="cq:Widget"
+                        ignoreData="{Boolean}true"
+                        name="./mobile/sling:resourceType"
+                        value="foundation/components/image"
+                        xtype="hidden"/>
+                </items>
+            </mobile-image>
+            <text-on-image
+                jcr:primaryType="cq:Panel"
+                title="Text on Image">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <alignment
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="alignRight"
+                        fieldLabel="Text Alignment:"
+                        name="./imageTextAlign"
+                        type="select"
+                        value="alignRight"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <left
+                                jcr:primaryType="nt:unstructured"
+                                text="Left"
+                                value="alignLeft"/>
+                            <right
+                                jcr:primaryType="nt:unstructured"
+                                text="Right"
+                                value="alignRight"/>
+                        </options>
+                    </alignment>
+                    <richtext
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Description"
+                        name="./imgDescription"
+                        xtype="richtext">
+                        <rtePlugins jcr:primaryType="nt:unstructured">
+                            <edit
+                                jcr:primaryType="nt:unstructured"
+                                features="*"/>
+                            <misctools
+                                jcr:primaryType="nt:unstructured"
+                                features="[sourceedit]"/>
+                            <styles
+                                jcr:primaryType="nt:unstructured"
+                                features="*">
+                                <styles jcr:primaryType="cq:WidgetCollection">
+                                    <heading
+                                        jcr:primaryType="nt:unstructured"
+                                        cssName="heading"
+                                        text="Heading"/>
+                                    <quotes
+                                        jcr:primaryType="nt:unstructured"
+                                        cssName="black-quotes"
+                                        text="Black Quotes"/>
+                                </styles>
+                            </styles>
+                        </rtePlugins>
+                    </richtext>
+                </items>
+            </text-on-image>
+        </items>
+    </items>
+    <listeners
+        jcr:primaryType="nt:unstructured"
+        loadcontent="function(dialog) {&#xa;&#x9;var isChecked = dialog.findById('text-on-image').value;&#xa;&#x9;var tabpanel = dialog.findByType(&quot;tabpanel&quot;)[0]; &#xa;&#x9;isChecked ? tabpanel.unhideTabStripItem(3): tabpanel.hideTabStripItem(3);&#xa;}"/>
+</jcr:root>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    width="650"
+    xtype="dialog">
+    <items
+        jcr:primaryType="nt:unstructured"
+        manageTabs="function(tab,noSwitch){var tabs=['props','automatic','manual'];var index=tabs.indexOf(tab);if(index==-1) return;for(var i=1;i&lt;tabs.length;i++){if(index==i){this.unhideTabStripItem(i);}else{this.hideTabStripItem(i);}}this.doLayout();if(!noSwitch)this.activate(index);}"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <footer
+                jcr:primaryType="cq:Panel"
+                border="false"
+                title="Footer Dialog Tab">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <listfrom
+                        jcr:primaryType="cq:Widget"
+                        defaultValue=""
+                        fieldLabel="Build list using"
+                        name="./listFrom"
+                        type="select"
+                        xtype="selection">
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            loadcontent="function(){this.findParentByType('tabpanel').manageTabs(this.getValue(),true);}"
+                            selectionchanged="function(box,value){box.findParentByType('tabpanel').manageTabs(value);}"/>
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <automatic
+                                jcr:primaryType="nt:unstructured"
+                                text="Automatically Show Links from Root Page"
+                                value="automatic"/>
+                            <manual
+                                jcr:primaryType="nt:unstructured"
+                                text="Manually Input the Title and Links"
+                                value="manual"/>
+                        </options>
+                    </listfrom>
+                </items>
+            </footer>
+            <automatic
+                jcr:primaryType="cq:Widget"
+                title="Automatic"
+                xtype="panel">
+                <listeners
+                    jcr:primaryType="nt:unstructured"
+                    render="function() { this.findParentByType('tabpanel').hideTabStripItem(1); }"/>
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <parentpathtext
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="/content/ttnd/en/homepage"
+                        fieldDescription="Input the Parent Path to show links for"
+                        fieldLabel="Parent Path"
+                        name="./parentPath"
+                        xtype="pathfield"/>
+                </items>
+            </automatic>
+            <manual
+                jcr:primaryType="cq:Widget"
+                title="Manual"
+                xtype="panel">
+                <listeners
+                    jcr:primaryType="nt:unstructured"
+                    render="function() { this.findParentByType('tabpanel').hideTabStripItem(2); }"/>
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <multitextfields
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter Details of Links:"
+                        hideLabel="{Boolean}false"
+                        name="./footerArray"
+                        xtype="multifield">
+                        <fieldConfig
+                            jcr:primaryType="cq:Widget"
+                            hideLabel="{Boolean}true"
+                            layout="form"
+                            padding="10"
+                            xtype="multifiedpanel">
+                            <items jcr:primaryType="cq:WidgetCollection">
+                                <title
+                                    jcr:primaryType="cq:Widget"
+                                    dName="title"
+                                    fieldLabel="Title:"
+                                    name="./linkTitle"
+                                    width="200"
+                                    xtype="textfield"/>
+                                <rootpath
+                                    jcr:primaryType="cq:Widget"
+                                    dName="rootpath"
+                                    fieldLabel="Root Path:"
+                                    name="./rootPath"
+                                    width="200"
+                                    xtype="pathfield"/>
+                                <childtype
+                                    jcr:primaryType="cq:Widget"
+                                    dName="childtype"
+                                    fieldLabel="Pages To Include:"
+                                    name="./childType"
+                                    type="select"
+                                    width="200"
+                                    xtype="selection">
+                                    <options jcr:primaryType="cq:WidgetCollection">
+                                        <children
+                                            jcr:primaryType="nt:unstructured"
+                                            text="Immediate Sub-Pages"
+                                            value="children"/>
+                                        <leaf
+                                            jcr:primaryType="nt:unstructured"
+                                            text="All Leaf Pages"
+                                            value="leaf"/>
+                                    </options>
+                                </childtype>
+                            </items>
+                        </fieldConfig>
+                    </multitextfields>
+                </items>
+            </manual>
+        </items>
+    </items>
+</jcr:root>

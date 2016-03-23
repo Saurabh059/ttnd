@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-10-07T12:41:03.840+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/ttnd/templates/general-page-with-breadcrumb"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Newsroom"
+        sling:resourceType="ttnd/components/page/general-page-with-breadcrumb">
+        <pagecontent
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <hero
+                jcr:created="{Date}2015-10-07T12:38:03.655+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-07T12:40:10.505+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/hero"
+                description="&lt;p>Awesomeness just got released&lt;/p>&#xa;"
+                heading="News">
+                <desktop
+                    jcr:lastModified="{Date}2015-10-07T12:40:10.505+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/image"
+                    fileReference="/content/dam/ttnd/images/heroImages/news-index.jpg"
+                    imageRotate="0"/>
+            </hero>
+            <news_feed
+                jcr:created="{Date}2015-10-05T17:49:35.025+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-07T12:41:03.836+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/news-feed"
+                limit="6"/>
+        </pagecontent>
+    </jcr:content>
+    <tech-a-thon/>
+    <red-herring-top-100-asia/>
+    <cmo-asia-award/>
+    <great-place-to-work/>
+    <partners-with-fame/>
+    <news-grails-conference/>
+</jcr:root>

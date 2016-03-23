@@ -1,0 +1,559 @@
+.richText .heading {
+    color: #252525;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin: 15px 0 24px;
+    text-align: left;
+}
+
+.richText .subheading {
+    color: #f60;
+    font-weight: bold;
+    font-family: 'open_sansregular';
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.richText .openSansSemiBold {
+    font-family: 'open_sanssemibold';
+}
+
+.richText .codes {
+    color: #333 !important;
+    display: block !important;
+    font-size: 13px !important;
+    font-family: Monaco, Menlo, Consolas, "Courier New",
+    monospace !important;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    line-height: 1.428571429;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    white-space: pre-wrap;
+}
+
+span.white-orange-btn {
+    background: #fff;
+    border: 1px solid #fe8422;
+    font-size: 16px;
+    text-decoration: none !important;
+    color: #fe8422;
+    font-family: 'open_sansbold_italic';
+    height: 38px;
+    line-height: 34px;
+    padding: 0 20px;
+    display: inline-block;
+}
+
+span.white-orange-btn:hover {
+    background: #fe8422;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fe8422;
+}
+
+span.orange-black {
+    height: 48px;
+    padding: 6px 25px;
+    border: 1px solid #fff;
+    font-family: 'open_sansbold_italic';
+    background: #fe8422;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: inline-block;
+    line-height: 38px;
+}
+
+span.orange-black:hover {
+    text-decoration: none;
+    color: #fe8422 !important;
+    background: #000;
+}
+
+span.orange-white {
+    height: 48px;
+    padding: 5px 25px;
+    border: 1px solid rgb(255, 255, 255);
+    border-image: initial;
+    font-family: open_sansbold_italic;
+    background: rgb(254, 132, 34);
+    margin: 160px 90px 0px 0px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 38px;
+}
+
+span.orange-white:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(254, 132, 34);
+    text-decoration: none;
+    border: 1px solid transparent !important;
+    text-decoration: none !important;
+}
+
+span.trans-orange, span.trans-orange:focus {
+    background: none;
+    border: 1px solid #fe8422;
+    font-size: 15px;
+    color: #fe8422;
+    display: inline-block;
+    font-family: 'open_sansbold_italic';
+    height: 46px;
+    line-height: 36px;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+span.trans-orange:hover {
+    color: #fff;
+    background: #fe8422;
+    font-family: 'open_sansbold_italic';
+    text-decoration: none;
+}
+
+span.black-btn {
+    background: #252525;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 25px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none !important;
+    font-size: 16px;
+    font-family: 'open_sansbold';
+}
+
+span.black-btn:focus {
+    color: rgb(42, 100, 150);
+    text-decoration: underline;
+}
+
+span.orange-black-round {
+    background: #fe8422 !important;
+    border-radius: 10px !important;
+    color: #fff !important;
+    display: inline-block !important;
+    font-family: "open_sansbold_italic" !important;
+    font-size: 24px !important;
+    height: 57px !important;
+    line-height: 56px !important;
+    padding: 0 25px !important;
+    text-decoration: none !important;
+    border: none !important;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+span.orange-black-round:hover {
+    color: #fe8422 !important;
+    background: #000 !important;
+    text-decoration: none;
+}
+
+span.gray_button-arrow {
+    background: #e0e0e0;
+    display: inline-block;
+    padding: 0 40px;
+    color: #252525;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'open_sansbold';
+}
+
+span.gray_button-arrow:hover {
+    background: #fe8422;
+    color: #252525;
+}
+
+span.gray_button-arrow a {
+    display: inline-block;
+    color: #252525;
+    float: right;
+    margin-top: 14px;
+    display: block;
+    width: 10px;
+    height: 7px;
+    margin-left: 12px;
+    text-decoration: none;
+    background: url(../../images/sprite.png) no-repeat -850px -6px;
+}
+
+span.orange-dwnld-btn, span.orange-dwnld-btn a {
+    background: #fe8422;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    padding: 0 18px 10px 35px;
+    font-family: 'open_sanssemibold_italic';
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+span.orange-dwnld-btn a {
+    background: url(../../images/download-icon.png) no-repeat -8px 4px;
+}
+
+span.orange-view-btn {
+    background: #fe8422;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 35px 10px 35px;
+    font-family: 'open_sanssemibold_italic';
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+span.orange-view-btn a {
+    background: url(../../images/view-icon.png) no-repeat -5px -9px;
+    vertical-align: middle;
+    padding-left: 45px;
+    color: #fff;
+}
+
+.richText .heading2 {
+    color: #252525;
+    font-family: 'open_sansregular';
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+
+.richText p {
+    margin: 0px 0 25px;
+}
+
+.richText .news-padding {
+    max-width: 995px !important;
+}
+
+.white-small-txt {
+    color: #fff;
+    font-family: 'open_sanssemibold';
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 15px;
+}
+
+.white-txt {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'open_sansregular';
+}
+.richText .res-heading {
+    font-size: 40px!important;
+    background: url(../../images/h2-bg.png) no-repeat 0 bottom;
+    padding-bottom: 20px;
+    font-family: open_sansbold!important;
+    margin-bottom: 30px!important;
+    line-height: 52px;
+}
+
+#res
+{
+    font-family: open_sanslight!important;
+    color: #252525 !important;
+    font-size: 40px!important;
+}
+.richText .res-text
+{
+    font-size: 20px;
+    font-family: open_sansregular;
+    color: #555;
+    line-height: 36px;
+    padding-top: 25px;
+}
+
+.richText .paragraph {
+    color: #252525;
+    font-family: 'open_sansregular';
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.left-content .richText .res-text
+{
+    font-size: 20px;
+    font-family: open_sansregular;
+    color: #555;
+    line-height: 36px;
+    padding-top: 25px;
+    margin: 0 0 10px;
+}
+
+.left-content .richText {
+    margin-left: 259px;
+}
+
+.left-content .richText .heading{
+    font-family: open_sansbold!important;
+    font-size: 28px;
+    line-height: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.richText .tick-mark {
+    background: url(../../images/xsprite.png) no-repeat left 5px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.richText .quotes:before {
+    content: url(../../images/opening-quote.png);
+    vertical-align: super;
+}
+
+.richText .quotes:after {
+    content: url(../../images/closing-quote.png);
+    vertical-align: super;
+}
+
+.richText .quotes {
+    vertical-align: top;
+}
+
+.richText .orange, .richText .quotes {
+    color: #fe8422;
+    font-size: 20px;
+}
+
+span.white-orange-btn {
+    background: #fff;
+    border: 1px solid #fe8422;
+    font-size: 16px;
+    text-decoration: none !important;
+    color: #fe8422;
+    font-family: 'open_sansbold_italic';
+    height: 38px;
+    line-height: 34px;
+    padding: 0 20px;
+    display: inline-block;
+}
+
+span.white-orange-btn:hover {
+    background: #fe8422;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fe8422;
+}
+
+span.orange-black {
+    height: 48px;
+    padding: 6px 25px;
+    border: 1px solid #fff;
+    font-family: 'open_sansbold_italic';
+    background: #fe8422;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: inline-block;
+    line-height: 38px;
+}
+
+span.orange-black:hover {
+    text-decoration: none;
+    color: #fe8422 !important;
+    background: #000;
+}
+
+span.orange-white {
+    height: 48px;
+    padding: 5px 25px;
+    border: 1px solid rgb(255, 255, 255);
+    border-image: initial;
+    font-family: open_sansbold_italic;
+    background: rgb(254, 132, 34);
+    margin: 160px 90px 0px 0px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 38px;
+}
+
+span.orange-white:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(254, 132, 34);
+    text-decoration: none;
+    border: 1px solid transparent !important;
+    text-decoration: none !important;
+}
+
+span.trans-orange, span.trans-orange:focus {
+    background: none;
+    border: 1px solid #fe8422;
+    font-size: 15px;
+    color: #fe8422;
+    display: inline-block;
+    font-family: 'open_sansbold_italic';
+    height: 46px;
+    line-height: 36px;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+span.trans-orange:hover {
+    color: #fff;
+    background: #fe8422;
+    font-family: 'open_sansbold_italic';
+    text-decoration: none;
+}
+
+span.black-btn {
+    background: #252525;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 25px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none !important;
+    font-size: 16px;
+    font-family: 'open_sansbold';
+}
+
+span.black-btn:focus {
+    color: rgb(42, 100, 150);
+    text-decoration: underline;
+}
+
+span.orange-black-round {
+    background: #fe8422 !important;
+    border-radius: 10px !important;
+    color: #fff !important;
+    display: inline-block !important;
+    font-family: "open_sansbold_italic" !important;
+    font-size: 24px !important;
+    height: 57px !important;
+    line-height: 56px !important;
+    padding: 0 25px !important;
+    text-decoration: none !important;
+    border: none !important;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+span.orange-black-round:hover {
+    color: #fe8422 !important;
+    background: #000 !important;
+    text-decoration: none;
+}
+
+span.gray_button-arrow {
+    background: #e0e0e0;
+    display: inline-block;
+    padding: 0 40px;
+    color: #252525;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'open_sansbold';
+}
+
+span.gray_button-arrow:hover {
+    background: #fe8422;
+    color: #252525;
+}
+
+span.gray_button-arrow a {
+    display: inline-block;
+    color: #252525;
+    float: right;
+    margin-top: 14px;
+    display: block;
+    width: 10px;
+    height: 7px;
+    margin-left: 12px;
+    text-decoration: none;
+    background: url(../../images/sprite.png) no-repeat -850px -6px;
+}
+
+span.orange-dwnld-btn, span.orange-dwnld-btn a {
+    background: #fe8422;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    padding: 0 18px 10px 35px;
+    font-family: 'open_sanssemibold_italic';
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+span.orange-dwnld-btn a {
+    background: url(../../images/download-icon.png) no-repeat -8px 4px;
+}
+
+span.orange-view-btn {
+    background: #fe8422;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 35px 10px 35px;
+    font-family: 'open_sanssemibold_italic';
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+span.orange-view-btn a {
+    background: url(../../images/view-icon.png) no-repeat -5px -9px;
+    vertical-align: middle;
+    padding-left: 45px;
+    color: #fff;
+}
+
+.richText .res-text-line
+{
+    float: left;
+    width: 165%;
+    margin-left: -65%;
+    background: url(http://cdn2.hubspot.net/hub/481864/file-2654958422-png/images/big-dotted-bg.png) repeat-x 0 0;
+    margin-top: 24px;
+    padding-top: 40px;
+    font-size: 20px;
+    font-family: open_sansregular;
+    color: #555;
+    line-height: 36px;
+    padding-top: 25px;
+
+}
+
+.richText p span.res-text-plain
+{
+    float: left;
+    width: 165%;
+    margin-left: -65%;
+    margin-top: 24px;
+    padding-top: 40px;
+    font-size: 20px;
+    font-family: open_sansregular;
+    color: #555;
+    line-height: 36px;
+    padding-top: 25px;
+
+}

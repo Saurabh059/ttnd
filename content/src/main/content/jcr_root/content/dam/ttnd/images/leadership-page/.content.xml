@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Leadership page"/>
+    <leadership.png/>
+    <xnarinder.png.pagespeed.ic.OmyvvbwndI.png/>
+    <xpuneet.png.pagespeed.ic.CS7uC_Rx0z.png/>
+    <xnarendr-l.png.pagespeed.ic.rEpNcnWFfd.png/>
+    <xrex.png.pagespeed.ic.y-yKxaxbwc.png/>
+    <xsatya.png.pagespeed.ic.HL2h3hZ8N4.png/>
+    <xraman.png.pagespeed.ic.mYTN4RKY3S.png/>
+    <xwayne.png.pagespeed.ic.UK8BWeWrjO.png/>
+    <xatul.png/>
+    <xashok.png/>
+    <xdhruvank.png/>
+    <xleon.png/>
+    <Converted_file_5ea2a1ef.png/>
+    <xdeepak.png/>
+</jcr:root>

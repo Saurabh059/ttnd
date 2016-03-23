@@ -1,0 +1,20 @@
+<!--
+
+  Search listing template
+
+-->
+<html>
+<sly data-sly-include="head.html" data-sly-unwrap></sly>
+<body>
+<div id="container">
+    <sly data-sly-include="author.html" data-sly-unwrap></sly>
+    <sly data-sly-include="header.html" data-sly-unwrap></sly>
+    <sly data-sly-resource="${'breadcrumbs' @ resourceType='ttnd/components/content/breadcrumbs'}" data-sly-unwrap></sly>
+    <sly data-sly-resource="${'headerSummary' @ resourceType='ttnd/components/content/headerSummary'}" data-sly-unwrap></sly>
+    <sly data-sly-include = "listing.html" data-sly-unwrap></sly>
+    <div data-sly-resource="${'map' @ resourceType='wcm/foundation/components/iparsys'}"></div>
+    <sly data-sly-include="footer.html" data-sly-unwrap></sly>
+</div>
+</body>
+</html>
+

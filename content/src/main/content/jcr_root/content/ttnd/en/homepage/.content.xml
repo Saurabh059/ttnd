@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-10-08T12:33:14.295+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[ttnd:Technology/Android,ttnd:Category/Mobility,ttnd:Category/Technology]"
+        cq:template="/apps/ttnd/templates/home-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="HOME | To The New Digital"
+        sling:resourceType="ttnd/components/page/home-page"
+        hideInNav="true">
+        <image
+            jcr:lastModified="{Date}2015-09-15T14:07:35.981+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+        <pagecontent
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <imagebannerslider
+                jcr:created="{Date}2015-09-27T21:45:01.435+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-09-27T21:48:20.343+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/imageBannerSlider"
+                description="[&lt;p> &lt;span class=&quot;slideContentHeader&quot;>We uniquely combine the power of &lt;/span>&lt;span class=&quot;slideContentHeaderBold&quot;>Technology\, Analytics\, Marketing&amp;nbsp;&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;slideContentHeaderBold&quot;>&amp;amp; Content&lt;/span>&lt;span class=&quot;slideContentHeader&quot;> for digital transformation&lt;/span>&lt;/p>,&lt;p>&lt;span class=&quot;slideImageHeader&quot;>We are a GREAT PLACE TO WORK&lt;/span>&lt;/p>]"
+                sliderContent="[{&quot;sliderImage&quot;:&quot;/content/dam/ttnd/images/homePage/home-banner-new.jpg&quot;\,&quot;sliderContentImage&quot;:&quot;&quot;\,&quot;description&quot;:&quot;&lt;p> &lt;span class=\\&quot;slideContentHeader\\&quot;>We uniquely combine the power of &lt;/span>&lt;span class=\\&quot;slideContentHeaderBold\\&quot;>Technology\, Analytics\, Marketing&amp;nbsp;&lt;/span>&lt;/p>\\n&lt;p>&lt;span class=\\&quot;slideContentHeaderBold\\&quot;>&amp;amp; Content&lt;/span>&lt;span class=\\&quot;slideContentHeader\\&quot;> for digital transformation&lt;/span>&lt;/p>&quot;\,&quot;footer&quot;:&quot;&lt;p>&lt;span class=\\&quot;contentFooterBold\\&quot;>600+&lt;/span> &lt;span class=\\&quot;contentFooter\\&quot;>Digital Evangelists\,&lt;/span>&lt;span class=\\&quot;contentFooterBold\\&quot;>300+&lt;/span> &lt;span class=\\&quot;contentFooter\\&quot;>Clients\,&lt;/span>&lt;span class=\\&quot;contentFooterBold\\&quot;>30+&lt;/span> &lt;span class=\\&quot;contentFooter\\&quot;>Countries&lt;/span>&lt;/p>&quot;},{&quot;sliderImage&quot;:&quot;/content/dam/ttnd/images/homePage/home-banner.jpg&quot;\,&quot;sliderContentImage&quot;:&quot;/content/dam/ttnd/images/homePage/great-place.png&quot;\,&quot;description&quot;:&quot;&lt;p>&lt;span class=\\&quot;slideImageHeader\\&quot;>We are a GREAT PLACE TO WORK&lt;/span>&lt;/p>&quot;\,&quot;footer&quot;:&quot;&lt;p>&lt;span class=\\&quot;imageFooter\\&quot;>Recognized as India's top 50 IT- BPM Companies to Work for 2015 &amp;nbsp;&amp;amp; India's top 5 Best Companies&lt;/span>&lt;/p>\\n&lt;p>&lt;span class=\\&quot;imageFooter\\&quot;>to Work for in India among Small Size Organisations in IT-BPM - 2015&lt;/span>&lt;/p>&quot;}]"/>
+            <image_container
+                jcr:created="{Date}2015-10-08T12:24:20.289+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-08T12:24:20.289+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/image_container">
+                <image_description_par
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/parsys">
+                    <imageanddescription
+                        jcr:created="{Date}2015-10-08T12:25:08.076+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-10-08T12:26:48.011+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ttnd/components/content/imageanddescription"
+                        background="margin-Btm"
+                        buttonPath="/content/ttnd/en/homepage/technology"
+                        buttonText="Know More"
+                        description="Business-critical applications for web, mobile and cloud platforms using razor edge technologies"
+                        heading="Technology"
+                        imageAlign="text-alignL"
+                        imageTextAlign="alignRight">
+                        <desktop
+                            jcr:lastModified="{Date}2015-10-08T12:26:48.011+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/image"
+                            fileReference="/content/dam/ttnd/images/image-description/xtech-banner.jpg"
+                            imageRotate="0"/>
+                        <mobile
+                            jcr:lastModified="{Date}2015-10-08T12:26:48.011+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/image"
+                            imageRotate="0"/>
+                    </imageanddescription>
+                    <imageanddescription_1049913378
+                        jcr:created="{Date}2015-10-08T12:27:02.359+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-10-08T12:33:14.285+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ttnd/components/content/imageanddescription"
+                        background="margin-Btm"
+                        buttonPath="/content/ttnd/en/homepage/analytics"
+                        buttonText="Know More"
+                        description="Social media monitoring &amp; analytics services that help clients get actionable insights from huge volume of social &amp; enterprise data"
+                        heading="Analytics"
+                        imageAlign="text-alignR"
+                        imageTextAlign="alignRight">
+                        <desktop
+                            jcr:lastModified="{Date}2015-10-08T12:33:14.285+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/image"
+                            fileReference="/content/dam/ttnd/images/image-description/xanalytics-banner.jpg"
+                            imageRotate="0"/>
+                        <mobile
+                            jcr:lastModified="{Date}2015-10-08T12:33:14.285+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/image"
+                            imageRotate="0"/>
+                    </imageanddescription_1049913378>
+                    <imageanddescription_1026016794
+                        jcr:created="{Date}2015-10-08T12:28:30.891+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-10-08T12:30:43.261+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ttnd/components/content/imageanddescription"
+                        background="margin-Btm"
+                        buttonPath="/content/ttnd/en/homepage/digitalmarketing"
+                        buttonText="Know More"
+                        description="Digital marketing campaigns across-platforms that impact the bottom-line and goes beyond 'likes' and 'tweets'"
+                        heading="Digital Marketing"
+                        imageAlign="text-alignL"
+                        imageTextAlign="alignRight">
+                        <desktop
+                            jcr:lastModified="{Date}2015-10-08T12:30:43.261+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/image"
+                            fileReference="/content/dam/ttnd/images/image-description/xdigital-markiting.jpg"
+                            imageRotate="0"/>
+                        <mobile
+                            jcr:lastModified="{Date}2015-10-08T12:30:43.261+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/image"
+                            imageRotate="0"/>
+                    </imageanddescription_1026016794>
+                    <imageanddescription_1012909651
+                        jcr:created="{Date}2015-10-08T12:31:14.107+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-10-08T12:32:42.827+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ttnd/components/content/imageanddescription"
+                        background="margin-Btm"
+                        buttonPath="/content/ttnd/en/homepage/content"
+                        buttonText="Know More"
+                        description="Manage, promote &amp; monetize video and music content on digital platforms"
+                        heading="Content"
+                        imageAlign="text-alignR"
+                        imageTextAlign="alignRight">
+                        <desktop
+                            jcr:lastModified="{Date}2015-10-08T12:32:42.827+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/image"
+                            fileReference="/content/dam/ttnd/images/image-description/xcontent.jpg"
+                            imageRotate="0"/>
+                        <mobile
+                            jcr:lastModified="{Date}2015-10-08T12:32:42.827+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/image"
+                            imageRotate="0"/>
+                    </imageanddescription_1012909651>
+                </image_description_par>
+            </image_container>
+            <case_studies
+                jcr:created="{Date}2015-09-17T10:35:45.841+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-09-17T10:43:18.483+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/case_studies"
+                topheader="Uniqueness Delivered">
+                <case_study
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/parsys">
+                    <casestudy
+                        jcr:created="{Date}2015-09-17T10:36:02.608+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-09-17T11:07:37.899+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ttnd/components/content/casestudy"
+                        buttontext="View Case Study"
+                        content="Social media campaign for Indian government's 'Make in India' initiative to reach every nook and corner of the world"
+                        fileReference="/content/dam/ttnd/images/case-studies/make-in-india-home.jpg"
+                        header="MAKE IN INDIA"
+                        imageRotate="0"/>
+                    <casestudy_1458666249
+                        jcr:created="{Date}2015-09-17T11:07:53.438+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-09-17T11:09:18.285+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ttnd/components/content/casestudy"
+                        buttontext="View Case Study"
+                        content="AEM implementation for the award winning corporate website of Time Warner Cable"
+                        fileReference="/content/dam/ttnd/images/case-studies/time-warner-cable-home.jpg"
+                        header="Time Warner Cable"
+                        imageRotate="0"/>
+                    <casestudy_1857539932
+                        jcr:created="{Date}2015-09-17T11:07:46.083+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-09-17T11:09:52.355+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ttnd/components/content/casestudy"
+                        buttontext="View Case Study"
+                        content="Social, demographic and psychographic insights through persona analysis for P&amp;G"
+                        fileReference="/content/dam/ttnd/images/case-studies/xp,ag-home.jpg"
+                        header="P&amp;G"
+                        imageRotate="0"/>
+                </case_study>
+            </case_studies>
+            <client_logos
+                jcr:created="{Date}2015-09-17T12:38:50.730+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-09-17T14:24:07.934+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/client_logos"
+                headingText="Trusted by World's Best">
+                <image3
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="TWC"
+                    fileReference="/content/dam/ttnd/images/client-logos/xtime-warner.png"/>
+                <image1
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="P&amp;G"
+                    fileReference="/content/dam/ttnd/images/client-logos/xp-,a-g-client-logo.png.pagespeed.ic.aSIH_bLHmz.png"/>
+                <image2
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Sony"
+                    fileReference="/content/dam/ttnd/images/client-logos/xsony-entertainment-television-client-logo.png.pagespeed.ic.OmzeGMCiMv.png"/>
+                <image31
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Airbus"
+                    fileReference="/content/dam/ttnd/images/client-logos/xairbus.png.pagespeed.ic.9dN180PbjK.png"/>
+                <image4
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Pizza Hut"
+                    fileReference="/content/dam/ttnd/images/client-logos/xpizza-hut-client-logo.png.pagespeed.ic.GQSbeSNy0j.png"/>
+                <image5
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Make in India"
+                    fileReference="/content/dam/ttnd/images/client-logos/xmake-in-india-client-logo.png.pagespeed.ic.DSJKAYTADi.png"/>
+                <image6
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Air Asia"
+                    fileReference="/content/dam/ttnd/images/client-logos/xair-asia-client-logo.png.pagespeed.ic.vcZ_qNSxlE.png"/>
+                <image7
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Maruti Suzuki"
+                    fileReference="/content/dam/ttnd/images/client-logos/xmaruti-client-logo.png"/>
+                <image8
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Induslnd Bank"
+                    fileReference="/content/dam/ttnd/images/client-logos/xstandard-chartered-client-logo.png"/>
+                <image9
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Car Dekho"
+                    fileReference="/content/dam/ttnd/images/client-logos/xcardekho-client-logo.png"/>
+                <image10
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Samsung"
+                    fileReference="/content/dam/ttnd/images/client-logos/xsamsung-client-logo.png"/>
+                <image11
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="LG"
+                    fileReference="/content/dam/ttnd/images/client-logos/xlg-client-logo.png"/>
+                <image12
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Axis Bank"
+                    fileReference="/content/dam/ttnd/images/client-logos/xaxis-bank-client-logo.png"/>
+                <image13
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Zee TV"
+                    fileReference="/content/dam/ttnd/images/client-logos/xztv-client-logo.png"/>
+                <image14
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Castrol"
+                    fileReference="/content/dam/ttnd/images/client-logos/xcastrol-client-logo.png"/>
+                <image15
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Citi"
+                    fileReference="/content/dam/ttnd/images/client-logos/xciti-bank-CLIENT-LOGO.png"/>
+                <image16
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Google"
+                    fileReference="/content/dam/ttnd/images/client-logos/xgoogle-client-logo.png"/>
+                <image17
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Mat.se"
+                    fileReference="/content/dam/ttnd/images/client-logos/xmat.se.png"/>
+                <image18
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Toshiba"
+                    fileReference="/content/dam/ttnd/images/client-logos/xtoshiba-client-logo.png"/>
+                <image19
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Viacom"
+                    fileReference="/content/dam/ttnd/images/client-logos/xviacom-client-logo.png"/>
+                <image20 jcr:primaryType="nt:unstructured"/>
+            </client_logos>
+            <imageanddescription
+                jcr:created="{Date}2015-09-18T17:39:49.192+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-09-18T17:44:23.736+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/imageanddescription"
+                altText="grails-conference"
+                background="event-sec"
+                buttonPath="#"
+                description="We organized GrailsConf 2015 in January&#xa;2015 in collaboration with Pivotal&#xa;and GR8Conf in New Delhi"
+                heading="GrailsConf 2015"
+                imageAlign="text-alignL">
+                <desktop
+                    jcr:lastModified="{Date}2015-09-18T17:44:23.736+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/image"
+                    fileReference="/content/dam/ttnd/images/image-description/xgrailsconf-event.jpg"
+                    imageRotate="0"/>
+                <mobile
+                    jcr:lastModified="{Date}2015-09-18T17:44:23.736+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/image"
+                    imageRotate="0"/>
+            </imageanddescription>
+            <map
+                jcr:created="{Date}2015-09-17T15:16:41.769+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-09-29T23:45:47.957+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/map"
+                background="bg-black"
+                fileReference="/content/dam/ttnd/images/map/black-map.jpg"
+                headingText="We have gone places!"
+                imageRotate="0"
+                mapTextArray="[{&quot;statistic&quot;:&quot;600+&quot;\,&quot;property&quot;:&quot;People&quot;},{&quot;statistic&quot;:&quot;9&quot;\,&quot;property&quot;:&quot;Offices&quot;},{&quot;statistic&quot;:&quot;30+&quot;\,&quot;property&quot;:&quot;Countries&quot;}]"
+                property="[People,Offices,Countries]"
+                statistic="[600+,9,30+]"/>
+        </pagecontent>
+        <footerpar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/iparsys"/>
+        <map
+            jcr:lastModified="{Date}2015-09-29T23:45:37.762+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/iparsys">
+            <iparsys_fake_par
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/iparsys/par"
+                inheritance="cancel"/>
+        </map>
+    </jcr:content>
+    <technology/>
+    <analytics/>
+    <content/>
+    <digitalmarketing/>
+</jcr:root>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <shelf-Configuration
+                jcr:primaryType="cq:Panel"
+                title="Shelf Configuration">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <background
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Select the background color"
+                        name="./bgcolor"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <white
+                                jcr:primaryType="nt:unstructured"
+                                text="White"
+                                value="white-container"/>
+                            <gray
+                                jcr:primaryType="nt:unstructured"
+                                text="Gray"
+                                value="gray-container"/>
+                            <black
+                                jcr:primaryType="nt:unstructured"
+                                text="Black"
+                                value="black-container"/>
+                            <gray92
+                                jcr:primaryType="nt:unstructured"
+                                text="Gray92"
+                                value="gray-92"/>
+                            <grey-pattern
+                                jcr:primaryType="nt:unstructured"
+                                text="Grey Pattern"
+                                value="grey-pattern"/>
+                        </options>
+                    </background>
+                    <nav-title
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Sticky Nav Title"
+                        name="./navTitle"
+                        xtype="textfield"/>
+                </items>
+            </shelf-Configuration>
+        </items>
+    </items>
+</jcr:root>

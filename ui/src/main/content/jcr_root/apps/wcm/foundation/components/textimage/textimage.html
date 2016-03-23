@@ -1,0 +1,12 @@
+
+<sly data-sly-use.textImage="textimage.js"
+     data-sly-use.emptyRenderer="emptytextimage.html"
+     data-sly-call="${emptyRenderer.emptyTextImageTemplate @ textImage=textImage}" />
+<div
+    data-sly-test="${textImage.hasContent}"
+    class="textimage-${textImage.alignment || 'left'}"
+    data-sly-resource="${'image' @ resourceType='wcm/foundation/components/image', wcmmode='disabled'}"></div>
+<div
+    data-sly-test="${textImage.hasContent}"
+    class="textimage-text"
+    data-sly-resource="${'.' @ resourceType='wcm/foundation/components/text', wcmmode='disabled'}"></div>

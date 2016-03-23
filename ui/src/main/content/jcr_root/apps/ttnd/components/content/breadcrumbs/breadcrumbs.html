@@ -1,0 +1,17 @@
+<!--
+  Breadcrumbs Component for Blog
+-->
+<div class="row breadcrumb-margin0">
+  <div data-sly-use.breadcrumb="com.ttndigital.cms.model.BreadCrumbComponent" id="breadcrumb-component" class="col-xs-12 breadcrumbs padding0">
+    <ul data-sly-list.keyName="${breadcrumb.breadcrumbs}">
+      <li>
+        <span data-sly-test="${keyName != currentPage.name}">
+          <a title="Go to ${keyName}"  href="${breadcrumb.breadcrumbs[keyName]}.html" class="home">${keyName}</a>
+        </span>
+        <span data-sly-test="${keyName == currentPage.name}">
+          <a href="#" class="home">${keyName}</a>
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>

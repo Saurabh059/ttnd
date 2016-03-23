@@ -1,0 +1,17 @@
+<!--
+  PractisesPage component.
+  This page is contentPage + scrrol Header
+-->
+<sly data-sly-resource="${'breadcrumbs' @ resourceType='/apps/ttnd/components/content/breadcrumbs'}"></sly>
+<div class="scrool-header" style="display: block;">
+    <div class="small-logo">
+        <a rel="nofollow" href="/">
+            <img src="images/xsmall-logo.png.pagespeed.ic.e1xKG9f8kC.png" alt="Logo">
+        </a>
+    </div>
+    <div class="navigation">
+			<!-- scrool-header-list-component -->
+    </div>
+</div>
+<div data-sly-resource="${'pagecontent' @ resourceType='wcm/foundation/components/parsys'}"></div>
+

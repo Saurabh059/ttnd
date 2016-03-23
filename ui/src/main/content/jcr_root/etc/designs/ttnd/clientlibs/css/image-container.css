@@ -1,0 +1,40 @@
+.imageanddescription .t-detail.alignRight {
+    position: absolute;
+    padding: 35px 35px 20px 50px;
+    top: 0;
+    right: 0;
+}
+
+.imageanddescription .t-detail.alignLeft {
+    padding-left: 35px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.imageanddescription .t-detail p {
+    color: #000 !important;
+    font-size: 12px !important;
+    line-height: 28px !important;
+    font-weight: normal !important;
+}
+
+.imageanddescription .t-detail .black-quotes:before {
+    content: url(/etc/designs/ttnd/images/opening-black-quotes.png);
+    vertical-align: super;
+}
+
+.imageanddescription .t-detail .black-quotes:after {
+    content: url(/etc/designs/ttnd/images/closing-black-quotes.png);
+    vertical-align: super;
+}
+
+.imageanddescription img {
+    width: 100% !important;
+}
+
+.imageanddescription .gray-bg {
+    background: #f7f7f7;
+    height: 262px !important;
+    margin-bottom: 0 !important;
+}

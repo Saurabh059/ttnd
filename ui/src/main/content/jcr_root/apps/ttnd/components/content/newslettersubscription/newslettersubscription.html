@@ -1,0 +1,19 @@
+<div class="subscribe">
+    <form id="subscribeForm">
+        <ul>
+        	<li>${properties.subscriptionCategory} </li>
+            <div data-sly-list.subscription = "${properties.subscriptionsList}" data-sly-unwrap>
+                <li>
+                    <input type="checkbox" value="${subscription}" checked=""/>
+                    ${subscription}
+                </li>
+            </div>
+        </ul>
+        <ul class="sign-up-frm">
+            <li class="width100">
+                <input type="text" id="email" name="email" placeholder="Enter your email here"/>
+                <input class="submit subscribeButton" type="submit" value="Sign Up"/>
+            </li>
+        </ul>
+    </form>
+</div>

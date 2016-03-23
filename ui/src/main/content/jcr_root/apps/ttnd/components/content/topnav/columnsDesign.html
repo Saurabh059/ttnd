@@ -1,0 +1,11 @@
+
+<template data-sly-template.designColumns ="${@ columnRendered,leafChild,headerPath}" 
+    	data-sly-use.topnavHeader="${'com.ttndigital.cms.model.TopNavComponent' @ columnRendered=columnRendered,leafChild=leafChild,headerPath=headerPath}" data-sly-unwrap>
+        <div class="sub-nav-list">
+            <ul>
+                <li><a href="${leafChild.path}.html">${leafChild.title}</a></li>
+            </ul>
+        </div>
+        <div data-sly-test ="${topnavHeader.breakLine}" data-sly-unwrap><br/></div>
+ </template>
+

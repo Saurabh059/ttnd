@@ -1,0 +1,677 @@
+.logoAndDesciption .grails-detail {
+    max-width: 770px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.logoAndDesciption .grails-detail h2 {
+    text-align: center;
+}
+
+.logoAndDesciption .grails-detail ul li {
+    background: url("images/bullets.png") no-repeat scroll left 10px;
+    padding-left: 35px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'open_sansregular';
+    color: #555555;
+    line-height: 30px;
+}
+
+.logoAndDesciption .row .col-xs-12 p {
+    color: #252525;
+    line-height: 28px;
+    margin-bottom: 25px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.logoAndDesciption .grails-detail p {
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.logoAndDesciption .row {
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+.logoAndDesciption .col-xs-1, .logoAndDesciption .col-xs-2, .logoAndDesciption .col-xs-3, .logoAndDesciption .col-xs-4, .logoAndDesciption .col-xs-5, .logoAndDesciption .col-xs-6, .logoAndDesciption .col-xs-7, .logoAndDesciption .col-xs-8, .logoAndDesciption .col-xs-9, .logoAndDesciption .col-xs-10, .logoAndDesciption .col-xs-11, .logoAndDesciption .col-xs-12, .logoAndDesciption .col-sm-1, .logoAndDesciption .col-sm-2, .logoAndDesciption .col-sm-3, .logoAndDesciption .col-sm-4, .logoAndDesciption .col-sm-5, .logoAndDesciption .col-sm-6, .logoAndDesciption .col-sm-7, .logoAndDesciption .col-sm-8, .logoAndDesciption .col-sm-9, .logoAndDesciption .col-sm-10, .logoAndDesciption .col-sm-11, .logoAndDesciption .col-sm-12, .logoAndDesciption .col-md-1, .logoAndDesciption .col-md-2, .logoAndDesciption .col-md-3, .logoAndDesciption .col-md-4, .logoAndDesciption .col-md-5, .logoAndDesciption .col-md-6, .logoAndDesciption .col-md-7, .logoAndDesciption .col-md-8, .logoAndDesciption .col-md-9, .logoAndDesciption .col-md-10, .logoAndDesciption .col-md-11, .logoAndDesciption .col-md-12, .logoAndDesciption .col-lg-1, .logoAndDesciption .col-lg-2, .logoAndDesciption .col-lg-3, .logoAndDesciption .col-lg-4, .logoAndDesciption .col-lg-5, .logoAndDesciption .col-lg-6, .logoAndDesciption .col-lg-7, .logoAndDesciption .col-lg-8, .logoAndDesciption .col-lg-9, .logoAndDesciption .col-lg-10, .logoAndDesciption .col-lg-11, .logoAndDesciption .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+.logoAndDesciption .col-xs-1, .logoAndDesciption .col-xs-2, .logoAndDesciption .col-xs-3, .logoAndDesciption .col-xs-4, .logoAndDesciption .col-xs-5, .logoAndDesciption .col-xs-6, .logoAndDesciption .col-xs-7, .logoAndDesciption .col-xs-8, .logoAndDesciption .col-xs-9, .logoAndDesciption .col-xs-10, .logoAndDesciption .col-xs-11, .logoAndDesciption .col-xs-12, .logoAndDesciption .col-sm-1, .logoAndDesciption .col-sm-2, .logoAndDesciption .col-sm-3, .logoAndDesciption .col-sm-4, .logoAndDesciption .col-sm-5, .logoAndDesciption .col-sm-6, .logoAndDesciption .col-sm-7, .logoAndDesciption .col-sm-8, .logoAndDesciption .col-sm-9, .logoAndDesciption .col-sm-10, .logoAndDesciption .col-sm-11, .logoAndDesciption .col-sm-12, .logoAndDesciption .col-md-1, .logoAndDesciption .col-md-2, .logoAndDesciption .col-md-3, .logoAndDesciption .col-md-4, .logoAndDesciption .col-md-5, .logoAndDesciption .col-md-6, .logoAndDesciption .col-md-7, .logoAndDesciption .col-md-8, .logoAndDesciption .col-md-9, .logoAndDesciption .col-md-10, .logoAndDesciption .col-md-11, .logoAndDesciption .col-md-12, .logoAndDesciption .col-lg-1, .logoAndDesciption .col-lg-2, .logoAndDesciption .col-lg-3, .logoAndDesciption .col-lg-4, .logoAndDesciption .col-lg-5, .logoAndDesciption .col-lg-6, .logoAndDesciption .col-lg-7, .logoAndDesciption .col-lg-8, .logoAndDesciption .col-lg-9, .logoAndDesciption .col-lg-10, .logoAndDesciption .col-lg-11 {
+    float: left
+}
+
+.logoAndDesciption .col-xs-1 {
+    width: 8.333333333333332%
+}
+
+.logoAndDesciption .col-xs-2 {
+    width: 16.666666666666664%
+}
+
+.logoAndDesciption .col-xs-3 {
+    width: 25%
+}
+
+.logoAndDesciption .col-xs-4 {
+    width: 33.33333333333333%
+}
+
+.logoAndDesciption .col-xs-5 {
+    width: 41.66666666666667%
+}
+
+.logoAndDesciption .col-xs-6 {
+    width: 50%
+}
+
+.logoAndDesciption .col-xs-7 {
+    width: 58.333333333333336%
+}
+
+.logoAndDesciption .col-xs-8 {
+    width: 66.66666666666666%
+}
+
+.logoAndDesciption .col-xs-9 {
+    width: 75%
+}
+
+.logoAndDesciption .col-xs-10 {
+    width: 83.33333333333334%
+}
+
+.logoAndDesciption .col-xs-11 {
+    width: 91.66666666666666%
+}
+
+.logoAndDesciption.col-xs-12 {
+    width: 100%
+}
+
+.logoAndDescription .col-sm-1, .logoAndDescription .col-sm-2, .logoAndDescription .col-sm-3, .logoAndDescription .col-sm-4, .logoAndDescription .col-sm-5, .logoAndDescription .col-sm-6, .logoAndDescription .col-sm-7, .logoAndDescription .col-sm-8, .logoAndDescription .col-sm-9, .logoAndDescription .col-sm-10, .logoAndDescription .col-sm-11 {
+    float: left
+}
+
+.logoAndDescription .col-sm-1 {
+    width: 8.333333333333332%
+}
+
+.logoAndDescription .col-sm-2 {
+    width: 16.666666666666664%
+}
+
+.logoAndDescription .col-sm-3 {
+    width: 25%
+}
+
+.logoAndDescription .col-sm-4 {
+    width: 33.33333333333333%
+}
+
+.logoAndDescription .col-sm-5 {
+    width: 41.66666666666667%
+}
+
+.logoAndDescription .col-sm-6 {
+    width: 50%
+}
+
+.logoAndDescription .col-sm-7 {
+    width: 58.333333333333336%
+}
+
+.logoAndDescription .col-sm-8 {
+    width: 66.66666666666666%
+}
+
+.logoAndDescription .col-sm-9 {
+    width: 75%
+}
+
+.logoAndDescription .col-sm-10 {
+    width: 83.33333333333334%
+}
+
+.logoAndDescription .col-sm-11 {
+    width: 91.66666666666666%
+}
+
+.logoAndDescription .col-sm-12 {
+    width: 100%
+}
+
+.logoAndDescription .col-sm-push-1 {
+    left: 8.333333333333332%
+}
+
+.logoAndDescription .col-sm-push-2 {
+    left: 16.666666666666664%
+}
+
+.logoAndDescription .col-sm-push-3 {
+    left: 25%
+}
+
+.logoAndDescription .col-sm-push-4 {
+    left: 33.33333333333333%
+}
+
+.logoAndDescription .col-sm-push-5 {
+    left: 41.66666666666667%
+}
+
+.logoAndDescription .col-sm-push-6 {
+    left: 50%
+}
+
+.logoAndDescription .col-sm-push-7 {
+    left: 58.333333333333336%
+}
+
+.logoAndDescription .col-sm-push-8 {
+    left: 66.66666666666666%
+}
+
+.logoAndDescription .col-sm-push-9 {
+    left: 75%
+}
+
+.logoAndDescription .col-sm-push-10 {
+    left: 83.33333333333334%
+}
+
+.logoAndDescription .col-sm-push-11 {
+    left: 91.66666666666666%
+}
+
+.logoAndDescription .col-sm-pull-1 {
+    right: 8.333333333333332%
+}
+
+.logoAndDescription .col-sm-pull-2 {
+    right: 16.666666666666664%
+}
+
+.logoAndDescription .col-sm-pull-3 {
+    right: 25%
+}
+
+.logoAndDescription .col-sm-pull-4 {
+    right: 33.33333333333333%
+}
+
+.logoAndDescription .col-sm-pull-5 {
+    right: 41.66666666666667%
+}
+
+.logoAndDescription .col-sm-pull-6 {
+    right: 50%
+}
+
+.logoAndDescription .col-sm-pull-7 {
+    right: 58.333333333333336%
+}
+
+.logoAndDescription .col-sm-pull-8 {
+    right: 66.66666666666666%
+}
+
+.logoAndDescription .col-sm-pull-9 {
+    right: 75%
+}
+
+.logoAndDescription .col-sm-pull-10 {
+    right: 83.33333333333334%
+}
+
+.logoAndDescription .col-sm-pull-11 {
+    right: 91.66666666666666%
+}
+
+.logoAndDescription .col-sm-offset-1 {
+    margin-left: 8.333333333333332%
+}
+
+.logoAndDescription .col-sm-offset-2 {
+    margin-left: 16.666666666666664%
+}
+
+.logoAndDescription .col-sm-offset-3 {
+    margin-left: 25%
+}
+
+.logoAndDescription .col-sm-offset-4 {
+    margin-left: 33.33333333333333%
+}
+
+.logoAndDescription .col-sm-offset-5 {
+    margin-left: 41.66666666666667%
+}
+
+.logoAndDescription .col-sm-offset-6 {
+    margin-left: 50%
+}
+
+.logoAndDescription .col-sm-offset-7 {
+    margin-left: 58.333333333333336%
+}
+
+.logoAndDescription .col-sm-offset-8 {
+    margin-left: 66.66666666666666%
+}
+
+.logoAndDescription .col-sm-offset-9 {
+    margin-left: 75%
+}
+
+.logoAndDescription .col-sm-offset-10 {
+    margin-left: 83.33333333333334%
+}
+
+.logoAndDescription .col-sm-offset-11 {
+    margin-left: 91.66666666666666%
+}
+
+    }
+
+.logoAndDescription .col-md-1, .logoAndDescription .col-md-2, .logoAndDescription .col-md-3, .logoAndDescription .col-md-4, .logoAndDescription .col-md-5, .logoAndDescription .col-md-6, .logoAndDescription .col-md-7, .logoAndDescription .col-md-8, .logoAndDescription .col-md-9, .logoAndDescription .col-md-10, .logoAndDescription .col-md-11 {
+    float: left
+}
+
+.logoAndDescription .col-md-1 {
+    width: 8.333333333333332%
+}
+
+.logoAndDescription .col-md-2 {
+    width: 16.666666666666664%
+}
+
+.logoAndDescription .col-md-3 {
+    width: 25%
+}
+
+.logoAndDescription .col-md-4 {
+    width: 33.33333333333333%
+}
+
+.logoAndDescription .col-md-5 {
+    width: 41.66666666666667%
+}
+
+.logoAndDescription .col-md-6 {
+    width: 50%
+}
+
+.logoAndDescription .col-md-7 {
+    width: 58.333333333333336%
+}
+
+.logoAndDescription .col-md-8 {
+    width: 66.66666666666666%
+}
+
+.logoAndDescription .col-md-9 {
+    width: 75%
+}
+
+.logoAndDescription .col-md-10 {
+    width: 83.33333333333334%
+}
+
+.logoAndDescription .col-md-11 {
+    width: 91.66666666666666%
+}
+
+.logoAndDescription .col-md-12 {
+    width: 100%
+}
+
+.logoAndDescription .col-md-push-0 {
+    left: auto
+}
+
+.logoAndDescription .col-md-push-1 {
+    left: 8.333333333333332%
+}
+
+.logoAndDescription .col-md-push-2 {
+    left: 16.666666666666664%
+}
+
+.logoAndDescription .col-md-push-3 {
+    left: 25%
+}
+
+.logoAndDescription .col-md-push-4 {
+    left: 33.33333333333333%
+}
+
+.logoAndDescription .col-md-push-5 {
+    left: 41.66666666666667%
+}
+
+.logoAndDescription .col-md-push-6 {
+    left: 50%
+}
+
+.logoAndDescription .col-md-push-7 {
+    left: 58.333333333333336%
+}
+
+.logoAndDescription .col-md-push-8 {
+    left: 66.66666666666666%
+}
+
+.logoAndDescription .col-md-push-9 {
+    left: 75%
+}
+
+.logoAndDescription .col-md-push-10 {
+    left: 83.33333333333334%
+}
+
+.logoAndDescription .col-md-push-11 {
+    left: 91.66666666666666%
+}
+
+.logoAndDescription .col-md-pull-0 {
+    right: auto
+}
+
+.logoAndDescription .col-md-pull-1 {
+    right: 8.333333333333332%
+}
+
+.logoAndDescription .col-md-pull-2 {
+    right: 16.666666666666664%
+}
+
+.logoAndDescription .col-md-pull-3 {
+    right: 25%
+}
+
+.logoAndDescription .col-md-pull-4 {
+    right: 33.33333333333333%
+}
+
+.logoAndDescription .col-md-pull-5 {
+    right: 41.66666666666667%
+}
+
+.logoAndDescription .col-md-pull-6 {
+    right: 50%
+}
+
+.logoAndDescription .col-md-pull-7 {
+    right: 58.333333333333336%
+}
+
+.logoAndDescription .col-md-pull-8 {
+    right: 66.66666666666666%
+}
+
+.logoAndDescription .col-md-pull-9 {
+    right: 75%
+}
+
+.logoAndDescription .col-md-pull-10 {
+    right: 83.33333333333334%
+}
+
+.logoAndDescription .col-md-pull-11 {
+    right: 91.66666666666666%
+}
+
+.logoAndDescription .col-md-offset-0 {
+    margin-left: 0
+}
+
+.logoAndDescription .col-md-offset-1 {
+    margin-left: 8.333333333333332%
+}
+
+.logoAndDescription .col-md-offset-2 {
+    margin-left: 16.666666666666664%
+}
+
+.logoAndDescription .col-md-offset-3 {
+    margin-left: 25%
+}
+
+.logoAndDescription .col-md-offset-4 {
+    margin-left: 33.33333333333333%
+}
+
+.logoAndDescription .col-md-offset-5 {
+    margin-left: 41.66666666666667%
+}
+
+.logoAndDescription .col-md-offset-6 {
+    margin-left: 50%
+}
+
+.logoAndDescription .col-md-offset-7 {
+    margin-left: 58.333333333333336%
+}
+
+.logoAndDescription .col-md-offset-8 {
+    margin-left: 66.66666666666666%
+}
+
+.logoAndDescription .col-md-offset-9 {
+    margin-left: 75%
+}
+
+.logoAndDescription .col-md-offset-10 {
+    margin-left: 83.33333333333334%
+}
+
+.logoAndDescription .col-md-offset-11 {
+    margin-left: 91.66666666666666%
+}
+
+    }
+
+.logoAndDescription .col-lg-1, .logoAndDescription .col-lg-2, .logoAndDescription .col-lg-3, .logoAndDescription .col-lg-4, .logoAndDescription .col-lg-5, .logoAndDescription .col-lg-6, .logoAndDescription .col-lg-7, .logoAndDescription .col-lg-8, .logoAndDescription .col-lg-9, .logoAndDescription .col-lg-10, .logoAndDescription .col-lg-11 {
+    float: left
+}
+
+.logoAndDescription .col-lg-1 {
+    width: 8.333333333333332%
+}
+
+.logoAndDescription .col-lg-2 {
+    width: 16.666666666666664%
+}
+
+.logoAndDescription .col-lg-3 {
+    width: 25%
+}
+
+.logoAndDescription .col-lg-4 {
+    width: 33.33333333333333%
+}
+
+.logoAndDescription .col-lg-5 {
+    width: 41.66666666666667%
+}
+
+.logoAndDescription .col-lg-6 {
+    width: 50%
+}
+
+.logoAndDescription .col-lg-7 {
+    width: 58.333333333333336%
+}
+
+.logoAndDescription .col-lg-8 {
+    width: 66.66666666666666%
+}
+
+.logoAndDescription .col-lg-9 {
+    width: 75%
+}
+
+.logoAndDescription .col-lg-10 {
+    width: 83.33333333333334%
+}
+
+.logoAndDescription .col-lg-11 {
+    width: 91.66666666666666%
+}
+
+.logoAndDescription .col-lg-12 {
+    width: 100%
+}
+
+.logoAndDescription .col-lg-push-0 {
+    left: auto
+}
+
+.logoAndDescription .col-lg-push-1 {
+    left: 8.333333333333332%
+}
+
+.logoAndDescription .col-lg-push-2 {
+    left: 16.666666666666664%
+}
+
+.logoAndDescription .col-lg-push-3 {
+    left: 25%
+}
+
+.logoAndDescription .col-lg-push-4 {
+    left: 33.33333333333333%
+}
+
+.logoAndDescription .col-lg-push-5 {
+    left: 41.66666666666667%
+}
+
+.logoAndDescription .col-lg-push-6 {
+    left: 50%
+}
+
+.logoAndDescription .col-lg-push-7 {
+    left: 58.333333333333336%
+}
+
+.logoAndDescription .col-lg-push-8 {
+    left: 66.66666666666666%
+}
+
+.logoAndDescription .col-lg-push-9 {
+    left: 75%
+}
+
+.logoAndDescription .col-lg-push-10 {
+    left: 83.33333333333334%
+}
+
+.logoAndDescription .col-lg-push-11 {
+    left: 91.66666666666666%
+}
+
+.logoAndDescription .col-lg-pull-0 {
+    right: auto
+}
+
+.logoAndDescription .col-lg-pull-1 {
+    right: 8.333333333333332%
+}
+
+.logoAndDescription .col-lg-pull-2 {
+    right: 16.666666666666664%
+}
+
+.logoAndDescription .col-lg-pull-3 {
+    right: 25%
+}
+
+.logoAndDescription .col-lg-pull-4 {
+    right: 33.33333333333333%
+}
+
+.logoAndDescription .col-lg-pull-5 {
+    right: 41.66666666666667%
+}
+
+.logoAndDescription .col-lg-pull-6 {
+    right: 50%
+}
+
+.logoAndDescription .col-lg-pull-7 {
+    right: 58.333333333333336%
+}
+
+.logoAndDescription .col-lg-pull-8 {
+    right: 66.66666666666666%
+}
+
+.logoAndDescription .col-lg-pull-9 {
+    right: 75%
+}
+
+.logoAndDescription .col-lg-pull-10 {
+    right: 83.33333333333334%
+}
+
+.logoAndDescription .col-lg-pull-11 {
+    right: 91.66666666666666%
+}
+
+.logoAndDescription .col-lg-offset-0 {
+    margin-left: 0
+}
+
+.logoAndDescription .col-lg-offset-1 {
+    margin-left: 8.333333333333332%
+}
+
+.logoAndDescription .col-lg-offset-2 {
+    margin-left: 16.666666666666664%
+}
+
+.logoAndDescription .col-lg-offset-3 {
+    margin-left: 25%
+}
+
+.logoAndDescription .col-lg-offset-4 {
+    margin-left: 33.33333333333333%
+}
+
+.logoAndDescription .col-lg-offset-5 {
+    margin-left: 41.66666666666667%
+}
+
+.logoAndDescription .col-lg-offset-6 {
+    margin-left: 50%
+}
+
+.logoAndDescription .col-lg-offset-7 {
+    margin-left: 58.333333333333336%
+}
+
+.logoAndDescription .col-lg-offset-8 {
+    margin-left: 66.66666666666666%
+}
+
+.logoAndDescription .col-lg-offset-9 {
+    margin-left: 75%
+}
+
+.logoAndDescription .col-lg-offset-10 {
+    margin-left: 83.33333333333334%
+}
+
+.logoAndDescription .col-lg-offset-11 {
+    margin-left: 91.66666666666666%
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-10-12T14:01:19.479+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/ttnd/templates/general-page-with-breadcrumb"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Media Coverage"
+        sling:resourceType="ttnd/components/page/general-page-with-breadcrumb">
+        <pagecontent
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <hero
+                jcr:created="{Date}2015-10-09T11:41:12.957+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-09T11:47:10.477+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/hero"
+                description="&lt;p>We are making headlines&lt;/p>&#xa;"
+                heading="Media Coverage">
+                <desktop
+                    jcr:lastModified="{Date}2015-10-09T11:47:10.477+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/image"
+                    fileReference="/content/dam/ttnd/images/heroImages/media-coverage.jpg"
+                    imageRotate="0"/>
+            </hero>
+            <columncontrol
+                jcr:created="{Date}2015-10-09T11:41:43.698+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-12T13:08:57.208+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/columnControl"
+                columnlayout="3">
+                <parsys0
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/parsys">
+                    <media
+                        jcr:created="{Date}2015-10-09T11:42:08.046+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-10-09T12:17:13.569+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ttnd/components/content/media"
+                        description="&lt;p>TO THE NEW Digital Selected as a 2015 Red Herring Top 100 Asia&lt;/p>&#xa;"
+                        fileReference="/content/dam/ttnd/images/mediaCoverageLogos/silicon-india.gif"
+                        imageRotate="0"
+                        mediaDate="09/29/15"
+                        mediaUrl="http://www.siliconindia.com/news/enterpriseit/TO-THE-NEW-Digital-Selected-as-a-2015-Red-Herring-Top-100-Asia-nid-187633-cid-7.html"/>
+                    <mediacoverage
+                        jcr:created="{Date}2015-10-12T12:41:33.029+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-10-12T14:00:50.499+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ttnd/components/content/mediaCoverage"
+                        description="&lt;p>TO THE NEW Digital Selected as a 2015 Red Herring Top 100 Asia&lt;/p>&#xa;"
+                        fileReference="/content/dam/ttnd/images/mediaCoverageLogos/silicon-india.gif"
+                        imageRotate="0"
+                        mediaAlt="SiliconIndia"
+                        mediaDate="09/29/15"
+                        mediaUrl="http://www.siliconindia.com/news/enterpriseit/TO-THE-NEW-Digital-Selected-as-a-2015-Red-Herring-Top-100-Asia-nid-187633-cid-7.html"/>
+                </parsys0>
+                <parsys1
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/parsys">
+                    <mediacoverage
+                        jcr:created="{Date}2015-10-12T12:41:39.418+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-10-12T14:01:04.939+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ttnd/components/content/mediaCoverage"
+                        description="&lt;p>How a few companies are keeping employees motivated&lt;/p>&#xa;"
+                        fileReference="/content/dam/ttnd/images/mediaCoverageLogos/financial-express.jpg"
+                        imageRotate="0"
+                        mediaAlt="the-financial-express"
+                        mediaDate="09/24/15"
+                        mediaUrl="http://www.financialexpress.com/article/industry/companies/work-worship/135704/"/>
+                </parsys1>
+                <parsys2
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/parsys">
+                    <mediacoverage
+                        jcr:created="{Date}2015-10-12T12:53:12.618+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-10-12T14:01:19.476+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ttnd/components/content/mediaCoverage"
+                        description="&lt;p>TO THE NEW Digital Wins Red Herring 100 Asia 2015&lt;/p>&#xa;"
+                        fileReference="/content/dam/ttnd/images/mediaCoverageLogos/iifl.png"
+                        imageRotate="0"
+                        mediaAlt="IIFL"
+                        mediaDate="09/23/15"
+                        mediaUrl="http://www.indiainfoline.com/article/news-business/to-the-new-digital-wins-red-herring-100-asia-2015-115092300169_1.html"/>
+                </parsys2>
+            </columncontrol>
+        </pagecontent>
+    </jcr:content>
+</jcr:root>

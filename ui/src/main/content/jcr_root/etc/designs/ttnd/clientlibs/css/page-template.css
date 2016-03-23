@@ -1,0 +1,12 @@
+/* resource-page-template */
+
+.container-fluid {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.body-container section.header.clearfix {
+    padding: 0px !important;
+}

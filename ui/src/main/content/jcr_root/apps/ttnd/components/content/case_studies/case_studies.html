@@ -1,0 +1,40 @@
+<section style="padding-bottom:0!important">
+    <div class="width100 margin0">
+        <div class="clearfix">
+            <div class="col-xs-12">
+            	<h2>${properties.topheader}</h2>
+            </div>
+        </div>
+        <div class="clearfix work-of-evolution">
+            <div data-sly-test.editMode="${wcmmode.edit}" data-sly-unwrap>
+                <div style="margin-left:480px" class="col-xs-12 col-sm-4 padding0" >
+                    <div data-sly-resource="${'case_study' @ resourceType='wcm/foundation/components/parsys'}" data-sly-unwrap>
+                    </div>
+                </div>
+            </div>
+            <div data-sly-test=${!editMode}>
+                <div data-sly-use.caseStudy='com.ttndigital.cms.model.CaseStudyComponent'>
+                    <div data-sly-list.child = "${caseStudy.caseStudiesList}" data-sly-unwrap>
+                        <div data-sly-test ="${childList.index==0}" data-sly-unwrap>
+                            <div class="col-xs-12 col-sm-8 padding0 big-cs ">
+                                <div data-sly-resource= "${child.path}" data-sly-unwrap>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-sly-test="${childList.index==1 || childList.index==2}" data-sly-unwrap>
+                            <div class="col-xs-12 col-sm-4 padding0 hide-data">
+                                <div class="description">
+                                    <div data-sly-resource= "${child.path}" data-sly-unwrap>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+

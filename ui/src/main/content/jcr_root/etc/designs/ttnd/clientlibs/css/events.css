@@ -1,0 +1,180 @@
+#news-sec {
+  padding: 65px 0 40px!important;
+}
+
+.news-box {
+  margin-bottom: 40px;
+  min-height: 160px;
+  height: 100%;
+}
+
+.mrgn160 {
+  margin-left: 160px;
+}
+
+#event {
+  padding: 45px;
+}
+
+#event ul li {
+  margin-bottom: 20px;
+}
+
+.frame {
+  position: relative;
+  float: left;
+}
+
+.frame .tag {
+  background: #fe8422;
+  float: left;
+  height: 18px;
+  line-height: 20px;
+  padding: 0 15px;
+  position: absolute;
+  top: 35px;
+}
+
+.event-detail {
+  text-align: left;
+  width: 50%;
+  float: left;
+  position: relative;
+  border: 1px solid #e9e7e7;
+  height: 312px;
+  padding: 30px 25px;
+}
+
+.event-detail .heading {
+  color: #555;
+  font-size: 27px;
+  font-family: 'open_sanslight';
+  margin-bottom: 10px;
+}
+
+.event-detail p {
+  color: #555;
+  font-size: 14px;
+  font-family: 'open_sansregular';
+  margin-bottom: 30px;
+  line-height: 24px;
+}
+
+.actions {
+  position: absolute;
+  bottom: 20px;
+  width: 90%;
+}
+
+.white-left-arrow {
+  background: url(../../images/xwhite-left-arrow.png) no-repeat left top;
+  width: 21px;
+  height: 41px;
+  display: block;
+  position: absolute;
+  left: -20px;
+  bottom: 50px;
+}
+
+.actions span {
+  float: left;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #acacac;
+  margin-top: 20px;
+  font-size: 12px;
+  font-family: 'open_sansbold';
+}
+
+.w-btn:hover {
+  background: #fe8422;
+  color: #fff!important;
+}
+
+.w-btn {
+  font-size: 14px!important;
+}
+
+img {
+  max-width: 100%;
+}
+
+.news-box p a {
+  color: #fe8422;
+}
+
+.news-box p a:hover {
+  text-decoration: none;
+}
+
+.event{
+  margin: 20px 35px 20px 85px;
+}
+
+@media all and (max-width:1199px) {
+  #event {
+    padding: 45px 0;
+  }
+
+  .news-box.mrgn160 {
+    margin: 0;
+  }
+
+  .event-detail .heading {
+    font-size: 21px;
+    margin: 0;
+  }
+
+  .frame {
+    width: 50%;
+  }
+
+  .event-detail {
+    width: 50%;
+    min-height: 235px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
+  }
+
+  .frame img {
+    height: 235px;
+    width: 100%;
+  }
+}
+
+@media all and (max-width:991px) {
+  .actions {
+    bottom: 10px;
+  }
+
+  .event-detail p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .frame img,.event-detail {
+    height: 245px;
+  }
+
+  .event-detail .heading {
+    font-size: 17px;
+    font-weight: bold;
+  }
+}
+
+@media all and (max-width:767px) {
+  .event-detail {
+    width: 100%;
+  }
+
+  .frame {
+    width: 100%;
+  }
+}
+
+@media all and (max-width:479px) {
+  .form-contact {
+    padding: 0;
+  }
+}

@@ -1,0 +1,33 @@
+<sly data-sly-use.relatedStudies="com.ttndigital.cms.model.RelatedCaseStudiesComponent">
+    <sly data-sly-test.resultList="${relatedStudies.resultList}">
+        <sly data-sly-list.pageContent="${relatedStudies.resultList}">
+            <div class="col-xs-12 col-md-6 case-study">
+                <div class="frame">
+                    <a href="${pageContent['path']}.html"> <img src="${pageContent['heroImage']}"
+                                                          alt="Case Study Image" pagespeed_url_hash="199063959"
+                                                          onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                    </a>
+                </div>
+                <div class="details clearfix">
+                    <section class="clearfix">
+                        <p>${pageContent['description'] @context = 'html'}</p>
+
+                        <div class="c-logo">
+                            <img src="${pageContent['logoImage']}" alt="Case Study Logo"
+                                 pagespeed_url_hash="999486173"
+                                 onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        </div>
+                    </section>
+                    <section class="clearfix genre">
+                        <span>${relatedStudies.tagTitle}</span> <a class="w-btns"
+                                                                       href="${pageContent['path']}.html">View Case Study</a>
+                    </section>
+                </div>
+            </div>
+        </sly>
+    </sly>
+    <sly data-sly-test="${!resultList}">
+        No studies found.
+    </sly>
+</sly>
+

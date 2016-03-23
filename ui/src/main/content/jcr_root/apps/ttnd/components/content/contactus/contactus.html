@@ -1,0 +1,38 @@
+<div class="form-contact clearfix">
+    <h2>${properties.header || 'Get in touch'}<br>
+    	<span>${properties.subHeader || 'Our representative will contact you.'}</span>
+    </h2>
+    <form class="clearfix" id="talkToUs" novalidate="novalidate" method="POST" action="/content/ttnd/en/contact-us/jcr:content/pagecontent/contactus/contactForms/">
+        <ul class="clearfix">
+            <li>
+                <input type="text" id="fullname" name="fullname" placeholder="${properties.name ||'Name'}*" aria-required="true" aria-invalid="false" class="valid">
+                <span class="star"></span>
+            </li>
+            <li>
+                <input type="text" id="emailId" name="emailId" placeholder="${properties.emailId ||'Email'}*">
+                <span class="star"></span>
+            </li>
+            <li>
+                <input type="text" id="phone" name="phone" placeholder="${properties.phoneNo ||'Phone Number'}" aria-required="true" aria-invalid="false" class="valid">
+                <span class="star"></span>
+            </li>
+            <li>
+                <input type="text" id="company" name="company" placeholder="${properties.company ||'Company'}">
+                <span class="star"></span>
+            </li>
+            <li class="clearfix">
+                <div data-sly-list.contactPurpose = "${properties.contactPurposeList}" data-sly-unwrap>
+                    <input type="checkbox" value="${contactPurpose}" name="job_group"/><label>${contactPurpose}</label>
+                </div>
+            </li>
+            <li class="msg">
+                <textarea placeholder="${properties.message ||'Message'}*" name="message" id="message"></textarea>
+                <span class="star right-star"></span>
+            </li>
+            <li>
+                <input type="submit" value="${properties.submitButton ||'Talk to us!'}" class="talk_to_us orng-btn">
+            </li>
+            <input type="hidden" name=":redirect" value="/content/ttnd/en/contact-us.html">
+        </ul>
+    </form>
+</div>

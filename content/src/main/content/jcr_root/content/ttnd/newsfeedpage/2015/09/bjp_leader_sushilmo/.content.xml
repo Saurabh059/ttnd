@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-09-29T23:54:40.091+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[bihar]"
+        cq:template="/apps/ttnd/templates/base-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="BJP Leader Sushil Modi Seeks Definition of Outsiders From Nitish Kumar"
+        sling:resourceType="ttnd/components/page/basepage"
+        author=""
+        id="1224457"
+        published="{Date}2015-09-29T23:13:49.000+05:30">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <entry
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/blog/components/entrytext"
+                text="Taking strong exception to Bihar Chief Minister Nitish Kumar's bid to woo voters on the plank of local vs outsiders, BJP leader Sushil Kumar Modi today asked the senior JD-U leader to define his remar...&lt;br clear='all'/>&lt;br/>&lt;br/>&lt;a href=&quot;http://rc.feedsportal.com/r/238386633219/u/49/f/606689/c/33805/s/4a434cf3/sc/3/rc/1/rc.htm&quot; rel=&quot;nofollow&quot;>&lt;img src=&quot;http://rc.feedsportal.com/r/238386633219/u/49/f/606689/c/33805/s/4a434cf3/sc/3/rc/1/rc.img&quot; border=&quot;0&quot;/>&lt;/a>&lt;br/>&lt;br/>&lt;a href=&quot;http://rc.feedsportal.com/r/238386633219/u/49/f/606689/c/33805/s/4a434cf3/sc/3/rc/2/rc.htm&quot; rel=&quot;nofollow&quot;>&lt;img src=&quot;http://rc.feedsportal.com/r/238386633219/u/49/f/606689/c/33805/s/4a434cf3/sc/3/rc/2/rc.img&quot; border=&quot;0&quot;/>&lt;/a>&lt;br/>&lt;br/>&lt;a href=&quot;http://rc.feedsportal.com/r/238386633219/u/49/f/606689/c/33805/s/4a434cf3/sc/3/rc/3/rc.htm&quot; rel=&quot;nofollow&quot;>&lt;img src=&quot;http://rc.feedsportal.com/r/238386633219/u/49/f/606689/c/33805/s/4a434cf3/sc/3/rc/3/rc.img&quot; border=&quot;0&quot;/>&lt;/a>&lt;br/>&lt;br/>&lt;a href=&quot;http://da.feedsportal.com/r/238386633219/u/49/f/606689/c/33805/s/4a434cf3/sc/3/a2.htm&quot;>&lt;img src=&quot;http://da.feedsportal.com/r/238386633219/u/49/f/606689/c/33805/s/4a434cf3/sc/3/a2.img&quot; border=&quot;0&quot;/>&lt;/a>&lt;img width=&quot;1&quot; height=&quot;1&quot; src=&quot;http://pi.feedsportal.com/r/238386633219/u/49/f/606689/c/33805/s/4a434cf3/sc/3/a2t.img&quot; border=&quot;0&quot;/>&lt;img width='1' height='1' src='http://ndtv.com.feedsportal.com/c/33805/f/606689/s/4a434cf3/sc/3/mf.gif' border='0'/>&lt;img src=&quot;http://feeds.feedburner.com/~r/NDTV-LatestNews/~4/NI8FQd6Kkt4&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot;/>"/>
+        </par>
+        <alt
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <comments
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/commons/components/comments"/>
+            <trackback
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/blog/components/trackback"/>
+        </alt>
+    </jcr:content>
+</jcr:root>

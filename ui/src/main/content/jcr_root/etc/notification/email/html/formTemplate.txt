@@ -1,0 +1,9 @@
+Subject: Get in touch
+
+Hi,
+
+ Message : ${message}
+
+From,
+${name}
+${emailId}

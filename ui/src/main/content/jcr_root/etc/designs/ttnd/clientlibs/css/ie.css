@@ -1,0 +1,37 @@
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.menu_sec li a span img {
+		height: auto;
+	}
+	.menu_sec li a{
+		height:65px;
+	}
+	.menu_sec li a small{
+		height:63px!important;
+	}
+	.menu_sec li.active a, .menu_sec li a:hover {
+		background: none repeat scroll 0 0 #000;
+		border-bottom: 1px solid #f47b29;
+		color: #f47b29;
+		text-decoration: none;
+	}
+	#in-touch .contact-form ul li input{
+		height:45px;
+	}
+	#in-touch .contact-form ul li span#emailError,
+	#in-touch .contact-form ul li span#firstnameError,
+	#in-touch .contact-form ul li span#msgError,
+	#in-touch .contact-form ul li span#phoneError{
+		left:21px;
+	}
+	.case-study-box .detail p{
+		font-family:"open_sansregular";
+	}
+	.subscribe ul li input[type="text"]{padding: 0 12px;}
+}
+.gray-container .media-box{height:auto;}
+#in-touch .contact-form ul li span#emailError,
+	#in-touch .contact-form ul li span#firstnameError,
+	#in-touch .contact-form ul li span#msgError,
+	#in-touch .contact-form ul li span#phoneError{
+		left:21px;
+	}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    width="600"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <image
+            jcr:primaryType="cq:Widget"
+            cropParameter="./imageCrop"
+            ddGroups="[media]"
+            fileNameParameter="./fileName"
+            fileReferenceParameter="./fileReference"
+            mapParameter="./imageMap"
+            name="./file"
+            requestSuffix=".img.png"
+            rotateParameter="./imageRotate"
+            title="Image"
+            xtype="html5smartimage"/>
+        <advanced
+            jcr:primaryType="cq:Widget"
+            title="Advanced"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <title
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Title"
+                    name="./title"
+                    xtype="textfield"/>
+                <description
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Description"
+                    name="./description"
+                    xtype="textfield"/>
+                <multitextfields
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Sections"
+                    hideLabel="{Boolean}false"
+                    name="./sectionContent"
+                    xtype="multifield">
+                    <fieldConfig
+                        jcr:primaryType="cq:Widget"
+                        hideLabel="{Boolean}true"
+                        layout="form"
+                        padding="10"
+                        xtype="multifiedpanel">
+                        <items jcr:primaryType="cq:WidgetCollection">
+                            <sectionTitle
+                                jcr:primaryType="cq:Widget"
+                                allowBlank="{Boolean}false"
+                                dName="sectionTitle"
+                                fieldLabel="Section Title"
+                                xtype="textfield"/>
+                            <sectionDescription
+                                jcr:primaryType="cq:Widget"
+                                allowBlank="{Boolean}false"
+                                dName="sectionDescription"
+                                fieldLabel="Section Description"
+                                xtype="textfield"/>
+                        </items>
+                    </fieldConfig>
+                </multitextfields>
+            </items>
+        </advanced>
+    </items>
+</jcr:root>

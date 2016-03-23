@@ -1,0 +1,137 @@
+.shelf .section, .home #banner .section {
+    text-align: center;
+    min-height: 0px!important;
+    background: url("../../images/side-bg.png") no-repeat left center !important;
+    padding: 16px 0 10px !important;
+}
+
+.shelf .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.shelf .white-container {
+    background: #fff;
+    padding: 80px 0;
+}
+
+.shelf .gray-container {
+    background: #f7f7f7;
+    padding: 80px 0 !important;
+}
+
+.shelf .gray-92 {
+    background: #ebebeb;
+    padding: 80px 0;
+}
+
+
+.shelf .gray-container p,
+.white-container p {
+    color: #252525;
+    font-size: 30px;
+    line-height: 48px;
+    margin-bottom: 50px;
+    font-family: 'open_sansregular';
+    text-align: center;
+}
+
+.shelf .black-container {
+    background: #111;
+    text-align: center;
+    padding-bottom: 80px;
+    padding: 80px 0;
+}
+
+.shelf .black-container p{
+    width: 724.891px!important;
+    width: 55%;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 20px;
+    line-height: 36px;
+    font-family: 'open_sanssemibold';
+}
+
+.shelf .black-container img.cq-dd-image{
+    margin-bottom: 40px;
+    vertical-align: middle;
+    border: 0;
+    width: 1311px;
+    height: 597px;
+    margin-left: -190px;
+}
+
+.shelf .grails-detail {
+    max-width: 770px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.shelf .grails-detail h2 {
+    text-align: center;
+}
+
+.shelf .grails-detail ul li {
+    background: url("../../images/bullets.png") no-repeat scroll left 10px;
+    padding-left: 35px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'open_sansregular';
+    color: #555555;
+    line-height: 30px;
+}
+
+.shelf .white-container .read-btn, .white-container .read-btn:focus {
+    background: url(../../images/view-icon.png) no-repeat 0 0!important;
+    text-decoration: none;
+    padding: 0 20px 0 48px;
+    font-size: 14px;
+}
+
+.shelf .white-container .read-btn:hover {
+    background: url(../../images/view-icon.png) no-repeat 0 0 !important;
+    text-decoration: underline;
+    color: #fe8422;
+}
+
+.shelf .white-container .case-study-box p {
+    font-size: 13px;
+    line-height: inherit;
+    line-height: 22px;
+}
+
+.shelf .grails-detail p {
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.shelf .container:before, .container:after {
+    display: table;
+    content: " ";
+}
+
+.shelf .container:after {
+    clear: both;
+}
+
+.shelf .container:before, .container:after {
+    display: table;
+    content: " ";
+}
+
+.shelf .container:after {
+    clear: both;
+}
+
+.shelf .grey-pattern {
+	background: url(/etc/designs/ttnd/images/grey-testimonial.png) repeat
+		left top;
+}

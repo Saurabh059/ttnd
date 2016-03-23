@@ -1,0 +1,18 @@
+<section id="client" class="clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>${properties.headingText || "Trusted by World's Best"}</h2>
+            </div>
+        </div>
+    </div>
+    <div data-sly-test="${!resource.listChildren}">NO IMAGES ADDED!!</div>
+    <ul data-sly-list.child="${resource.listChildren}">
+        <sly data-sly-test.nonEmpty=${child.jcr:title}>
+            <li class="client-logo">
+                <img src="${child.fileReference @ context='uri'}"
+				alt="${wcmmode.edit || wcmmode.design ? 'Alt Text' : child.jcr:title}"/>
+            </li>
+        </sly>
+    </ul>
+</section>

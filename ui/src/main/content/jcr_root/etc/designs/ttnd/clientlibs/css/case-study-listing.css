@@ -1,0 +1,125 @@
+.relatedCaseStudies{
+	margin:0px -10%;
+}
+
+.relatedCaseStudies .c-logo img{
+    max-width: 120px;
+	max-height:60px;
+}
+
+.relatedCaseStudies .details .c-logo {
+	float: right;
+}
+
+.relatedCaseStudies section {
+	padding: 0 !important;
+}
+
+.case-study .frame {
+	width: 96%;
+	height: 320px;
+	margin-left: 2.1%;
+	float: none;
+}
+
+.white-container .case-study-box p {
+	font-size: 13px;
+	line-height: inherit;
+	line-height: 22px;
+}
+
+
+
+.relatedCaseStudies .case-study {
+	margin-bottom: 60px;
+}
+
+/*.gray-container .relatedCaseStudies{
+	background: #ebebeb;
+}*/
+
+.relatedCaseStudies section, summary {
+	display: block;
+}
+
+.genre a.w-btns {
+	display: inline-block;
+	float: right;
+}
+
+.relatedCaseStudies a.w-btns, a.w-btns:focus {
+	background: #fff;
+	border: 1px solid #fe8422;
+	font-size: 16px;
+	text-decoration: none;
+	color: #fe8422;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	display: block;
+	height: 35px;
+	line-height: 35px;
+	padding: 0 20px;
+	display: inline-block;
+	float: right;
+}
+
+.relatedCaseStudies .details a.w-btns:hover {
+	background: #fe8422;
+	border: none;
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid #fe8422;
+}
+
+.relatedCaseStudies .details {
+	background: #fff;
+	padding: 20px 15px 20px 20px;
+	max-height: 215px;
+	min-height: 215px;
+	width: 100%;
+	position: relative;
+}
+
+.relatedCaseStudies .detail p {
+	color:#555;
+	font-size: 13px;
+	line-height: 22px;
+}
+
+.relatedCaseStudies .case-study-box p {
+	top: 95px;
+	left: 5%;
+	color: #555;
+	font-family: "open_sanssemibold";
+	font-size: 14px;
+	margin-bottom: 25px;
+	position: absolute;
+	width: 90%;
+	line-height: 24px;
+}
+
+.relatedCaseStudies .details p {
+	color: #555;
+	margin-bottom: 0;
+	font-size: 16px;
+	width: 57%;
+	font-family: 'open_sansregular';
+	line-height: 24px;
+	text-align: left;
+	float: left;
+	letter-spacing: .4px;
+}
+
+.relatedCaseStudies .details span {
+	color: #acacac;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	float: left;
+	margin-top: 20px;
+	letter-spacing: 1.5px;
+}

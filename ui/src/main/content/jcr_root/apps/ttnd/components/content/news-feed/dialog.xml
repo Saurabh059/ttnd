@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Dialog"
+    width="650"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <configuration
+                jcr:primaryType="cq:Panel"
+                title="Configuration">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <title
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Title"
+                        name="./title"
+                        xtype="textfield"/>
+                    <limit
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}false"
+                        fieldLabel="Limit:"
+                        name="./limit"
+                        xtype="numberfield"/>
+                    <background
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Background Color"
+                        name="./color"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <white
+                                jcr:primaryType="nt:unstructured"
+                                text="White"
+                                value="&#xa;"/>
+                            <grey
+                                jcr:primaryType="nt:unstructured"
+                                text="Grey"
+                                value="grey-container"/>
+                        </options>
+                    </background>
+                    <url
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="URL"
+                        name="./url"
+                        xtype="multifield">
+                        <fieldConfig
+                            jcr:primaryType="cq:Widget"
+                            hideLabel="{Boolean}true"
+                            layout="form"
+                            padding="10"
+                            xtype="multifiedpanel">
+                            <items jcr:primaryType="cq:WidgetCollection">
+                                <news-url
+                                    jcr:primaryType="cq:Widget"
+                                    dName="newsUrl"
+                                    hideLabel="true"
+                                    rootPath="/content/ttnd/en/media/newsroom"
+                                    width="330"
+                                    xtype="pathfield"/>
+                            </items>
+                        </fieldConfig>
+                    </url>
+                </items>
+            </configuration>
+        </items>
+    </items>
+</jcr:root>

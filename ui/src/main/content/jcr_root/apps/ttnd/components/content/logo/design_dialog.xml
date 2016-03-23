@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    width="650"
+    xtype="dialog">
+    <items
+        jcr:primaryType="nt:unstructured"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <logo_path
+                jcr:primaryType="cq:Widget"
+                title="Logo URL"
+                xtype="panel">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <urlpath
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter the Homepage Url"
+                        name="./logoUrlPath"
+                        xtype="pathfield">
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            change="function(){&#xa;&#x9;if(this.value.match('^/')){&#xa;&#x9;&#x9;if(!this.value.match('(.html)$'))&#xa;&#x9;&#x9;&#x9;this.setValue(this.value+'.html');&#xa;&#x9;}&#x9;&#xa;&#x9;else{&#xa;&#x9;&#x9;if(!(this.value.match('^(http://|https://|www.)([a-z0-9][a-z0-9-]*.)+[a-z0-9][a-z0-9-]*$'))){&#xa;&#x9;&#x9;&#x9;alert(&quot;Please Enter a Valid URL&quot;);&#xa;&#x9;&#x9;&#x9;this.setValue(&quot;&quot;);&#xa;&#x9;&#x9;}&#xa;&#x9;}&#xa;}"
+                            dialogclose="function(){&#xa;&#x9;if(!this.value.match('(.html)$'))&#xa;&#x9;&#x9;this.setValue(this.value+'.html');&#xa;}"/>
+                    </urlpath>
+                    <alt_text_img
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Enter the Alternate Text of Image"
+                        fieldLabel="Alternate Text"
+                        name="./altText"
+                        xtype="textfield"/>
+                </items>
+            </logo_path>
+            <image
+                jcr:primaryType="cq:Widget"
+                allowUpload="{Boolean}false"
+                cropParameter="./imageCrop"
+                ddGroups="[media]"
+                fileNameParameter="./fileName"
+                fileReferenceParameter="./fileReference"
+                mapParameter="./imageMap"
+                name="./file"
+                requestSuffix="/.img.png"
+                rotateParameter="./imageRotate"
+                title="Desktop Image"
+                xtype="html5smartimage"/>
+        </items>
+    </items>
+</jcr:root>

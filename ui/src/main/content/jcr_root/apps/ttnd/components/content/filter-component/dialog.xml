@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="cq:Dialog"
+          title="dialog"
+          xtype="dialog">
+    <items
+            jcr:primaryType="cq:Widget"
+            xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <configuration
+                    jcr:primaryType="cq:Panel"
+                    title="Configuration">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <tags
+                            jcr:primaryType="nt:unstructured"
+                            path="/apps/ttnd/components/page/base-page/tab_basic/items/basic/items/tags.infinity.json"
+                            xtype="cqinclude"/>
+                </items>
+            </configuration>
+        </items>
+    </items>
+</jcr:root>

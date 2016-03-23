@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-10-10T18:59:30.655+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/ttnd/templates/news-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="TO THE NEW Digital partners with #fame to power digital marketing  campaigns for Lakme School of Style"
+        sling:resourceType="ttnd/components/page/news-page">
+        <pagecontent
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <hero
+                jcr:created="{Date}2015-10-09T19:58:12.515+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-09T20:01:34.225+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/hero"
+                description="&lt;p>TO THE NEW Digital partners with #fame to power digital marketing campaigns for Lakme School of Style&lt;/p>&#xa;"
+                heading="NEWS">
+                <desktop
+                    jcr:lastModified="{Date}2015-10-09T20:01:34.225+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/image"
+                    fileReference="/content/dam/ttnd/images/heroImages/news-index.jpg"
+                    imageRotate="0"/>
+            </hero>
+            <richtext
+                jcr:created="{Date}2015-10-07T11:40:09.153+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-07T15:13:36.308+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/richText"
+                description="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;span class=&quot;heading2&quot;>LSOS campaigns on Twitter and Facebook trended comprehensively in India&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>New Delhi, July 29, 2015: TO THE NEW Digital, a premium digital services company was selected by #fame, India's first LIVE video entertainment platform, to power its client's social media campaign. TO THE NEW Digital helped craft interactive campaigns for Karan Johar led Lakme School of Style (LSOS), India's first fashion video magazine which focuses on bringing the newest trends from the fashion world.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>The campaign helped Lakme School of Style increase customer engagement through various contests and interactive activities. The new campaigns on Twitter and Facebook trended comprehensively and reached to 6 million+ audience, giving LSOS more than 1 lakh fan following on social media channels.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>The project was implemented through various social media campaigns and contests, including #MeraSummerSong, #LoveandLipstick and #The70sLook which succeeded in engaging a huge number of followers and created buzz around the brand across social media channels in India.The project was implemented through various social media campaigns and contests, including #MeraSummerSong, #LoveandLipstick and #The70sLook which succeeded in engaging a huge number of followers and created buzz around the brand across social media channels in India.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>&amp;quot;We are thankful to #fame for trusting us with this crucial responsibility of executing such a large scale project. Lakme is their premium client and we are glad to have partnered with #fame in executing a campaign that's a 'first-ever' in its category itself. We have managed all social media marketing efforts to support Lakme School of Style's long-term strategy of strengthening its brand by enhancing customer interaction and experience.&amp;quot; said Deepak Mittal, CEO, TO THE NEW Digital.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;heading2&quot;>About TO THE NEW Digital&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>TO THE NEW DIGITAL is a premium digital services company that combines the power of technology, analytics, marketing and content for digital transformation. They are a team of over 600 people which includes technology evangelists, social media experts, content specialists, and creative mavericks who have transformed businesses of more than 300 companies spread across 30 countries worldwide. TO THE NEW Digital credits its success to the young army that thrives on innovation in the ever-growing digital space.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>TO THE NEW Digital is also a strategic partner of many global companies including Google, Adobe, Amazon Web Services (AWS), YouTube, DataStax and MongoDB.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;heading2&quot;>About #fame&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>#fame is India's first LIVE video entertainment platform. Catering to mobile millennials through an integrated 'talent-first' strategy, #fame is set to become Asia's premier digital entertainment network through its presence across 6 countries over the next 3 years. #fame's content centers around mobile-led LIVE video programming and innovative video-on-demand content including high impact digital properties, shows and formats in genres such as entertainment, food, fashion, music, comedy. With a multi-platform approach in distribution and a strong presence across all digital and social platforms, #fame helps brands reach and engage audiences through customized solutions spanning talent-based content, properties and digital video services.&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;heading2&quot;>About Lakme School of Style&lt;/span>&lt;/p>&#xa;&lt;p>&lt;span class=&quot;paragraph&quot;>Lakme School of Style is a first of its kind show that not only brings the newest trends and happenings from the fashion world but in the process also creates new age fashionistas and idols. Lakme is a pioneer in beauty and fashion and through this association the brand will lend its expertise and industry knowledge to Lakme School of Style. A fashion brigade led by Karan Johar himself brings the fashion news, views and events from all over the world to the internet screen. The debut season of Lakme School of Style that began in Feb 2015, will span over six months and content will be served through digital videos on a daily basis. The channel is hosted across the #fame network which is available on all leading digital and social platforms including Youtube (youtube.com/fameschoolofstyle), facebook (facebook.com/famesos), Dailymotion, WeChat, and leading content publishers.&lt;/span>&lt;/p>&#xa;"
+                newsCheck="true"/>
+        </pagecontent>
+        <news-details
+            jcr:lastModified="{Date}2015-10-10T18:59:30.630+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ttnd/components/content/news-details"
+            author="TTND"
+            newsDate="{Date}2015-07-29T00:00:00.000+05:30"
+            newsLocation="New Delhi"/>
+    </jcr:content>
+</jcr:root>

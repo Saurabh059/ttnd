@@ -1,0 +1,8 @@
+# Configuration created by Apache Sling JCR Installer
+smtp.password="BlessedHindu711"
+debug.email=B"false"
+smtp.user="rachna7rajpal@gmail.com"
+smtp.port=I"465"
+smtp.ssl=B"true"
+from.address="rachna7rajpal@gmail.com"
+smtp.host="smtp.gmail.com"

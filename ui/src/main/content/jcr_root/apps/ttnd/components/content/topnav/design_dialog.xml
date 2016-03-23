@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    height="400"
+    name="dialog"
+    width="600"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <navdesign
+                jcr:primaryType="cq:Panel"
+                title="Navigation Design">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <rootpage
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Path to the Root Page:"
+                        name="./rootPage"
+                        xtype="pathfield">
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            dialogselect="function(){&#xa;&#x9;&#x9;&#x9;var dialog = this.findParentByType('dialog');&#xa;&#x9;&#x9;&#x9;var multifield = dialog.findByType('multifield')[0];&#xa;&#x9;&#x9;&#x9;var pathfields = multifield.findByType('pathfield');&#xa;&#x9;&#x9;&#x9;$.each(pathfields,function(i,pathfield){&#xa;&#x9;&#x9;&#x9;&#x9;var rootPath=dialog.getField(&quot;./rootPage&quot;).value;&#xa;&#x9;&#x9;&#x9;&#x9;pathfield.treeRoot.name = rootPath.substring(1);&#xa;&#x9;&#x9;&#x9;&#x9;pathfield.setValue(&quot;&quot;);&#xa;&#x9;&#x9;&#x9;});&#xa;&#x9;}"/>
+                    </rootpage>
+                    <multitextfields
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="No. of Columns required in a row"
+                        hideLabel="{Boolean}false"
+                        name="./headerColumnArray"
+                        xtype="multifield">
+                        <fieldConfig
+                            jcr:primaryType="cq:Widget"
+                            hideLabel="{Boolean}true"
+                            layout="form"
+                            padding="10"
+                            xtype="multifiedpanel">
+                            <items jcr:primaryType="cq:WidgetCollection">
+                                <headerpath
+                                    jcr:primaryType="cq:Widget"
+                                    dName="headerPath"
+                                    editable="{Boolean}false"
+                                    fieldLabel="Header Path"
+                                    plugins="customRootPathPlugin"
+                                    xtype="pathfield">
+                                    <listeners
+                                        jcr:primaryType="nt:unstructured"
+                                        dialogselect="function(pathfield, path, anchor) {&#xa;        var rootPathParts = pathfield.treeRoot.name.split('/');&#xa;&#x9;&#x9;var pathParts=path.substring(1).split('/'); &#xa;&#x9;&#x9;if((pathParts.length - rootPathParts.length)!=1){ &#xa;&#x9;&#x9;&#x9;alert(&quot;This path does not relate to any header&quot;); &#xa;&#x9;&#x9;&#x9;pathfield.setValue(&quot;&quot;); &#xa;&#x9;&#x9;}&#xa;}"/>
+                                </headerpath>
+                                <columns
+                                    jcr:primaryType="cq:Widget"
+                                    allowBlank="{Boolean}false"
+                                    dName="columns"
+                                    fieldLabel="No of Columns:"
+                                    xtype="numberfield"/>
+                            </items>
+                        </fieldConfig>
+                    </multitextfields>
+                </items>
+            </navdesign>
+        </items>
+    </items>
+</jcr:root>

@@ -1,0 +1,25 @@
+<sly data-sly-use.relatedStudies="com.ttndigital.cms.model.RelatedCaseStudiesComponent">
+    <sly data-sly-test.resultList="${relatedStudies.resultList}">
+        <sly data-sly-list.pageContent="${relatedStudies.resultList}">
+            <div class="col-xs-12 col-md-4">
+                <div class="case-study-box">
+                    <div class="frame">
+                        <a href="${pageContent['path']}.html">
+                            <img src="${pageContent['heroImage']}" alt="${pageContent['title']}">
+                        </a>
+                    </div>
+                    <div class="detail clearfix">
+                        <img src="${pageContent['logoImage']}" alt="${pageContent['title']}">
+
+                        <p>${pageContent['description'] @context = 'html'}</p>
+                        <a class="w-btn read-btn" href="${pageContent['path']}.html">Read Case Study</a>
+                    </div>
+                </div>
+            </div>
+        </sly>
+    </sly>
+    <sly data-sly-test="${!resultList}">
+        No studies found
+    </sly>
+</sly>
+

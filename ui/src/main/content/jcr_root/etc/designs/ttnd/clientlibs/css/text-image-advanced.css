@@ -1,0 +1,134 @@
+.text-image-advanced .col-xs-12 .col-md-3 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+
+.text-image-advanced .team-list {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    margin: 0 0 40px 0 !important;
+}
+
+.text-image-advanced .team-list .frame {
+    margin-bottom: 0 !important;
+}
+
+.text-image-advanced img {
+    vertical-align: middle;
+    max-width: inherit;
+}
+
+.text-image-advanced .team-list .details {
+    margin-top: 15px !important;
+    position: inherit;
+    padding: 0px;
+    height: 20px;
+}
+
+.text-image-advanced .team-list .details .heading {
+    color: #fe8422;
+    margin-bottom: 0;
+    font-size: 14px;
+    text-align: left;
+    font-family: 'open_sansregular';
+    text-align: center !important;
+}
+
+.text-image-advanced .team-list .description {
+    height: 280px !important;
+    padding: 10px 25px;
+}
+
+.text-image-advanced .description {
+    display: none;
+    width: 205px;
+    height: 250px;
+    padding: 0px 22px;
+    height: 295px;
+    position: absolute;
+    top: 0;
+    left: -13px;
+    background: url(/etc/designs/ttnd/images/blck-trnsprnt-bg.png) repeat left top;
+}
+
+.text-image-advanced .description p {
+    margin-bottom: 0 !important;
+    color: #ececec !important;
+}
+
+.text-image-advanced p {
+
+    font-family: "open_sansregular";
+}
+
+.text-image-advanced .description .hover-details {
+    bottom: 16px;
+    left: 13px;
+    position: absolute;
+    width: 100%;
+    left: 0 !important;
+}
+
+.text-image-advanced .description .hover-details .heading {
+    color: #fe8422;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-family: "open_sanssemibold" !important;
+    text-align: center !important;
+    margin: -1px;
+}
+
+.text-image-advanced .team-list:hover .description {
+    display: block;
+
+}
+
+.text-image-advanced .team-list .description p {
+    margin-bottom: 40px !important;
+    color: #ececec !important;
+    font-family: "open_sansregular";
+    line-height: 15px !important;
+    text-align: left;
+    margin: 0 0 10px;
+    padding: 0;
+    border: 0;
+    font-size: 12px !important;
+    font-family: 'open_sansregular';
+}
+
+.text-image-advanced .col-md-4 .team-list .details .heading {
+    color: #252525;
+}
+
+.text-image-advanced .res-tag
+{    float: left;
+    width: 100%;
+    background: url("../../images/head-bg.png") repeat 0 0;
+    text-align: center;
+    padding: 14px 0 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 78px;
+}
+.res-tag h5
+{   font-size: 28px;
+    color: #fff;
+    font-family: open_sansbold;
+    display: inline-block;
+    border-bottom: 5px solid #fff;
+    line-height: 32px;
+    padding-bottom: 7px;
+}
+
+
+.left-content .text-image-advanced
+{
+    float: left;
+    width: 208px;
+    position: relative;
+}

@@ -1,0 +1,46 @@
+.mediaCoverage .blck-strip {
+	background: #000;
+	height: 17px;
+	line-height: 17px;
+	padding: 0 15px;
+	color: #fff;
+	font-size: 12px;
+	font-family: 'open_sanssemibold';
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.mediaCoverage #media-sec .media-box {
+	height: auto;
+}
+
+.mediaCoverage .media-box {
+	width: 288px;
+	margin: 25px 0;
+	height: 320px;
+	display: inline-block;
+}
+
+.mediaCoverage .mediaPara {
+	position: relative;
+}
+
+.mediaCoverage .mediaPara {
+	background: #e9e7e7;
+	padding: 25px;
+	min-height: 198px;
+}
+
+.mediaCoverage .media-box p {
+	color: #555;
+	font-family: "open_sanslight" !important;
+	font-size: 23px !important;
+	line-height: 33px;
+	text-align: left;
+}
+
+.mediaCoverage .media-box .mediaPara p {
+	margin: 0 0 10px;
+	text-transform: none !important;
+}

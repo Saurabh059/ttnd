@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:lastModified="{Date}2015-10-08T15:20:40.925+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:ColorSpace="{Long}-1"
+            dam:ExifOffset="{Long}168"
+            dam:extracted="{Date}2015-10-08T15:20:40.285+05:30"
+            dam:Fileformat="JPEG"
+            dam:JpgFromRawLength="{Long}2380"
+            dam:JpgFromRawStart="{Long}306"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}6.125"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}22.22222137451172"
+            dam:Progressive="no"
+            dam:sha1="16ca243950f78ede212b64042fb3ebe0abfc01ed"
+            dam:size="{Long}407164"
+            dc:format="image/jpeg"
+            exif:ExifImageLength="{Long}441"
+            exif:ExifImageWidth="{Long}1600"
+            exif:PixelXDimension="{Long}72"
+            exif:PixelYDimension="{Long}72"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="{Long}3"
+            tiff:Compression="{Long}6"
+            tiff:ImageLength="{Long}441"
+            tiff:ImageWidth="{Long}1600"
+            tiff:Orientation="{Long}1"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:XResolution="72"
+            tiff:YResolution="72"
+            xmp:CreateDate="{Date}2012-06-19T15:13:36.000+02:00"
+            xmp:CreatorTool="Adobe Photoshop CC 2014 (Windows)"
+            xmp:MetadataDate="{Date}2015-04-20T20:07:40.000+05:30"
+            xmp:ModifyDate="{Date}2015-04-20T20:07:40.000+05:30"
+            xmpMM:DocumentID="adobe:docid:photoshop:c87f7031-e76a-11e4-8ce5-f625ffd599e2"
+            xmpMM:InstanceID="xmp.iid:cbbd0640-d359-6f42-b68b-58cb7f6fbb14"
+            xmpMM:OriginalDocumentID="xmp.did:02801174072068118DBBF50001D62B81"
+            xmpRights:Marked="{Boolean}false">
+            <photoshop:TextLayers
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}3"
+                xmpArrayType="rdf:Bag"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    photoshop:LayerName="Grails Development"
+                    photoshop:LayerText="Grails Development"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    photoshop:LayerName="Perhaps the  biggest Grails development team  in the world."
+                    photoshop:LayerText="Perhaps the  biggest Grails development team  in the world."
+                    xmpNodeType="xmpStruct"/>
+                <_x0033_
+                    jcr:primaryType="nt:unstructured"
+                    photoshop:LayerName="View SonyLiv Case Study"
+                    photoshop:LayerText="View SonyLiv Case Study"
+                    xmpNodeType="xmpStruct"/>
+            </photoshop:TextLayers>
+            <photoshop:DocumentAncestors
+                jcr:primaryType="nt:unstructured"
+                _x0031_="11392DD119CF1FCFAF47FECCD82E574F"
+                _x0031_0="A245E0094731FC1A1C55ABBFBDE0A44F"
+                _x0031_1="AF1E2274F8FA9F18C1CEA2E556E032DC"
+                _x0031_2="CA0CAC4AAB9798F8982FB65D9616434C"
+                _x0031_3="D9BE48450FCA132F0C1E3F1F919B8E49"
+                _x0031_4="E0EAEABC2BD0659A5D6EED0467CC30A9"
+                _x0031_5="E96CC581BB6487B341BE3B5DF45CED41"
+                _x0031_6="F27F87E29D34AA0BA53021DA629355D0"
+                _x0031_7="F36BAF90BD6749E8CC36B0970BAD012E"
+                _x0031_8="uuid:2A9E6B63ADBBE11197F1B00294D27CE7"
+                _x0031_9="xmp.did:00801174072068118C14B8F6BFA1836E"
+                _x0032_="304F8C768E5D1F2D6C5FBFD24C326F7B"
+                _x0032_0="xmp.did:0180117407206811B8C7C7084AB32D0E"
+                _x0032_1="xmp.did:3E759397C9EE11E3899A85FADC809BE5"
+                _x0032_2="xmp.did:5A0A4AD7054811E4A4F2EE5F22FF5E95"
+                _x0032_3="xmp.did:5AA1C54DA9CC11E3B70ED8C79E70938D"
+                _x0032_4="xmp.did:5F90CB87CACC11E3A37C8FB11346CC4E"
+                _x0032_5="xmp.did:69327af8-1f3b-4e23-b1d1-821fed0a9471"
+                _x0032_6="xmp.did:6B3A5B06A9CC11E39D34C8075C15BC61"
+                _x0032_7="xmp.did:7BE44E690A216811822AE8FA8E7DC308"
+                _x0032_8="xmp.did:8FBF1607C9F011E395FD90D2361592DD"
+                _x0032_9="xmp.did:95229293-fa9a-4223-8e94-e3baa76cfa79"
+                _x0033_="4F54196F2D9C8D965FE50E85558178B3"
+                _x0033_0="xmp.did:9E7C18D4A83311E39524B628231DBD6D"
+                _x0033_1="xmp.did:A9BDA4FA278111E48BAAB1ADEDD6A885"
+                _x0033_2="xmp.did:B61C0D2BC9F011E39DECB0BA172BE911"
+                _x0033_3="xmp.did:C7DDE034EABBE41191B4CCAECEC3AB7C"
+                _x0033_4="xmp.did:CC92319FA91411E3952E99FC4B36D69D"
+                _x0033_5="xmp.did:E5F3B1C7D02D11E39C14A508DB67F5D6"
+                _x0033_6="xmp.did:E91DE22FA91411E3B4D082B10B216889"
+                _x0033_7="xmp.did:ED3D7DC4A9CB11E3ACBCA66F866CEFC5"
+                _x0033_8="xmp.did:EE5A5047CD1111E39D8A95AE7E878780"
+                _x0033_9="xmp.did:F178690DE6FE11E38BEA8054835E433E"
+                _x0034_="6202F9653F184969798DFBB83EA67D01"
+                _x0034_0="xmp.did:F97F1174072068118F62CDE44A5B7095"
+                _x0034_1="xmp.did:FAD87AFD4A11E211AB93BA0A3D188DEF"
+                _x0034_2="xmp.did:FBEFF28EA91411E39777D3999E2418DE"
+                _x0034_3="xmp.did:FC028B83CC6C11E38701DD4AD4C96AAE"
+                _x0034_4="xmp.did:FF17254CCD1411E39DEDF6D0CC3A4BBC"
+                _x0035_="7C44045680B3BEAC53E9E0901557D200"
+                _x0036_="7E6EDC29D9890A2D30A78E308AFBDF78"
+                _x0037_="7FC4067076E4B67CA45D0FD7F700ED57"
+                _x0038_="840E957DFABF744479810C6ED5B18BC8"
+                _x0039_="84D39B20AB9AB738604F6527F9990B6C"
+                xmpArraySize="{Long}44"
+                xmpArrayType="rdf:Bag"
+                xmpNodeType="xmpArray"/>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}6"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="created"
+                    stEvt:instanceID="xmp.iid:02801174072068118DBBF50001D62B81"
+                    stEvt:softwareAgent="Adobe Photoshop CS4 Macintosh"
+                    stEvt:when="{Date}2011-03-15T15:35:25.000-04:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:03801174072068118DBBF50001D62B81"
+                    stEvt:softwareAgent="Adobe Photoshop CS4 Macintosh"
+                    stEvt:when="{Date}2011-03-15T15:35:43.000-04:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0033_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:81a4a564-083b-e34c-b3b2-75e197f5d008"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2014 (Windows)"
+                    stEvt:when="{Date}2015-04-20T20:07:40.000+05:30"
+                    xmpNodeType="xmpStruct"/>
+                <_x0034_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="converted"
+                    stEvt:parameters="from application/vnd.adobe.photoshop to image/jpeg"
+                    xmpNodeType="xmpStruct"/>
+                <_x0035_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from application/vnd.adobe.photoshop to image/jpeg"
+                    xmpNodeType="xmpStruct"/>
+                <_x0036_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:cbbd0640-d359-6f42-b68b-58cb7f6fbb14"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2014 (Windows)"
+                    stEvt:when="{Date}2015-04-20T20:07:40.000+05:30"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="uuid:2A9E6B63ADBBE11197F1B00294D27CE7"
+                stRef:instanceID="xmp.iid:81a4a564-083b-e34c-b3b2-75e197f5d008"
+                stRef:originalDocumentID="xmp.did:02801174072068118DBBF50001D62B81"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

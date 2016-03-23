@@ -1,0 +1,21 @@
+<!--
+
+  Article Page component.
+
+  Article Page
+
+-->
+<sly data-sly-include="author.html" data-sly-unwrap></sly>
+<html>
+    <sly data-sly-include="head.html"></sly>
+    <body class="single single-post postid-26079 single-format-standard custom-background custom-font-enabled">
+        <div id="container" class="blogPage"> 
+            <sly data-sly-include="header.html"></sly>
+            <sly data-sly-resource="${'breadcrumbs' @ resourceType='/apps/ttnd/components/content/breadcrumbs'}"></sly>
+            <sly data-sly-resource="${'headerSummary' @ resourceType='/apps/ttnd/components/content/headerSummary'}"></sly>
+            <sly data-sly-resource="${'pagecontent' @ resourceType='wcm/foundation/components/parsys'}"></sly>
+            <div data-sly-resource="${'map' @ resourceType='wcm/foundation/components/iparsys'}"></div>
+            <sly data-sly-include="footer.html"></sly>
+        </div> 
+    </body>
+</html>

@@ -1,0 +1,14 @@
+.video .center {
+    display: flex;
+    justify-content: center;
+}
+
+.video .left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.video .right {
+    display: flex;
+    justify-content: flex-end;
+}

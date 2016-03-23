@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-09-29T23:29:40.818+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[people]"
+        cq:template="/apps/ttnd/templates/base-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Bill Gates Richest American, 3 Tech Chiefs Join Top 10: Forbes"
+        sling:resourceType="ttnd/components/page/basepage"
+        author=""
+        id="1224454"
+        published="{Date}2015-09-29T23:10:38.000+05:30">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <entry
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/blog/components/entrytext"
+                text="Gates held onto the number-one spot in the annual list of the 400 wealthiest Americans for the 22nd straight year, with net worth of $76 billion, down $5 billion from 2014.&lt;br clear='all'/>&lt;br/>&lt;br/>&lt;a href=&quot;http://rc.feedsportal.com/r/238386533804/u/49/f/606689/c/33805/s/4a43239c/sc/28/rc/1/rc.htm&quot; rel=&quot;nofollow&quot;>&lt;img src=&quot;http://rc.feedsportal.com/r/238386533804/u/49/f/606689/c/33805/s/4a43239c/sc/28/rc/1/rc.img&quot; border=&quot;0&quot;/>&lt;/a>&lt;br/>&lt;br/>&lt;a href=&quot;http://rc.feedsportal.com/r/238386533804/u/49/f/606689/c/33805/s/4a43239c/sc/28/rc/2/rc.htm&quot; rel=&quot;nofollow&quot;>&lt;img src=&quot;http://rc.feedsportal.com/r/238386533804/u/49/f/606689/c/33805/s/4a43239c/sc/28/rc/2/rc.img&quot; border=&quot;0&quot;/>&lt;/a>&lt;br/>&lt;br/>&lt;a href=&quot;http://rc.feedsportal.com/r/238386533804/u/49/f/606689/c/33805/s/4a43239c/sc/28/rc/3/rc.htm&quot; rel=&quot;nofollow&quot;>&lt;img src=&quot;http://rc.feedsportal.com/r/238386533804/u/49/f/606689/c/33805/s/4a43239c/sc/28/rc/3/rc.img&quot; border=&quot;0&quot;/>&lt;/a>&lt;br/>&lt;br/>&lt;a href=&quot;http://da.feedsportal.com/r/238386533804/u/49/f/606689/c/33805/s/4a43239c/sc/28/a2.htm&quot;>&lt;img src=&quot;http://da.feedsportal.com/r/238386533804/u/49/f/606689/c/33805/s/4a43239c/sc/28/a2.img&quot; border=&quot;0&quot;/>&lt;/a>&lt;img width=&quot;1&quot; height=&quot;1&quot; src=&quot;http://pi.feedsportal.com/r/238386533804/u/49/f/606689/c/33805/s/4a43239c/sc/28/a2t.img&quot; border=&quot;0&quot;/>&lt;img width='1' height='1' src='http://ndtv.com.feedsportal.com/c/33805/f/606689/s/4a43239c/sc/28/mf.gif' border='0'/>&lt;img src=&quot;http://feeds.feedburner.com/~r/NDTV-LatestNews/~4/mUTuZ6-ToNs&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot;/>"/>
+        </par>
+        <alt
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <comments
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/commons/components/comments"/>
+            <trackback
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="social/blog/components/trackback"/>
+        </alt>
+    </jcr:content>
+</jcr:root>

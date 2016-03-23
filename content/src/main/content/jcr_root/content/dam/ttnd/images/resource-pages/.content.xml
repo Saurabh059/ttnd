@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Resource Pages"/>
+    <_x0032_5_SOCIAL_MEDIA_-_LP.jpg/>
+    <AEMForms_208x253.jpg/>
+    <aem-ebook-content-migration.jpg/>
+    <analytics-ROI-social-media-campaigns-events.jpg/>
+    <Agility_LP.jpg/>
+    <Analytics-Ebook-SocialLeadGeneration-5.jpg/>
+    <Analytics-Webinar-SocialMediaAnalytics.jpg/>
+    <Analytics-Whitepaper-oleverageSocialMedia.jpg/>
+    <automation-testing-protractor-lp.png/>
+    <Cassandra_LP.jpg/>
+    <Content-Whitepaper-WhyDigitalMusic.jpg/>
+    <cross-device-1.jpg/>
+    <Data_binding.jpg/>
+    <Gradle.jpg/>
+    <Google_Cast_Main.png/>
+    <grails-3.0.jpg/>
+    <MongoDB_Social_Analytics-LP.jpg/>
+    <Kanban_LP.jpg/>
+    <MBaaS-webinar.jpg/>
+    <OO_JavaScript_lp.jpg/>
+    <PayPal_LP.jpg/>
+    <Technology-Screencast-SCF.jpg/>
+    <Technology-tutorial-AWSAutoScaling.jpg/>
+    <no-youtube.jpg/>
+    <opswork_lp.jpg/>
+    <tutorial-secure-coding-android-mailer.png/>
+    <video-seo-lp.png/>
+    <video-supply-chain-1.jpg/>
+    <whitepaper-beacon-proximity-solutions-3.png/>
+    <YouTube_LP.jpg/>
+    <Rajnish.png/>
+    <Content-Ebook-DDEX.jpg/>
+</jcr:root>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-11-04T16:37:29.512+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[ttnd:Category]"
+        cq:template="/apps/ttnd/templates/base-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="test-filter"
+        sling:resourceType="ttnd/components/page/base-page"
+        changefreq="Monthly">
+        <pagecontent
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <resource_aggregator
+                jcr:created="{Date}2015-11-04T15:09:47.835+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-11-04T16:37:29.510+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/resource-aggregator"
+                resourcePagePath="/content/ttnd/en/resource-pages">
+                <filter
+                    cq:tags="[ttnd:service,ttnd:resource]"
+                    jcr:lastModified="{Date}2015-11-04T16:37:21.599+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ttnd/components/content/filter-component"/>
+            </resource_aggregator>
+        </pagecontent>
+        <image
+            jcr:lastModified="{Date}2015-10-27T12:45:24.540+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+        <map
+            jcr:lastModified="{Date}2015-11-04T11:25:52.359+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/iparsys">
+            <iparsys_fake_par
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/iparsys/par"/>
+        </map>
+    </jcr:content>
+</jcr:root>

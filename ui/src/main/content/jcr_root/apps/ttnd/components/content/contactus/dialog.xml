@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="dialog"
+    width="{Long}600"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <connect
+                jcr:primaryType="cq:Panel"
+                title="Let's Connect">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <header
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Header: "
+                        name="./header"
+                        xtype="textfield"/>
+                    <subheader
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Sub Header:"
+                        name="./subHeader"
+                        xtype="textfield"/>
+                    <name
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Label for Name:"
+                        name="./name"
+                        xtype="textfield"/>
+                    <email
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Label for Email Id:"
+                        name="./emailId"
+                        xtype="textfield"/>
+                    <phoneNo
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Label for Phone No:"
+                        name="./phoneNo"
+                        xtype="textfield"/>
+                    <company
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Label for Company's Name:"
+                        name="./company"
+                        xtype="textfield"/>
+                    <message
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Label for Message:"
+                        name="./message"
+                        xtype="textfield"/>
+                    <multitextfield
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="List of purposes to Connect"
+                        name="./contactPurposeList"
+                        xtype="multifield">
+                        <contactpurpose
+                            jcr:primaryType="cq:Widget"
+                            xtype="textfield"/>
+                        <multitextfield
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="List of Subscriptions"
+                            name="./subscriptionsList"
+                            xtype="multifield">
+                            <subscription
+                                jcr:primaryType="cq:Widget"
+                                xtype="textfield"/>
+                        </multitextfield>
+                    </multitextfield>
+                    <submitbutton
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Label for Submit Button"
+                        name="./submitButton"
+                        xtype="textfield"/>
+                </items>
+            </connect>
+        </items>
+    </items>
+</jcr:root>

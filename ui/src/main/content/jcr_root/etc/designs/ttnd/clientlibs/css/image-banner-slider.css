@@ -1,0 +1,106 @@
+.imageBannerSlider .slideImageHeader {
+	margin-bottom: 10px !important;
+	margin-top: 0;
+	color: #252525 !important;
+	font-size: 36px !important;
+	font-family: 'open_sanssemibold' !important;
+	font-weight: 500;
+	padding-bottom: 0 !important;
+	line-height: 55px !important;
+	text-transform: none;
+}
+
+.imageBannerSlider .slideContentHeader {
+	margin-bottom: 70px !important;
+	color: #252525 !important;
+	font-size: 35px !important;
+	font-family: 'open_sanslight' !important;
+	padding-bottom: 35px !important;
+	line-height: 60px !important;
+	text-transform: none;
+	text-align: center;
+	position: static;
+	margin: 0 !important;
+}
+
+.imageBannerSlider .slideContentHeaderBold {
+	margin-bottom: 70px !important;
+	color: #252525 !important;
+	font-size: 35px !important;
+	font-family: 'Open Sans', sans-serif !important;
+	padding-bottom: 35px !important;
+	line-height: 60px !important;
+	text-transform: none;
+	text-align: center;
+	margin: 0 !important;
+	display: inline;
+	position: static;
+	font-weight: 400;
+}
+
+.imageBannerSlider .contentFooterBold {
+	color: #707070 !important;
+	font-family: 'open_sansbold' !important;
+	font-size: 28px !important;
+	margin: 0 0 10px;
+	margin-top: 30px;
+	line-height: normal;
+}
+
+.imageBannerSlider .contentFooter {
+	color: #707070 !important;
+	font-family: 'open_sanssemibold' !important;
+	font-size: 28px !important;
+	margin: 0 0 10px;
+	margin-top: 30px;
+	line-height: normal;
+}
+
+.imageBannerSlider .imageFooter {
+	color: #707070 !important;
+	font-size: 22px !important;
+	font-family: "open_sanssemibold" !important;
+	margin-top: 30px;
+	width: 95%;
+	float: left;
+	line-height: normal;
+	margin: 0 0 10px;
+}
+
+.imageBannerSlider .abt-our {
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+	float: left;
+	line-height: 60px;
+	text-align: center;
+}
+
+.imageBannerSlider .home #banner .item .content {
+	top: 30px;
+}
+
+.imageBannerSlider #banner .item {
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+.imageBannerSlider .col-xs-12 {
+	width: 100%;
+}
+
+.imageBannerSlider .col-xs-12 p {
+	position: static !important
+}
+
+.imageBannerSlider .contentLine {
+	background: url("/etc/designs/ttnd/images/h2-bg.png") no-repeat center
+		bottom !important;
+	margin-bottom: 50px;
+}
+
+.imageBannerSlider .imageLayout {
+	text-align: -webkit-center;
+	-webkit-margin-after: 1cm;
+}

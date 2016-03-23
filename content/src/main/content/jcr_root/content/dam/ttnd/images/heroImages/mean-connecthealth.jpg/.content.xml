@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:lastModified="{Date}2015-10-08T15:34:25.742+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:ExifOffset="{Long}2110"
+            dam:extracted="{Date}2015-10-08T15:34:25.299+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}96"
+            dam:Physicalheightininches="{Decimal}4.59375"
+            dam:Physicalwidthindpi="{Long}96"
+            dam:Physicalwidthininches="{Decimal}16.66666603088379"
+            dam:Progressive="no"
+            dam:sha1="17fcf6f58c0b7ddef72a1dbfd093902142c2e507"
+            dam:size="{Long}140369"
+            dc:format="image/jpeg"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}441"
+            tiff:ImageWidth="{Long}1600"
+            tiff:Orientation="{Long}1"
+            xmp:CreatorTool="Adobe Photoshop CS5.1 Windows"
+            xmpMM:DocumentID="xmp.did:147EB258EA8211E48AA1C17FC205920A"
+            xmpMM:InstanceID="xmp.iid:147EB257EA8211E48AA1C17FC205920A"
+            xmpMM:OriginalDocumentID="xmp.did:02801174072068118DBBF50001D62B81"
+            xmpRights:Marked="{Boolean}false">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="adobe:docid:photoshop:f36ce4b2-e7a0-11e4-8e29-8c50588058c1"
+                stRef:instanceID="xmp.iid:D23AAF0382EAE41186EDAF49C8845E8F"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

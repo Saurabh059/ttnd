@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/wcm/foundation/components"/>
+    <filter root="/apps/ttnd/components"/>
+    <filter root="/apps/ttnd/templates"/>
+    <filter root="/apps/ttnd/config"/>
+    <filter root="/apps/ttnd/install"/>
+    <filter root="/apps/ttnd/widgets"/>
+    <filter root="/etc/designs/ttnd/"/>
+    <filter root="/etc/designs/ttnd/clientlibs"/>
+    <filter root="/etc/designs/ttnd/images"/>
+    <filter root="/etc/tags/ttnd"/>
+	<filter root="/etc/notification/email/html"/>
+	<filter root="/etc/workflow/launcher/config/contactus_launcher"/>
+	<filter root="/etc/workflow/models/workflow-for-contactus"/>
+	<filter root="/etc/importers/polling/list/news-feed-importer"/>
+</workspaceFilter>
+

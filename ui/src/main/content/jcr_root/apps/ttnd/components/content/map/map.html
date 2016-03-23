@@ -1,0 +1,16 @@
+<section id="map" class="${properties.background}">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<h2>${properties.headingText || 'We have gone places!'}</h2>
+			</div>
+		</div>
+		<div class="map-section black-map" style="background: url(${resource.fileReference || resource.file @ context='uri'}) no-repeat left top!important;">
+			<div class="ratio" data-sly-use.converter="${'com.ttndigital.cms.model.MapComponent' @ multiField='mapTextArray'}">
+				<ul data-sly-list.multiField=${converter.multiFieldJson}>
+					<li><span>${multiField.statistic}</span> ${multiField.property}</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>

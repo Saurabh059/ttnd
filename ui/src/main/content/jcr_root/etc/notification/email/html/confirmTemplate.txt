@@ -1,0 +1,8 @@
+Subject: Confirmation mail
+
+Hi ${name},
+
+ Thanks for Registration!
+
+-------------------------------------------------------
+This is an automatic generated message. Please do not reply.

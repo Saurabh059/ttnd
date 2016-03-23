@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Client Logos"/>
+    <xpizza-hut-client-logo.png.pagespeed.ic.GQSbeSNy0j.png/>
+    <xsony-entertainment-television-client-logo.png.pagespeed.ic.OmzeGMCiMv.png/>
+    <xp-_x002c_a-g-client-logo.png.pagespeed.ic.aSIH_bLHmz.png/>
+    <xmake-in-india-client-logo.png.pagespeed.ic.DSJKAYTADi.png/>
+    <xtime-warner.png/>
+    <xairbus.png.pagespeed.ic.9dN180PbjK.png/>
+    <xair-asia-client-logo.png.pagespeed.ic.vcZ_qNSxlE.png/>
+    <xviacom-client-logo.png/>
+    <xmat.se.png/>
+    <xcastrol-client-logo.png/>
+    <xtoshiba-client-logo.png/>
+    <xztv-client-logo.png/>
+    <xaxis-bank-client-logo.png/>
+    <xciti-bank-CLIENT-LOGO.png/>
+    <xgoogle-client-logo.png/>
+    <xlg-client-logo.png/>
+    <xsamsung-client-logo.png/>
+    <xcardekho-client-logo.png/>
+    <xstandard-chartered-client-logo.png/>
+    <xmaruti-client-logo.png/>
+</jcr:root>

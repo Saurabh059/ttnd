@@ -1,0 +1,13 @@
+<div class="col-xs-12 col-md-4" data-sly-use.mediaCoverage="com.ttndigital.cms.model.MediaCoverageComponent">
+	<div class="media-box">
+		<figure>
+			<img src="${properties.fileReference}" alt="${properties.mediaAlt}">
+		</figure>
+		<div class="mediaPara">
+        <span class="blck-strip">${mediaCoverage.formattedDate}</span>
+			<p>${properties.description @context='html'}</p>
+		</div>
+		<a href="${properties.mediaUrl}" target="_blank"
+			class="w-btn mediaSectionLink" rel="nofollow"> ${'readMore' @ i18n, locale=mediaCoverage.localeValue}</a>
+	</div>
+</div>

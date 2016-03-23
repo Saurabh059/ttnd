@@ -1,0 +1,51 @@
+.checkbox .form_row {
+    margin-right: 23px;
+    float: left;
+    color: #e1e1e1;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'open_sanssemibold';
+    margin-bottom: 12px;
+    margin-left: 15px;
+}
+
+
+#f-section .checkbox .form_row{ margin-bottom:0}
+
+.newsletter-text {
+    background: #fff;
+    width: 72%;
+    height: 45px;
+    border: none;
+    color: #acacac;
+    font-size: 14px;
+    font-family: 'open_sanssemibold';
+    line-height: 45px;
+    line-height: 1.2em;
+    padding: 0 12px;
+}
+
+#f-section .checkbox{ padding-left:0; margin:0}
+#f-section .checkbox .form_row:first-child{ margin-left:0}
+ul.sociable li {
+    margin-left: 5px;
+}
+
+.newsletter-submit {
+    background: #fe9a4a;
+    color: #fff;
+    width: 28%!important;
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    border: none;
+    font-size: 14px;
+    font-family: 'open_sansbold';
+}
+
+.submit .form_leftcol{ display:none}
+
+#f-section .col-xs-12.col-sm-5 {
+    width: 100%;
+}

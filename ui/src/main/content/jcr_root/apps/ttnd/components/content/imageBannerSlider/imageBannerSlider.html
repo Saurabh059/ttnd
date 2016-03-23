@@ -1,0 +1,25 @@
+<div id="banner" class="imageSlider clearfix desktop imageBannerSlider"
+	data-sly-use.slider="com.ttndigital.cms.model.ImageSliderComponent">
+	<div class="item"
+		data-sly-repeat.sliderData="${slider.sliderContentList}">
+		<img src="${sliderData.sliderImage}" alt="Slide Image" />
+		<div class="content">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						${sliderData.sliderHeader @context='html'}
+						<div class="abt-our">
+							<div class="imageLayout"
+								data-sly-test.contentImage="${sliderData.sliderContentImage}">
+								<img src="${sliderData.sliderContentImage}" alt="Content Image" />
+							</div>
+							<div class="contentLine"
+								data-sly-test.contentImage="${!contentImage}">&nbsp;</div>
+							${sliderData.sliderFooter @context='html'}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,28 @@
+	<template data-sly-template.navhead="${@ headerPath,child}"
+          data-sly-use.topnavHeader="${'com.ttndigital.cms.model.TopNavComponent' @ headerPath=headerPath,child=child}" data-sly-unwrap>
+          <li><a href="#">${topnavHeader.child.title}</a>
+              <div class="sub-nav" data-sly-list.subChild="${topnavHeader.child.listChildren}">
+                  <div data-sly-test ="${!subChild.isHideInNav && subChild.isValid}" data-sly-unwrap>
+                      <div data-sly-test.oneCol="${topnavHeader.column==1}" data-sly-unwrap>
+                          <div class="sub-nav-list">
+                              <div class="heading"> ${subChild.title}</div>
+                              <ul data-sly-list.leafChild="${subChild.listChildren}">
+                                  <div data-sly-test ="${!leafChild.isHideInNav && leafChild.isValid}" data-sly-unwrap>
+                                 	 <li><a href="${leafChild.path}.html">${leafChild.title}</a></li>
+                              	  </div>
+                              </ul>
+                          </div>
+                      </div>
+                      <div data-sly-test = "${!oneCol}" data-sly-use.designCol="/apps/ttnd/components/content/topnav/columnsDesign.html">
+                          <div class="heading"> ${subChild.title}</div>${topnavHeader.initNoOfColRendered}
+                           <div data-sly-list.leafChild="${subChild.listChildren}">
+                               <div data-sly-test.inValidPage ="${!leafChild.isHideInNav && leafChild.isValid}" data-sly-unwrap>
+                              	 	<div data-sly-call="${designCol.designColumns @ columnRendered=leafChildList.index,leafChild=leafChild,headerPath=headerPath}" data-sly-unwrap></div>
+                               </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </li>
+ 	</template>
+

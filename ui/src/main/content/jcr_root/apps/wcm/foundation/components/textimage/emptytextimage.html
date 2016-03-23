@@ -1,0 +1,5 @@
+
+<template data-sly-template.emptyTextImageTemplate="${@ textImage}">
+    <img data-sly-test="${!textImage.hasContent && textImage.isTouch}" src="/etc/designs/default/0.gif" data-emptytext="Text and Image" class="cq-placeholder file cq-dd-image"/>
+    <img data-sly-test="${!textImage.hasContent && !textImage.isTouch}" src="/etc/designs/default/0.gif" class="cq-image-placeholder cq-dd-image"/>
+</template>

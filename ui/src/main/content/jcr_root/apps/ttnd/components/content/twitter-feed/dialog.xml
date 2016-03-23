@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <configuration
+                jcr:primaryType="cq:Panel"
+                title="Configuration">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <twitter-theme
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Twitter Theme"
+                        name="./twitterTheme"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <light
+                                jcr:primaryType="nt:unstructured"
+                                text="Light"
+                                value="light"/>
+                            <dark
+                                jcr:primaryType="nt:unstructured"
+                                text="Dark"
+                                value="dark"/>
+                        </options>
+                    </twitter-theme>
+                    <color
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Color:"
+                        name="./color"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <blue
+                                jcr:primaryType="nt:unstructured"
+                                text="Blue"
+                                value="#0000FF"/>
+                            <red
+                                jcr:primaryType="nt:unstructured"
+                                text="Red"
+                                value="#FF0000"/>
+                            <black
+                                jcr:primaryType="nt:unstructured"
+                                text="Black"
+                                value="#000000"/>
+                        </options>
+                    </color>
+                </items>
+            </configuration>
+        </items>
+    </items>
+</jcr:root>

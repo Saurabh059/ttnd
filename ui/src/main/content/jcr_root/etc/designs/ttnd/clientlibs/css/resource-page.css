@@ -1,0 +1,77 @@
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 1200px)
+    .container {
+        max-width: 1170px;
+    }
+
+    .clearfix {
+        zoom: 1;
+    }
+
+    @media (min-width: 1200px)
+        .container {
+            width: 1170px;
+        }
+
+        .res-heading h3 {
+            font-size: 40px !important;
+            background: url(../../images/h2-bg.png) no-repeat 0 bottom;
+            padding-bottom: 20px;
+            font-family: open_sansbold !important;
+            margin-bottom: 30px !important;
+            line-height: 52px;
+        }
+
+        .res-heading h3 .res {
+            font-family: open_sanslight !important;
+            color: #252525 !important;
+            font-size: 40px !important;
+        }
+
+        .resource-pg-container {
+            float: left;
+            width: 100%;
+            background: #f7f7f7;
+            border-top: 4px solid #e1e1e1;
+            padding-top: 40px;
+            text-align: left;
+        }
+
+        .container-fluid {
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        @media (min-width: 1280px)
+            .row-fluid {
+                width: 100%;
+            }
+
+            .resource-wrapper {
+                margin-bottom: 100px;
+                margin-left: 0;
+                width: 100%;
+                display: block;
+                float: left;
+            }
+
+            .left-content {
+                max-width: 60%;
+                float: left;
+            }
+
+            .left-content .overview {
+                float: left;
+                width: 100%;
+                background: url(../../images/head-bg.png) repeat-x 0 0;
+                margin-top: 24px;
+                padding-top: 40px;
+            }

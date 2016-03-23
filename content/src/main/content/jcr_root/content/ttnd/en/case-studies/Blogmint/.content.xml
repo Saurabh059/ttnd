@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-09-29T23:28:18.760+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[ttnd:service/grails,ttnd:industry/internet,ttnd:country/india]"
+        cq:template="/apps/ttnd/templates/general-page-with-breadcrumb"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Blogmint"
+        sling:resourceType="ttnd/components/page/general-page-with-breadcrumb">
+        <pagecontent
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <hero
+                jcr:created="{Date}2015-09-23T14:28:18.719+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-09-23T14:32:45.852+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/hero"
+                description="&lt;p>Blogmint&amp;nbsp;&lt;span class=&quot;openSansSemiBold&quot;>broadcasts&lt;br>&#xa;success by leveraging&lt;br>&#xa;TO THE NEW's&amp;nbsp;&lt;br>&#xa;Grails expertise&lt;/span>&lt;/p>&#xa;"
+                heading="Blogmint">
+                <desktop
+                    jcr:lastModified="{Date}2015-09-23T14:32:45.852+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/image"
+                    fileReference="/content/dam/ttnd/images/case-studies/blogmint-banner.jpg"
+                    imageRotate="0"/>
+            </hero>
+            <case_study_shelf
+                jcr:created="{Date}2015-09-23T14:38:46.254+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-09-23T14:40:36.043+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/case-study-shelf"
+                socialshare="true">
+                <bannerTitle
+                    jcr:lastModified="{Date}2015-09-23T14:38:57.585+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ttnd/components/content/bannerTitle"
+                    description="&lt;p>TO THE NEW kickstarted the bloggers platform by building Blogmint on Grails and integrating it with user friendly features. We developed a robust marketplace web application to connect bloggers and brands with user friendly features. We helped Blogmint increase user engagement by enabling social media sharing.&lt;/p>&#xa;"
+                    title="Snapshot"/>
+                <logoAndDesc
+                    jcr:lastModified="{Date}2015-09-23T14:39:39.761+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ttnd/components/content/logoAndDesciption"
+                    description="&lt;p style=&quot;text-align: center;&quot;>Blogmint&lt;/p>&#xa;"
+                    fileReference="/content/dam/ttnd/images/groupsPage/xblogmint.png.pagespeed.ic.7RqDP9fL1m.png"/>
+            </case_study_shelf>
+            <shelf_349748077
+                jcr:created="{Date}2015-09-23T14:47:54.146+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-09-23T14:47:54.146+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/shelf">
+                <groupDescription
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/parsys">
+                    <bannertitle
+                        jcr:created="{Date}2015-09-23T14:49:11.635+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-09-23T14:49:26.696+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ttnd/components/content/bannerTitle"
+                        description="&lt;p>Blogmint is the first automated platform to connect brands and bloggers. It helps in identifying, targeting and engaging key influencers with powerful social and video content.&lt;/p>&#xa;"
+                        title="The Client"/>
+                </groupDescription>
+            </shelf_349748077>
+            <shelf
+                jcr:created="{Date}2015-09-23T14:42:27.369+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-09-23T14:50:23.980+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/shelf"
+                bgcolor="gray-container">
+                <groupDescription
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/parsys">
+                    <bannertitle
+                        jcr:created="{Date}2015-09-23T14:44:02.585+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-09-23T14:48:30.634+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ttnd/components/content/bannerTitle"
+                        description="&lt;p>Design and develop the complete Blogmint platform on Grails with intuitive design, high performance and scalable architecture.&lt;/p>&#xa;"
+                        title="The Goal"/>
+                    <shelf jcr:primaryType="nt:unstructured">
+                        <groupDescription
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/foundation/components/parsys">
+                            <bannertitle
+                                jcr:created="{Date}2015-09-23T14:48:06.857+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-09-23T14:48:14.355+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ttnd/components/content/bannerTitle"
+                                description="&lt;p>Blogmint is the first automated platform to connect brands and bloggers. It helps in identifying, targeting and engaging key influencers with powerful social and video content.&lt;/p>&#xa;"
+                                title="The Client"/>
+                        </groupDescription>
+                    </shelf>
+                </groupDescription>
+            </shelf>
+            <service_listing
+                jcr:created="{Date}2015-09-23T15:38:07.732+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-09-23T15:38:39.235+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/service-listing"
+                servicePath="/content/ttnd/en/homepage/technology/grails"/>
+            <map
+                jcr:created="{Date}2015-09-28T00:21:38.280+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-09-28T00:22:27.233+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ttnd/components/content/map"
+                fileReference="/content/dam/ttnd/images/map/white-map.jpg"
+                headingText="We have gone places!"
+                imageRotate="0"
+                mapTextArray="[{&quot;statistic&quot;:&quot;600+&quot;\,&quot;property&quot;:&quot;People&quot;},{&quot;statistic&quot;:&quot;9&quot;\,&quot;property&quot;:&quot;Offices&quot;},{&quot;statistic&quot;:&quot;30+&quot;\,&quot;property&quot;:&quot;Countries&quot;}]"
+                property="[People,Offices,Countries]"
+                statistic="[600+,9,30+]"/>
+        </pagecontent>
+        <image
+            jcr:lastModified="{Date}2015-09-23T14:40:24.887+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

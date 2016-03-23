@@ -1,0 +1,115 @@
+
+@media (min-width: 1280px)
+.row-fluid .span4 {
+    width: 31.623931624%;
+}
+
+@media (min-width: 1280px)
+.row-fluid [class*="span"] {
+    display: block;
+    float: left;
+    min-height: 28px;
+    margin-left: 2.564102564%;
+    box-sizing: border-box;
+}
+
+@media (min-width: 1280px)
+.row-fluid {
+    width: 100%;
+}
+
+@media (min-width: 1280px)
+.row-fluid [class*="span"]:first-child {
+    margin-left: 0;
+}
+
+@media (min-width: 1280px)
+.row-fluid [class*="span"]:first-child {
+    margin-left: 0;
+}
+
+@media (min-width: 1280px)
+.row-fluid .span12 {
+    width: 100%;
+}
+
+.res-link-form .form-wrapper {
+    background-color: #fff;
+    border-top: 4px solid #fe8422;
+    text-align: center;
+    padding: 10px;
+    float: left !important;
+    width: 360.5px;
+    margin-left: 6%;
+}
+
+.res-link-form .form-wrapper input {
+    line-height: 38px;
+    text-align: left;
+}
+
+.res-link-form .ttnd-textfield {
+    margin-left: 7%;
+    margin-right: 7%;
+    max-width:100%;
+}
+
+.res-link-form .form-wrapper .form_button_submit {
+    width: 100% !important;
+    background: #fe8422 !important;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.res-link-form .form-wrapper .ttnd-textfield .form_row {
+    padding: 0 15px !important;
+    height: 45px;
+    line-height: 45px;
+    color: #999 !important;
+    border: 1px solid #e1e1e1;
+    -webkit-border-radius: 10px;
+}
+
+@media (min-width: 1280px)
+.row-fluid [class*="span"] {
+    display: block;
+    box-sizing: border-box;
+}
+
+h5{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+a {
+    color: #428bca;
+    text-decoration: none;
+    outline: none !important;
+    background: none repeat scroll 0 0 rgba(0,0,0,0);
+}
+
+.res-link-form .hs-error-msg
+{    width: 100% !important;
+    display: block;
+    position: static !important;
+    margin-bottom: 5px;
+    font-weight: bold;
+    line-height: 23px;
+    color: #002;
+    text-align: left;
+    font-size: 100%;
+}
+
+.res-link-form .hidden
+{
+    display:block!important;
+    visibility:visible!important;
+}

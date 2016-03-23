@@ -1,0 +1,29 @@
+<section id="blogs-section">
+    <div class="blogs">
+        <div class="date-header">
+            <time datetime=${properties.jcr:created} itemprop="datePublished"></time>
+        </div>
+        <header class="entry-header"></header>
+        <div class="post-body" itemprop="articleBody">
+         	${properties.blogText @context='html'}
+    	</div>
+        <div class="tag" data-sly-use.blog="com.ttndigital.cms.model.BlogComponent">
+            <ul>
+                <li>
+                    <span>Tags : </span>
+                    <sly data-sly-list.tag="${blog.categorizedTags['tags']}">
+                        <a href="${['./blog/tag',tag.name] @ join = '/', context='uri'}">${tag.name}</a>
+                        <sly data-sly-test=${!tagList.last}>,</sly>
+                    </sly>
+                </li>
+                <li>
+                    <span>Category : </span>
+                    <sly data-sly-list.category="${blog.categorizedTags['category']}">
+                        <a href="${['/blog/tag',category.name] @ join = '/', context='uri'}">${category.name}</a>
+                        <sly data-sly-test=${!categoryList.last}>,</sly>
+                    </sly>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="ca141d15-6e2a-47d8-afce-77ea9f279212">
+    <jcr:content
+        cq:name="banner.png"
+        cq:parentPath="/content/dam/ttnd/images/groupsPage"
+        jcr:lastModified="{Date}2015-10-05T14:53:23.283+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:Comments="date:create: 2015-09-18T04:18:35+00:00&#xa;date:modify: 2015-09-18T04:18:35+00:00&#xa;"
+            dam:extracted="{Date}2015-10-05T14:53:22.676+05:30"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}2"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="3f5a25a4088164dd174e3a58b8680f1c7d95863c"
+            dam:size="{Long}187990"
+            dc:format="image/png"
+            dc:modified="{Date}2015-10-05T14:53:22.800+05:30"
+            jcr:lastModified="{Date}2015-10-05T14:53:22.800+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}580"
+            tiff:ImageWidth="{Long}1280"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

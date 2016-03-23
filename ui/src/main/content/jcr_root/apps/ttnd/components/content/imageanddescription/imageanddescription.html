@@ -1,0 +1,24 @@
+<div class="${[properties.background || 'margin-Btm' , 'clearfix'] @ join=' '}"
+     data-sly-use.container="ttnd/components/content/image_container/image_container.html">
+    <sly data-sly-test.align="${properties.imageAlign == 'text-alignL'}">
+        <sly data-sly-test.textOnImage="${properties.textOnImage}">
+            <sly data-sly-call="${container.displayDesktopAndMobileImages @ imageAlign=properties.imageAlign, padding='paddinglft0', altText=properties.altText,imageTextAlign=properties.imageTextAlign}"></sly>
+            <sly data-sly-call="${container.descriptionTemplate @ textAlign=properties.imageAlign,textOnImage = properties.textOnImage }"></sly>
+        </sly>
+        <sly data-sly-test="${!textOnImage}">
+            <sly data-sly-call="${container.displayDesktopAndMobileImages @ imageAlign=properties.imageAlign, padding='paddinglft0', altText=properties.altText}"></sly>
+            <sly data-sly-call="${container.descriptionTemplate @ textAlign=properties.imageAlign}"></sly>
+        </sly>
+    </sly>
+
+    <sly data-sly-test=${!align}>
+        <sly data-sly-test.textOnImage="${properties.textOnImage}">
+            <sly data-sly-call="${container.descriptionTemplate @ textAlign=properties.imageAlign || 'text-alignR',textOnImage = properties.textOnImage}"></sly>
+            <sly data-sly-call="${container.displayDesktopAndMobileImages @ imageAlign=properties.imageAlign || 'text-alignR', padding='paddingR0', altText=properties.altText,imageTextAlign=properties.imageTextAlign}"></sly>
+        </sly>
+        <sly data-sly-test="${!textOnImage}">
+            <sly data-sly-call="${container.descriptionTemplate @ textAlign=properties.imageAlign || 'text-alignR'}"></sly>
+            <sly data-sly-call="${container.displayDesktopAndMobileImages @ imageAlign=properties.imageAlign || 'text-alignR', padding='paddingR0', altText=properties.altText}"></sly>
+        </sly>
+    </sly>
+</div>

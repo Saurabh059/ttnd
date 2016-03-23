@@ -1,0 +1,23 @@
+<sly data-sly-test.alignLeft="${properties.alignLeft}">
+    <div class="question flL">
+        <span class="plus-icon open-ans"></span>
+
+        <p class="open-ans">${properties.question}</p>
+
+        <p class="data">
+            ${properties.answer}
+        </p>
+    </div>
+</sly>
+
+<sly data-sly-test="${!alignLeft}">
+    <div class="question">
+        <span class="plus-icon"></span>
+
+        <p>${properties.question} </p>
+
+        <p class="data">
+            ${properties.answer}
+        </p>
+    </div>
+</sly>

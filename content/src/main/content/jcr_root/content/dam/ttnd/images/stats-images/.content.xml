@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Statistics Images"/>
+    <stat2.png/>
+    <stat3.png/>
+    <stat4.png/>
+    <stats1.png/>
+    <_x0038_-stat.png/>
+    <_x0032_00-stats.png/>
+    <_x0031_0-stat.png/>
+    <_x0031_00-stat.png/>
+    <expertise-stat.png/>
+    <_x0037_-stat.png/>
+    <dollar-stat.png/>
+    <_x0032_0-stat.png/>
+    <_x0035_-stat.png/>
+    <expertise-aviation.png/>
+    <_x0031_000-stat.png/>
+    <_x0035_0-stat.png/>
+</jcr:root>

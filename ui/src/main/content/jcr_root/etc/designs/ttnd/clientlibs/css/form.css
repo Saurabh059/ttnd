@@ -1,0 +1,256 @@
+.modal-dialog {
+    width: 90% !important;
+}
+
+.modal-content {
+    background: #fe8422 !important;
+}
+
+.modal-form .modal-block {
+    dispaly: block !important;
+}
+
+#pagecontent_modal_form .modal-header {
+    border-bottom: none !important
+}
+
+#in-touch .contact-form ul li {
+    position: relative;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+#pagecontent_modal_form .modal-content {
+    background: #fe8422 !important;
+}
+
+#pagecontent_modal_form .modal-title {
+    font-size: 24px;
+    text-align: center;
+}
+
+#pagecontent_modal_form .modal-backdrop {
+    z-index: 0 !important;
+}
+
+.modal-form input, .modal-form textarea {
+    background: #fff;
+    display: inline-block;
+    margin: 10px !important;
+    padding: 0 15px;
+    width: 90%;
+    color: #a1a1a1;
+    font-size: 14px;
+    min-height: 40px !important;
+    font-family: 'open_sansregular';
+    border: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    position: static;
+}
+
+.modal-open {
+    overflow: hidden
+}
+
+body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom {
+    margin-right: 15px
+}
+
+.modal-form .modal {
+    width: auto !important;
+    position: fixed;
+    top: 20% !important;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    display: none;
+    overflow: auto;
+    overflow-y: scroll;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.modal-dialog {
+    z-index: 1050;
+    width: auto !important;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.modal-content {
+    background-color: #fff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    background-clip: padding-box
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #000
+}
+
+.modal-backdrop.fade {
+    opacity: 0;
+    filter: alpha(opacity=0)
+}
+
+.modal-backdrop.in {
+    opacity: .5;
+    filter: alpha(opacity=50)
+}
+
+.modal-header {
+    min-height: 16.428571429px;
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5
+}
+
+.modal-header .close {
+    margin-top: -2px
+}
+
+.modal-title {
+    margin: 0;
+    line-height: 1.428571429
+}
+
+.modal-body {
+    position: relative;
+    padding: 20px
+}
+
+.modal-footer {
+    padding: 19px 20px 20px;
+    margin-top: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5
+}
+
+.modal-footer .btn + .btn {
+    margin-bottom: 0;
+    margin-left: 5px
+}
+
+.modal-footer .btn-group .btn + .btn {
+    margin-left: -1px
+}
+
+.modal-footer .btn-block + .btn-block {
+    margin-left: 0
+}
+
+.modal-dialog {
+    right: auto;
+    left: 50%;
+    width: 600px;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+#pagecontent_modal_form .modal-header {
+    border-bottom: none !important
+}
+
+.modal-header {
+    max-height: 120px;
+}
+
+.modalform textarea {
+    height: auto !important;
+    display: inline-block;
+    position: static;
+
+}
+
+.ttnd-textfield {
+    min-height: 60px !important;
+}
+
+.talk_to_expert, .modalform {
+    display: inline-block;
+    position: static !important;
+}
+
+.modal-form input.blk-btn {
+    background: #000;
+    text-decoration: none;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 25px;
+    width: auto;
+    font-size: 24px;
+    font-family: 'open_sansbold_italic';
+}
+
+.ttnd-textfield {
+    max-width: 400px;
+    position: relative;
+}
+
+.modal-form span.star {
+    background: url(../../images/sprite.png) no-repeat -390px -6px;
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    right: 40px;
+    top: 24px;
+}
+
+span.error-msg {
+    position: absolute;
+    top: -10px;
+    left: 28px;
+    font-size: 13px;
+    color: #fff !important;
+    font-family: 'open_sansregular';
+}
+
+.modal-form .columnControl {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-form section.colControl {
+    width: 80%;
+
+}
+
+.modal-form h2.w-bg {
+    padding-bottom: 0 !important;
+    margin-bottom: 0px !important;
+}
+
+.modal-title {
+    width: 98%;
+}
+
+.modal-form .modal-fixed {
+    position: fixed;
+    top: 50px !important;
+    left: 50px;
+    bottom: 50px;
+    right: 50px;
+}
+
+.modal-form .modal-backdrop.fade.in {
+    height: 100%;
+}

@@ -1,0 +1,9 @@
+<sly data-sly-use.stickyNav="${'com.ttndigital.cms.model.StickyNav' @ navTitleId = properties.navTitle ||'navTitleId'}">
+</sly>
+<section class=${properties.bgcolor} id="${stickyNav.navTitleId}">
+    <div class="container">
+        <div data-sly-resource="${'groupDescription' @ resourceType='wcm/foundation/components/parsys'}"
+             data-sly-unwrap></div>
+        <div style="clear:both"></div>
+    </div>
+</section>

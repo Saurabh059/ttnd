@@ -1,0 +1,28 @@
+<ul data-sly-test.referFile="${properties.fileReference}" data-sly-unwrap>
+	<div id="banner" class="clearfix" style="background:url(${properties.fileReference @ context='uri'});">
+</ul>
+<ul data-sly-test="${!referFile}" data-sly-unwrap>
+	<div id="banner" class="clearfix" style="background:url(${currentNode.path @ context='uri'}/file);">
+</ul>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>${properties.title}</h2>
+                <div class="abt-our">
+                    <p>${properties.description}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix">
+        <ul class="clearfix" data-sly-use.banner = "com.ttndigital.cms.model.BannerComponent">
+             <div data-sly-list.section="${banner.sectionContentMap}" data-sly-unwrap>
+                <li class="section">
+                    <div style="color:orange;font-size:30px">${section}</div>
+                    <p>${banner.sectionContentMap[section]}</p>
+                </li>
+             </div>
+        </ul>
+    </div>
+    </div>

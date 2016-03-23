@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    height="500"
+    title="Home Page Slider"
+    width="950"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <banner
+                jcr:primaryType="cq:Panel"
+                title="Image Slider">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <slider
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Slider Content"
+                        name="./sliderContent"
+                        xtype="multifield">
+                        <fieldConfig
+                            jcr:primaryType="cq:Widget"
+                            hideLabel="{Boolean}true"
+                            layout="form"
+                            padding="10"
+                            xtype="multifiedpanel">
+                            <items jcr:primaryType="cq:WidgetCollection">
+                                <sliderImage
+                                    jcr:primaryType="cq:Widget"
+                                    allowBlank="false"
+                                    dName="sliderImage"
+                                    fieldLabel="Slide Image "
+                                    rootPath="/content/dam/ttnd/images"
+                                    width="500"
+                                    xtype="pathfield"/>
+                                <sliderContentImage
+                                    jcr:primaryType="cq:Widget"
+                                    dName="sliderContentImage"
+                                    fieldLabel="Content Image"
+                                    rootPath="/content/dam/ttnd/images"
+                                    width="500"
+                                    xtype="pathfield"/>
+                                <header
+                                    jcr:primaryType="cq:Widget"
+                                    dName="header"
+                                    fieldLabel="Image Header"
+                                    path="/apps/ttnd/components/content/richText/dialog/items/items/richText/items/rich-text-editor.infinity.json"
+                                    xtype="cqinclude"/>
+                                <footer
+                                    jcr:primaryType="cq:Widget"
+                                    dName="footer"
+                                    fieldLabel="Slide Footer"
+                                    xtype="richtext">
+                                    <rtePlugins jcr:primaryType="nt:unstructured">
+                                        <edit
+                                            jcr:primaryType="nt:unstructured"
+                                            features="*"/>
+                                        <findreplace
+                                            jcr:primaryType="nt:unstructured"
+                                            features="*"/>
+                                        <image
+                                            jcr:primaryType="nt:unstructured"
+                                            features="*"/>
+                                        <misctools
+                                            jcr:primaryType="nt:unstructured"
+                                            features="*"/>
+                                        <justify
+                                            jcr:primaryType="nt:unstructured"
+                                            features="*"/>
+                                        <links
+                                            jcr:primaryType="nt:unstructured"
+                                            features="*"/>
+                                        <spellcheck
+                                            jcr:primaryType="nt:unstructured"
+                                            features="*"/>
+                                        <styles
+                                            jcr:primaryType="nt:unstructured"
+                                            features="*">
+                                            <styles jcr:primaryType="cq:WidgetCollection">
+                                                <imageFooter
+                                                    jcr:primaryType="nt:unstructured"
+                                                    cssName="imageFooter"
+                                                    text="Image Footer"/>
+                                                <contentFooter
+                                                    jcr:primaryType="nt:unstructured"
+                                                    cssName="contentFooter"
+                                                    text="Content Footer"/>
+                                                <contentFooterBold
+                                                    jcr:primaryType="nt:unstructured"
+                                                    cssName="contentFooterBold"
+                                                    text="Content Footer Bold"/>
+                                            </styles>
+                                        </styles>
+                                        <subsuperscript
+                                            jcr:primaryType="nt:unstructured"
+                                            features="*"/>
+                                        <table
+                                            jcr:primaryType="nt:unstructured"
+                                            features="*"/>
+                                        <undo
+                                            jcr:primaryType="nt:unstructured"
+                                            features="*"/>
+                                        <paraformat
+                                            jcr:primaryType="nt:unstructured"
+                                            features="*"/>
+                                        <format
+                                            jcr:primaryType="nt:unstructured"
+                                            features="*"/>
+                                    </rtePlugins>
+                                </footer>
+                            </items>
+                        </fieldConfig>
+                    </slider>
+                </items>
+            </banner>
+        </items>
+    </items>
+</jcr:root>

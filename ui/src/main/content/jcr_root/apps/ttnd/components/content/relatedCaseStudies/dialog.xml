@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Select Format"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <editSelection
+                jcr:primaryType="cq:Panel"
+                title="Choose from below">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <heading
+                        jcr:primaryType="nt:unstructured"
+                        fieldDescription="Enter heading to be displayed above the listing"
+                        fieldLabel="Enter Heading"
+                        name="./heading"
+                        validateOnBlur="true"
+                        xtype="textfield"/>
+                    <format
+                        jcr:primaryType="nt:unstructured"
+                        allowBlank="false"
+                        fieldDescription=""
+                        fieldLabel="Choose format"
+                        fieldSubLabel=""
+                        name="./format"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <twoStudies
+                                jcr:primaryType="nt:unstructured"
+                                text="2 case studies in a row"
+                                value="1"/>
+                            <threeStudies
+                                jcr:primaryType="nt:unstructured"
+                                text="3 case studies in a row"
+                                value="2"/>
+                        </options>
+                    </format>
+                    <tagName
+                        jcr:primaryType="nt:unstructured"
+                        allowBlank="false"
+                        fieldDescription=""
+                        fieldLabel="Choose tag for search"
+                        fieldSubLabel=""
+                        name="./tagName"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <industry
+                                jcr:primaryType="nt:unstructured"
+                                text="Industry"
+                                value="industry"/>
+                            <service
+                                jcr:primaryType="nt:unstructured"
+                                text="Service"
+                                value="service"/>
+                        </options>
+                    </tagName>
+                    <limit
+                            jcr:primaryType="nt:unstructured"
+                            allowBlank="false"
+                            fieldDescription=""
+                            fieldLabel="Choose limit of studies to be displayed"
+                            fieldSubLabel=""
+                            name="./limit"
+                            type="select"
+                            xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <industry
+                                    jcr:primaryType="nt:unstructured"
+                                    text="Three"
+                                    value="3"/>
+                            <service
+                                    jcr:primaryType="nt:unstructured"
+                                    text="Four"
+                                    value="4"/>
+                        </options>
+                    </limit>
+                </items>
+            </editSelection>
+        </items>
+    </items>
+</jcr:root>

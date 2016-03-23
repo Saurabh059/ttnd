@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="1db5871e-190c-435d-8fc4-55e3d7268848">
+    <jcr:content
+        cq:name="home-banner.jpg"
+        cq:parentPath="/content/dam/ttnd/images/homePage"
+        jcr:lastModified="{Date}2015-10-05T14:53:22.530+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2015-10-05T14:53:12.979+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="yes"
+            dam:sha1="2adced4fa61998428287bdb92db621f50dc1f7a4"
+            dam:size="{Long}78382"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2015-10-05T14:53:22.530+05:30"
+            jcr:lastModified="{Date}2015-10-05T14:53:22.529+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}399"
+            tiff:ImageWidth="{Long}1280"
+            xmp:CreatorTool="Adobe Photoshop CS6 (Windows)"
+            xmpMM:DocumentID="xmp.did:DE5653FF3B3511E5AE4BD8FE7868A49E"
+            xmpMM:InstanceID="xmp.iid:DE5653FE3B3511E5AE4BD8FE7868A49E"
+            xmpMM:OriginalDocumentID="xmp.did:BAFE38D0374E11E5BD8EBDDC5B350FD4">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:BAFE38D0374E11E5BD8EBDDC5B350FD4"
+                stRef:instanceID="xmp.iid:EDFCB2D0733AE511B911BC9905C258C1"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

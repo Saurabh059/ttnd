@@ -1,0 +1,14 @@
+<sly data-sly-use.stickyNav="com.ttndigital.cms.model.StickyNav">
+    <div class="scrool-header">
+        <div class="small-logo">
+            <sly data-sly-resource="${'logo' @ resourceType='/apps/ttnd/components/content/logo'}"></sly>
+        </div>
+        <div class="navigation">
+            <ul class="clearfix">
+                <sly data-sly-repeat.nav="${stickyNav.navTitles}">
+                    <li><a rel="nofollow" href="#${stickyNav.navTitles[nav]}">${nav}</a></li>
+                </sly>
+            </ul>
+        </div>
+    </div>
+</sly>

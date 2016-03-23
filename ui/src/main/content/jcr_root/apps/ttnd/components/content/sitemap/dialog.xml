@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          jcr:primaryType="cq:Dialog"
+          title="dialog"
+          xtype="dialog">
+    <items
+            jcr:primaryType="cq:Widget"
+            xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <sitemap-configuration
+                    jcr:primaryType="cq:Panel"
+                    title="Sitemap">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <rootpath
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="Select a Rootpath to display the sitemap"
+                            fieldLabel="Rootpath"
+                            name="./rootPath"
+                            xtype="pathfield"/>
+                    <depth
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="Enter the depth/level of the sitemap"
+                            fieldLabel="Depth"
+                            name="./depth"
+                            xtype="numberfield"/>
+                </items>
+            </sitemap-configuration>
+        </items>
+    </items>
+</jcr:root>

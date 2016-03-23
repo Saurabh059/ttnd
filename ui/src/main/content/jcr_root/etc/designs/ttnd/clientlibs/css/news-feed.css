@@ -1,0 +1,18 @@
+.news-feed #news-sec {
+    padding: 80px 0 ;
+    text-align: center;
+}
+
+.news-feed .news-box p a {
+    color: #fe8422;
+}
+
+.news-feed .box-ht {
+    text-align: left !important;
+    max-width: 340px !important;
+    height : 20% !important;
+}
+
+.news-feed .grey-container {
+	background: #f7f7f7;
+}

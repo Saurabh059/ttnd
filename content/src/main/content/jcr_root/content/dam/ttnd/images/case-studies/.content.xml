@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <blogmint-banner.jpg/>
+    <jcr:content
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Case Studies"/>
+    <time-warner-cable-home.jpg/>
+    <xp_x002c_ag-home.jpg/>
+    <make-in-india-home.jpg/>
+    <matse-logo-small.jpg/>
+    <grails-offshore-development-Matse.jpg/>
+    <sony-liv-logo.png/>
+</jcr:root>

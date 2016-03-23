@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    activeTab="{Long}0"
+    helpPath="en/cq/current/wcm/default_components.html#Image"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <image
+            jcr:primaryType="cq:Widget"
+            cropParameter="./imageCrop"
+            ddGroups="[media]"
+            fileNameParameter="./fileName"
+            fileReferenceParameter="./fileReference"
+            mapParameter="./imageMap"
+            name="./file"
+            requestSuffix=".img.png"
+            rotateParameter="./imageRotate"
+            title="Image"
+            xtype="html5smartimage"/>
+        <advanced
+            jcr:primaryType="cq:Widget"
+            title="Advanced"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <urlpath
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Url Path:"
+                    name="./urlpath"
+                    xtype="pathfield">
+                    <listeners
+                        jcr:primaryType="nt:unstructured"
+                        change="function(){&#xa;&#x9;if(this.value.match('^/')){&#xa;&#x9;&#x9;if(!this.value.match('(.html)$'))&#xa;&#x9;&#x9;&#x9;this.setValue(this.value+'.html');&#xa;&#x9;}&#x9;&#xa;&#x9;else{&#xa;&#x9;&#x9;if(!(this.value.match('^(http://|https://|www.)([a-z0-9][a-z0-9-]*.)+[a-z0-9][a-z0-9-]*$'))){&#xa;&#x9;&#x9;&#x9;alert(&quot;Please Enter a Valid URL&quot;);&#xa;&#x9;&#x9;&#x9;this.setValue(&quot;&quot;);&#xa;&#x9;&#x9;}&#xa;&#x9;}&#xa;}"
+                        dialogclose="function(){&#xa;&#x9;if(!this.value.match('(.html)$'))&#xa;&#x9;&#x9;this.setValue(this.value+'.html');&#xa;}"/>
+                </urlpath>
+                <header
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Header:"
+                    name="./header"
+                    xtype="textfield"/>
+                <content
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Content:"
+                    name="./content"
+                    xtype="textfield"/>
+                <buttontext
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Button text :"
+                    name="./buttontext"
+                    xtype="textfield"/>
+            </items>
+        </advanced>
+    </items>
+</jcr:root>
